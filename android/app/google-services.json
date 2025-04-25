@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "741110802393",
+    "project_id": "kalam-d7fba",
+    "storage_bucket": "kalam-d7fba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741110802393:android:9ccd70596dbe4ada4fdbc8",
+        "android_client_info": {
+          "package_name": "com.habibi.foundation.kalameaamir"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-8tLUvh7BKPe-7FrO0FOmMYKefchDsxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741110802393:android:427d7ba980ef11914fdbc8",
+        "android_client_info": {
+          "package_name": "com.habibi.mehvesujood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-8tLUvh7BKPe-7FrO0FOmMYKefchDsxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
