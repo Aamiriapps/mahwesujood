@@ -178,7 +178,7 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen> {
                                     ),
                                     fontWeight: FontWeight.normal,
                                   ),
-                                ),
+                                ), 
                               ),
                               Slider(
                                 thumbColor: Colors.brown[300],

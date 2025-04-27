@@ -1,11 +1,11 @@
-
 import 'package:Mehvesujood/TrackClassUrdu.dart';
 import 'package:Mehvesujood/kalam/urdu/ishq/ishqlist.dart';
 import 'package:Mehvesujood/kalam/urdu/naat/naat_list.dart';
+import 'package:Mehvesujood/kalam/urdu/noori/noori_list.dart';
+import 'package:Mehvesujood/kalam/urdu/parsi/parsi_list.dart';
 import 'package:Mehvesujood/main_drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 
 class urdupage extends StatelessWidget {
   const urdupage({Key? key}) : super(key: key);
@@ -16,10 +16,13 @@ class urdupage extends StatelessWidget {
       backgroundColor: Colors.brown.shade900,
       appBar: AppBar(
         centerTitle: true,
-         iconTheme:  const IconThemeData(color: Colors.white),
+        iconTheme: const IconThemeData(color: Colors.white),
         title: Text(
-           'اردو',
-          style: GoogleFonts.notoNastaliqUrdu( color: Colors.white,fontSize: 30)
+          'اردو',
+          style: GoogleFonts.notoNastaliqUrdu(
+            color: Colors.white,
+            fontSize: 30,
+          ),
         ),
         backgroundColor: Colors.brown.shade900,
       ),
@@ -47,10 +50,11 @@ class urdupage extends StatelessWidget {
                             ),
                             onTap: () {
                               Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (context) => Naat_list()));
-                             
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Naat_list(),
+                                ),
+                              );
                             },
                           ),
                         ),
@@ -65,11 +69,12 @@ class urdupage extends StatelessWidget {
                               //fit: BoxFit.fill,
                             ),
                             onTap: () {
-                               Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (context) => IshqList()));
-                              
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => IshqList(),
+                                ),
+                              );
                             },
                           ),
                         ),
@@ -94,7 +99,7 @@ class urdupage extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => urdupage(),
+                                  builder: (context) => ParsiList(),
                                 ),
                               );
                             },
@@ -114,7 +119,7 @@ class urdupage extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => urdupage(),
+                                  builder: (context) => NooriListUrdu(),
                                 ),
                               );
                             },
@@ -141,17 +146,18 @@ class urdupage extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => TrackPlayerScreen(
-                              title: 'NAGHMA-E-SARMADI',
-                              firebaseImagePath: 'kalam/naghmaye_sarmadi',
-                              imageAsset: 'assets/arabi_title/Al_Manajath.png',
-                              artistPaths: {
-                                'Danish': 'kalam/Audios/Danish/Ishq/1.mp3',
-                                'Imran': 'kalam/Audios/Imran/Ishq/1.mp3',
-                                'Arif': 'kalam/Audios/Arif/Ishq/1.mp3',
-                              },
-                              appBarTitle: 'Naghme-e-Sarmadi',
-                            ),
+                                  builder:
+                                      (context) => TrackPlayerScreen(
+                                        title: 'NAGHMA-E-SARMADI',
+                                        firebaseImagePath:
+                                            'kalam/naghmaye_sarmadi/',
+                                        imageAsset:
+                                            'assets/arabi_title/urdu/2.png',
+                                        artistPaths: {
+                                          'Danish': 'kalam/Audios/Danish/Sarmadi/1.mp3',
+                                        },
+                                        appBarTitle: 'Naghme-e-Sarmadi',
+                                      ),
                                 ),
                               );
                             },
@@ -171,17 +177,15 @@ class urdupage extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => TrackPlayerScreen(
-                              title: 'AL MANAJATH',
-                              firebaseImagePath: 'kalam/Al_Manajath',
-                              imageAsset: 'assets/arabi_title/Al_Manajath.png',
-                              artistPaths: {
-                                'Danish': 'kalam/Audios/Danish/Ishq/1.mp3',
-                                'Imran': 'kalam/Audios/Imran/Ishq/1.mp3',
-                                'Arif': 'kalam/Audios/Arif/Ishq/1.mp3',
-                              },
-                              appBarTitle: 'Arabi Kalaam',
-                            ),
+                                  builder:
+                                      (context) => TrackPlayerScreen(
+                                        title: 'AL MANAJATH',
+                                        firebaseImagePath: 'kalam/Al_Manajath/',
+                                        imageAsset:
+                                            'assets/arabi_title/urdu/1.png',
+                                        artistPaths: {},
+                                        appBarTitle: 'Kalaam e Arabi',
+                                      ),
                                 ),
                               );
                             },
@@ -209,17 +213,15 @@ class urdupage extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => TrackPlayerScreen(
-                              title: 'SALAMUN MALAHU ADAD',
-                              firebaseImagePath: 'kalam/Salaam',
-                              imageAsset: 'assets/salaam_title/Salam.png',
-                              artistPaths: {
-                                'Danish': 'kalam/Audios/Danish/Ishq/1.mp3',
-                                'Imran': 'kalam/Audios/Imran/Ishq/1.mp3',
-                                'Arif': 'kalam/Audios/Arif/Ishq/1.mp3',
-                              },
-                              appBarTitle: 'Salaam',
-                            ),
+                                    builder:
+                                        (context) => TrackPlayerScreen(
+                                          title: 'SALAMUN MALAHU ADAD',
+                                          firebaseImagePath: 'kalam/Salaam',
+                                          imageAsset:
+                                              'assets/salaam_title/Salam.png',
+                                          artistPaths: {},
+                                          appBarTitle: 'Salaam',
+                                        ),
                                   ),
                                 );
                               },

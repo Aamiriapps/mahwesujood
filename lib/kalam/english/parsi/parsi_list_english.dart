@@ -1,20 +1,16 @@
 import 'package:Mehvesujood/TrackClassEnglish.dart';
-
+import 'package:Mehvesujood/kalam/english/parsi/parsiTrackEnglish.dart';
+import 'package:Mehvesujood/main_drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:Mehvesujood/main_drawer.dart';
 
-import 'ishqTrackEnglish.dart';
-// ← Import your data file
-
-class IshqListEnglish extends StatelessWidget {
-  const IshqListEnglish({Key? key}) : super(key: key);
+class ParsiListEnglish extends StatelessWidget {
+  const ParsiListEnglish({super.key});
 
   @override
   Widget build(BuildContext context) {
     final tileColors = ['#cbc0b8', '#ddd6ce'];
-
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
@@ -56,10 +52,17 @@ class IshqListEnglish extends StatelessWidget {
                     ),
                   );
                 },
-                title: Image.asset(track['imageListAsset']),
+                title: Text(
+                  track['imageListAsset'], // now showing text instead of image
+                  style: GoogleFonts.quicksand(
+                    color: Colors.brown[900],
+                    fontWeight: FontWeight.bold,
+                    fontSize: 16,
+                  ),
+                ),
                 leading: Text(
                   '${index + 1}',
-                  style: const TextStyle(color: Colors.brown,fontSize: 18),
+                  style: const TextStyle(color: Colors.brown, fontSize: 18),
                 ),
               ),
             );

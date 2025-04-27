@@ -1,10 +1,11 @@
-
 import 'package:Mehvesujood/TrackClassEnglish.dart';
-import 'package:Mehvesujood/kalam/english/ishqlistEnglish.dart';
+import 'package:Mehvesujood/kalam/english/ishq/ishqListEnglish.dart';
+import 'package:Mehvesujood/kalam/english/naat/naat_list_english.dart';
+import 'package:Mehvesujood/kalam/english/noori/noori_list_english.dart';
+import 'package:Mehvesujood/kalam/english/parsi/parsi_list_english.dart';
 
-import 'package:Mehvesujood/kalam/urdu/naat/naat_list.dart';
 import 'package:Mehvesujood/main_drawer.dart';
-import 'package:Mehvesujood/urdupage.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -49,14 +50,13 @@ class _EnglishpageState extends State<Englishpage> {
                           child: new GestureDetector(
                             child: Image.asset(
                               'assets/eng_button/2.png',
-                             
                               // fit: BoxFit.fill,
                             ),
                             onTap: () {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => Naat_list(),
+                                  builder: (context) => Naat_list_english(),
                                 ),
                               );
                             },
@@ -76,7 +76,7 @@ class _EnglishpageState extends State<Englishpage> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => IshqListEnglish(),
+                                  builder: (context) => IshqList(),
                                 ),
                               );
                             },
@@ -103,7 +103,7 @@ class _EnglishpageState extends State<Englishpage> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => urdupage(),
+                                  builder: (context) => ParsiListEnglish(),
                                 ),
                               );
                             },
@@ -123,7 +123,7 @@ class _EnglishpageState extends State<Englishpage> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => urdupage(),
+                                  builder: (context) => NooriListEnglish(),
                                 ),
                               );
                             },
@@ -156,14 +156,10 @@ class _EnglishpageState extends State<Englishpage> {
                                         firebaseImagePath:
                                             'kalam/English/Naghma_e_sarmadi',
                                         imageAsset:
-                                            'assets/arabi_title/Al_Manajath.png',
+                                            'assets/arabi_title/english/1.png',
                                         artistPaths: {
                                           'Danish':
-                                              'kalam/Audios/Danish/Ishq/1.mp3',
-                                          'Imran':
-                                              'kalam/Audios/Imran/Ishq/1.mp3',
-                                          'Arif':
-                                              'kalam/Audios/Arif/Ishq/1.mp3',
+                                              'kalam/Audios/Danish/Sarmadi/1.mp3',
                                         },
                                         appBarTitle: 'Naghme-e-Sarmadi',
                                       ),
@@ -189,17 +185,10 @@ class _EnglishpageState extends State<Englishpage> {
                                   builder:
                                       (context) => TrackPlayerScreen(
                                         title: 'AL MANAJATH',
-                                        firebaseImagePath: 'kalam/Al_Manajath',
+                                        firebaseImagePath: '/',
                                         imageAsset:
-                                            'assets/arabi_title/Al_Manajath.png',
-                                        artistPaths: {
-                                          'Danish':
-                                              'kalam/Audios/Danish/Ishq/1.mp3',
-                                          'Imran':
-                                              'kalam/Audios/Imran/Ishq/1.mp3',
-                                          'Arif':
-                                              'kalam/Audios/Arif/Ishq/1.mp3',
-                                        },
+                                            'assets/arabi_title/english/1.png',
+                                        artistPaths: {},
                                         appBarTitle: 'Arabi Kalaam',
                                       ),
                                 ),
@@ -223,7 +212,7 @@ class _EnglishpageState extends State<Englishpage> {
                             child: new GestureDetector(
                               child: Image.asset(
                                 'assets/eng_button/7.png',
-                                width: 140,
+                                height: 150,
                               ),
                               onTap: () {
                                 Navigator.push(
@@ -232,17 +221,11 @@ class _EnglishpageState extends State<Englishpage> {
                                     builder:
                                         (context) => TrackPlayerScreen(
                                           title: 'SALAMUN MALAHU ADAD',
-                                          firebaseImagePath: 'kalam/English/Salaam',
+                                          firebaseImagePath:
+                                              'kalam/English/Salaam',
                                           imageAsset:
-                                              'assets/salaam_title/Salam.png',
-                                          artistPaths: {
-                                            'Danish':
-                                                'kalam/Audios/Danish/Ishq/1.mp3',
-                                            'Imran':
-                                                'kalam/Audios/Imran/Ishq/1.mp3',
-                                            'Arif':
-                                                'kalam/Audios/Arif/Ishq/1.mp3',
-                                          },
+                                              'assets/arabi_title/english/2.png',
+                                          artistPaths: {},
                                           appBarTitle: 'Salaam',
                                         ),
                                   ),

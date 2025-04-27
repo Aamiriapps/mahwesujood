@@ -270,7 +270,7 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen> {
 
             /// 📷 Image Title
             const SizedBox(height: 20),
-            Image.asset(widget.imageAsset, height: 25),
+            Image.asset(widget.imageAsset, height: 20),
             const SizedBox(height: 20),
 
             /// 🖼 Images from Firebase

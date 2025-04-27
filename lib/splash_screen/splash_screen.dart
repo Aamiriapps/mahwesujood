@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:Mehvesujood/dashborad.dart';
+import 'package:Mehvesujood/splash_screen/splash_screen1.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -14,7 +14,7 @@ class _splash_screenState extends State<splash_screen> {
   void completed() {
     Navigator.of(
       context,
-    ).pushReplacement(MaterialPageRoute(builder: (context) => Dashboard()));
+    ).pushReplacement(MaterialPageRoute(builder: (context) => splash_screen_one()));
   }
 
   @override

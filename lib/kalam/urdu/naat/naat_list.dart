@@ -49,8 +49,8 @@ class Naat_list extends StatelessWidget {
                     ),
                   );
                 },
-                title: Image.asset(track['imageListAsset']),
-                trailing: Text('${index + 1}', style: const TextStyle(color: Colors.brown)),
+                title: Image.asset(track['imageListAsset'],),
+                trailing: Text('${index + 1}', style: const TextStyle(color: Colors.brown, fontSize: 18)),
               ),
             );
           },
