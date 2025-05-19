@@ -1,4 +1,4 @@
-import 'package:Mehvesujood/TrackClassEnglish.dart';
+/* import 'package:Mehvesujood/TrackClassEnglish.dart';
 import 'package:Mehvesujood/kalam/english/ishq/ishqListEnglish.dart';
 import 'package:Mehvesujood/kalam/english/naat/naat_list_english.dart';
 import 'package:Mehvesujood/kalam/english/noori/noori_list_english.dart';
@@ -97,7 +97,7 @@ class _EnglishpageState extends State<Englishpage> {
                           child: new GestureDetector(
                             child: Image.asset(
                               'assets/eng_button/5.png',
-                              width: 100,
+                              height: 140,
                             ),
                             onTap: () {
                               Navigator.push(
@@ -117,7 +117,7 @@ class _EnglishpageState extends State<Englishpage> {
                           child: new GestureDetector(
                             child: Image.asset(
                               'assets/eng_button/3.png',
-                              width: 100,
+                              height: 140,
                             ),
                             onTap: () {
                               Navigator.push(
@@ -144,7 +144,7 @@ class _EnglishpageState extends State<Englishpage> {
                           child: new GestureDetector(
                             child: Image.asset(
                               'assets/eng_button/4.png',
-                              width: 100,
+                              height: 140,
                             ),
                             onTap: () {
                               Navigator.push(
@@ -176,7 +176,7 @@ class _EnglishpageState extends State<Englishpage> {
                           child: new GestureDetector(
                             child: Image.asset(
                               'assets/eng_button/6.png',
-                              width: 100,
+                              height: 140,
                             ),
                             onTap: () {
                               Navigator.push(
@@ -212,7 +212,7 @@ class _EnglishpageState extends State<Englishpage> {
                             child: new GestureDetector(
                               child: Image.asset(
                                 'assets/eng_button/7.png',
-                                height: 150,
+                                height: 140,
                               ),
                               onTap: () {
                                 Navigator.push(
@@ -242,6 +242,374 @@ class _EnglishpageState extends State<Englishpage> {
               ],
             ),
           ),
+        ),
+      ),
+    );
+  }
+}
+ */
+/* import 'dart:ui';
+
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+import 'package:Mehvesujood/main_drawer.dart';
+import 'package:Mehvesujood/TrackClassEnglish.dart';
+import 'package:Mehvesujood/kalam/english/ishq/ishqListEnglish.dart';
+import 'package:Mehvesujood/kalam/english/naat/naat_list_english.dart';
+import 'package:Mehvesujood/kalam/english/noori/noori_list_english.dart';
+import 'package:Mehvesujood/kalam/english/parsi/parsi_list_english.dart';
+
+class Englishpage extends StatefulWidget {
+  const Englishpage({super.key});
+
+  @override
+  State<Englishpage> createState() => _EnglishpageState();
+}
+
+class _EnglishpageState extends State<Englishpage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.brown.shade900,
+      drawer: MainDrawer(),
+      body: CustomScrollView(
+        slivers: [
+          SliverAppBar(
+            pinned: true,
+            expandedHeight: 120.0,
+            backgroundColor: Colors.transparent,
+            iconTheme: const IconThemeData(color: Colors.white), // keeps menu icon visible
+            flexibleSpace: ClipRect(
+              child: BackdropFilter(
+                filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                child: Container(
+                  color: Colors.brown.shade900.withOpacity(0.5),
+                  child: FlexibleSpaceBar(
+                    centerTitle: true,
+                    title: Text(
+                      'English',
+                      style: GoogleFonts.robotoCondensed(
+                        color: Colors.white,
+                        fontSize: 26,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                children: [
+                  _buildButtonRow(
+                    context,
+                    'assets/eng_button/2.png',
+                    () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => Naat_list_english()),
+                    ),
+                    'assets/eng_button/1.png',
+                    () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => IshqList()),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  _buildButtonRow(
+                    context,
+                    'assets/eng_button/5.png',
+                    () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => ParsiListEnglish()),
+                    ),
+                    'assets/eng_button/3.png',
+                    () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => NooriListEnglish()),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  _buildButtonRow(
+                    context,
+                    'assets/eng_button/4.png',
+                    () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => TrackPlayerScreen(
+                          title: 'NAGHMA-E-SARMADI',
+                          firebaseImagePath: 'kalam/English/Naghma_e_sarmadi',
+                          imageAsset: 'assets/arabi_title/english/1.png',
+                          artistPaths: {
+                            'Danish': 'kalam/Audios/Danish/Sarmadi/1.mp3',
+                          },
+                          appBarTitle: 'Naghme-e-Sarmadi',
+                        ),
+                      ),
+                    ),
+                    'assets/eng_button/6.png',
+                    () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => TrackPlayerScreen(
+                          title: 'AL MANAJATH',
+                          firebaseImagePath: 'kalam/English/Al_Manajath/',
+                          imageAsset: 'assets/arabi_title/english/5.png',
+                          artistPaths: {},
+                          appBarTitle: 'Arabi Kalaam',
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  Row(
+                    children: [
+                      const Spacer(flex: 1),
+                      Expanded(
+                        flex: 2,
+                        child: _buildSingleButton(
+                          context,
+                          'assets/eng_button/7.png',
+                          () => Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => TrackPlayerScreen(
+                                title: 'SALAMUN MALAHU ADAD',
+                                firebaseImagePath: 'kalam/English/Salaam',
+                                imageAsset: 'assets/arabi_title/english/2.png',
+                                artistPaths: {},
+                                appBarTitle: 'Salaam',
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      const Spacer(flex: 1),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildButtonRow(
+    BuildContext context,
+    String asset1,
+    VoidCallback onTap1,
+    String asset2,
+    VoidCallback onTap2,
+  ) {
+    return Row(
+      children: [
+        Expanded(child: _buildSingleButton(context, asset1, onTap1)),
+        const SizedBox(width: 16),
+        Expanded(child: _buildSingleButton(context, asset2, onTap2)),
+      ],
+    );
+  }
+
+  Widget _buildSingleButton(
+    BuildContext context,
+    String assetPath,
+    VoidCallback onTap,
+  ) {
+    return GestureDetector(
+      onTap: onTap,
+      child: AspectRatio(
+        aspectRatio: 1, // keeps it square
+        child: Image.asset(
+          assetPath,
+          fit: BoxFit.contain,
+        ),
+      ),
+    );
+  }
+}
+ */
+
+import 'dart:ui';
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+import 'package:Mehvesujood/main_drawer.dart';
+import 'package:Mehvesujood/TrackClassEnglish.dart';
+import 'package:Mehvesujood/kalam/english/ishq/ishqListEnglish.dart';
+import 'package:Mehvesujood/kalam/english/naat/naat_list_english.dart';
+import 'package:Mehvesujood/kalam/english/noori/noori_list_english.dart';
+import 'package:Mehvesujood/kalam/english/parsi/parsi_list_english.dart';
+
+class Englishpage extends StatefulWidget {
+  const Englishpage({super.key});
+
+  @override
+  State<Englishpage> createState() => _EnglishpageState();
+}
+
+class _EnglishpageState extends State<Englishpage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      extendBodyBehindAppBar: true,
+      backgroundColor: Colors.brown.shade900,
+      drawer: MainDrawer(),
+      appBar: AppBar(
+        flexibleSpace: ClipRect(
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+            child: Container(color: Colors.transparent),
+          ),
+        ),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        iconTheme: const IconThemeData(color: Colors.white),
+        centerTitle: true,
+        title: Text(
+          'English',
+          style: GoogleFonts.robotoCondensed(color: Colors.white),
+        ),
+      ),
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: EdgeInsets.only(
+            top: 16, // Push content below AppBar
+            left: 25,
+            right: 25,
+            bottom: 16,
+          ),
+          child: Column(
+            children: [
+              SizedBox(height: 75),
+              _buildButtonRow(
+                context,
+                'assets/eng_button/2.png',
+                () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => Naat_list_english()),
+                ),
+                'assets/eng_button/1.png',
+                () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => IshqList()),
+                ),
+              ),
+            //  const SizedBox(height: 16),
+              _buildButtonRow(
+                context,
+                'assets/eng_button/5.png',
+                () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => ParsiListEnglish()),
+                ),
+                'assets/eng_button/3.png',
+                () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => NooriListEnglish()),
+                ),
+              ),
+              //const SizedBox(height: 16),
+              _buildButtonRow(
+                context,
+                'assets/eng_button/4.png',
+                () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder:
+                        (_) => TrackPlayerScreen(
+                          title: 'NAGHMA-E-SARMADI',
+                          firebaseImagePath: 'kalam/English/Naghma_e_sarmadi',
+                          imageAsset: 'assets/arabi_title/english/1.png',
+                          artistPaths: {
+                            'Danish': 'kalam/Audios/Danish/Sarmadi/1.mp3',
+                          },
+                          appBarTitle: 'Naghme-e-Sarmadi',
+                        ),
+                  ),
+                ),
+                'assets/eng_button/6.png',
+                () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder:
+                        (_) => TrackPlayerScreen(
+                          title: 'AL MANAJATH',
+                          firebaseImagePath: 'kalam/English/Al_Manajath/',
+                          imageAsset: 'assets/arabi_title/english/5.png',
+                          artistPaths: {},
+                          appBarTitle: 'Arabi Kalaam',
+                        ),
+                  ),
+                ),
+              ),
+            //  const SizedBox(height: 16),
+              Row(
+                children: [
+                  const Spacer(flex: 1),
+                  Expanded(
+                    flex: 2,
+                    child: _buildSingleButton(
+                      context,
+                      'assets/eng_button/7.png',
+                      () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder:
+                              (_) => TrackPlayerScreen(
+                                title: 'SALAMUN MALAHU ADAD',
+                                firebaseImagePath: 'kalam/English/Salaam',
+                                imageAsset: 'assets/arabi_title/english/2.png',
+                                artistPaths: {
+                                   'Danish': 'kalam/Audios/Danish/salaam/1.mp3',
+                                },
+                                appBarTitle: 'Salaam',
+                              ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const Spacer(flex: 1),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildButtonRow(
+    BuildContext context,
+    String asset1,
+    VoidCallback onTap1,
+    String asset2,
+    VoidCallback onTap2,
+  ) {
+    return Row(
+      children: [
+        Expanded(child: _buildSingleButton(context, asset1, onTap1)),
+      //  const SizedBox(width: 16),
+        Expanded(child: _buildSingleButton(context, asset2, onTap2)),
+      ],
+    );
+  }
+
+   Widget _buildSingleButton(
+    BuildContext context,
+    String assetPath,
+    VoidCallback onTap,
+  ) {
+    return GestureDetector(
+      onTap: onTap,
+      child: AspectRatio(
+        aspectRatio: 1,
+        child: Transform.scale(
+          scale: 0.80, // Shrinks the image to 75% (i.e., 25% smaller)
+          child: Image.asset(assetPath, fit: BoxFit.contain),
         ),
       ),
     );

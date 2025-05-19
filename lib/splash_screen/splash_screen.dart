@@ -14,7 +14,7 @@ class _splash_screenState extends State<splash_screen> {
   void completed() {
     Navigator.of(
       context,
-    ).pushReplacement(MaterialPageRoute(builder: (context) => splash_screen_one()));
+    ).pushReplacement(MaterialPageRoute(builder: (context) => SplashScreenOne()));
   }
 
   @override

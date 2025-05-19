@@ -84,7 +84,7 @@ final List<Map<String, dynamic>> trackData = [
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-   {
+  {
     'title': "FAIZAN-E-BAARI TAA'AL",
     'firebaseImagePath': 'kalam/Faizaan_e_Bari_Tala/',
     'imageAsset': 'assets/kalam_title/urdu/8.png',
@@ -96,13 +96,13 @@ final List<Map<String, dynamic>> trackData = [
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-   {
+  {
     'title': 'BARQ-E-TAJALLI',
     'firebaseImagePath': 'kalam/Barqe_tajalli/',
     'imageAsset': 'assets/kalam_title/urdu/9.png',
     'imageListAsset': 'assets/kalam_list/urdu/9.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/Ishq/9.mp3',      
+      'Danish': 'kalam/Audios/Danish/Ishq/9.mp3',
       'Arif': 'kalam/Audios/Arif/Ishq/9.mp3',
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
@@ -113,29 +113,26 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/10.png',
     'imageListAsset': 'assets/kalam_list/urdu/10.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/Ishq/10.mp3',      
+      'Danish': 'kalam/Audios/Danish/Ishq/10.mp3',
       'Imran': 'kalam/Audios/Imran/Ishq/10.mp3',
+      'Arif': 'kalam/Audios/Arif/Ishq/10.mp3',
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
- {
+  {
     'title': 'KIMIYAE HASTHI',
     'firebaseImagePath': 'kalam/Kimiya_e_Hasti/',
     'imageAsset': 'assets/kalam_title/urdu/11.png',
     'imageListAsset': 'assets/kalam_list/urdu/11.png',
-    'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/Ishq/11.mp3',         
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/11.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-   {
+  {
     'title': 'TASVEER-E-JAANA',
     'firebaseImagePath': 'kalam/Tasveer_e_janan/',
     'imageAsset': 'assets/kalam_title/urdu/12.png',
     'imageListAsset': 'assets/kalam_list/urdu/12.png',
-    'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/Ishq/12.mp3',         
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/12.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -143,9 +140,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Jaane_tamanna/',
     'imageAsset': 'assets/kalam_title/urdu/13.png',
     'imageListAsset': 'assets/kalam_list/urdu/13.png',
-    'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/Ishq/13.mp3',         
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/13.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -153,9 +148,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Zauqe_zindagani/',
     'imageAsset': 'assets/kalam_title/urdu/14.png',
     'imageListAsset': 'assets/kalam_list/urdu/14.png',
-    'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/Ishq/14.mp3',         
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/14.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -163,9 +156,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/khalwat_e_dar_anjuman/',
     'imageAsset': 'assets/kalam_title/urdu/15.png',
     'imageListAsset': 'assets/kalam_list/urdu/15.png',
-    'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/Ishq/15.mp3',         
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/15.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -173,9 +164,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Jamiye_azdaad/',
     'imageAsset': 'assets/kalam_title/urdu/16.png',
     'imageListAsset': 'assets/kalam_list/urdu/16.png',
-    'artistPaths': {
-             
-    },
+    'artistPaths': {},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -183,19 +172,15 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Tarke_alayeq/',
     'imageAsset': 'assets/kalam_title/urdu/17.png',
     'imageListAsset': 'assets/kalam_list/urdu/17.png',
-    'artistPaths': {
-             
-    },
+    'artistPaths': {},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-   {
+  {
     'title': 'NAASHAN-E-MANZIL',
     'firebaseImagePath': 'kalam/Nishaane_manzil/',
     'imageAsset': 'assets/kalam_title/urdu/18.png',
     'imageListAsset': 'assets/kalam_list/urdu/18.png',
-    'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/18.mp3', 
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/18.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -203,19 +188,15 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Kuch_ishare/',
     'imageAsset': 'assets/kalam_title/urdu/19.png',
     'imageListAsset': 'assets/kalam_list/urdu/19.png',
-    'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/19.mp3', 
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/19.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-   {
+  {
     'title': 'BAE HAMTA',
     'firebaseImagePath': 'kalam/Be_hamta/',
     'imageAsset': 'assets/kalam_title/urdu/20.png',
     'imageListAsset': 'assets/kalam_list/urdu/20.png',
-    'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/20.mp3', 
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/20.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -223,9 +204,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Hijaabe_noor/',
     'imageAsset': 'assets/kalam_title/urdu/21.png',
     'imageListAsset': 'assets/kalam_list/urdu/21.png',
-    'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/21.mp3', 
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/21.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -233,29 +212,23 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Ishq_o_irfaan/',
     'imageAsset': 'assets/kalam_title/urdu/22.png',
     'imageListAsset': 'assets/kalam_list/urdu/22.png',
-    'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/22.mp3', 
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/22.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-   {
+  {
     'title': 'MAREEZ-E-ISHQ',
     'firebaseImagePath': 'kalam/Mareez_e_ishq/',
     'imageAsset': 'assets/kalam_title/urdu/23.png',
     'imageListAsset': 'assets/kalam_list/urdu/23.png',
-    'artistPaths': {
-     
-    },
+    'artistPaths': {},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-    {
+  {
     'title': 'HARF-O-HIKAYATH',
     'firebaseImagePath': 'kalam/Harfo_hikayath/',
     'imageAsset': 'assets/kalam_title/urdu/24.png',
     'imageListAsset': 'assets/kalam_list/urdu/24.png',
-    'artistPaths': {
-     'Arif': 'kalam/Audios/Arif/Ishq/24.mp3',
-    },
+    'artistPaths': {'Arif': 'kalam/Audios/Arif/Ishq/24.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -263,9 +236,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Azaayem/',
     'imageAsset': 'assets/kalam_title/urdu/25.png',
     'imageListAsset': 'assets/kalam_list/urdu/25.png',
-    'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/25.mp3',
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/25.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -273,9 +244,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Hamdo_shukr/',
     'imageAsset': 'assets/kalam_title/urdu/26.png',
     'imageListAsset': 'assets/kalam_list/urdu/26.png',
-    'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/26.mp3',
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/26.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -283,9 +252,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Mayiyate_elaah/',
     'imageAsset': 'assets/kalam_title/urdu/27.png',
     'imageListAsset': 'assets/kalam_list/urdu/27.png',
-    'artistPaths': {
-     
-    },
+    'artistPaths': {},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -294,19 +261,17 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/28.png',
     'imageListAsset': 'assets/kalam_list/urdu/28.png',
     'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/28.mp3',
-     'Arif': 'kalam/Audios/Arif/Ishq/28.mp3',
+      'Danish': 'kalam/Audios/Danish/Ishq/28.mp3',
+      'Arif': 'kalam/Audios/Arif/Ishq/28.mp3',
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-   {
+  {
     'title': 'HUWAS SAMI-UL-BASEER',
     'firebaseImagePath': 'kalam/Howas_sami_ul_baseer/',
     'imageAsset': 'assets/kalam_title/urdu/29.png',
     'imageListAsset': 'assets/kalam_list/urdu/29.png',
-    'artistPaths': {
-     
-    },
+    'artistPaths': {},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -314,9 +279,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Muqtare_ghani/',
     'imageAsset': 'assets/kalam_title/urdu/30.png',
     'imageListAsset': 'assets/kalam_list/urdu/30.png',
-    'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/30.mp3',
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/30.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -324,30 +287,28 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Daulat_e_jaweed/',
     'imageAsset': 'assets/kalam_title/urdu/31.png',
     'imageListAsset': 'assets/kalam_list/urdu/31.png',
-    'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/31.mp3',
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/31.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-    {
+  {
     'title': 'KAIF-E-ITLAAQ',
     'firebaseImagePath': 'kalam/Kaif_e_etlaaq/',
     'imageAsset': 'assets/kalam_title/urdu/32.png',
     'imageListAsset': 'assets/kalam_list/urdu/32.png',
     'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/32.mp3',
-     'Arif': 'kalam/Audios/Arif/Ishq/32.mp3',
+      'Danish': 'kalam/Audios/Danish/Ishq/32.mp3',
+      'Arif': 'kalam/Audios/Arif/Ishq/32.mp3',
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-    {
+  {
     'title': 'TAALIB-E-MOULA',
     'firebaseImagePath': 'kalam/Talib_e_moula/',
     'imageAsset': 'assets/kalam_title/urdu/33.png',
     'imageListAsset': 'assets/kalam_list/urdu/33.png',
     'artistPaths': {
-     'Danish': 'kalam/Audios/Danish/Ishq/33.mp3',
-     'Arif': 'kalam/Audios/Arif/Ishq/33.mp3',
+      'Danish': 'kalam/Audios/Danish/Ishq/33.mp3',
+      'Arif': 'kalam/Audios/Arif/Ishq/33.mp3',
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
@@ -356,9 +317,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Tarjuman_e_jazbaati/',
     'imageAsset': 'assets/kalam_title/urdu/34.png',
     'imageListAsset': 'assets/kalam_list/urdu/34.png',
-    'artistPaths': {
-    
-    },
+    'artistPaths': {},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -366,9 +325,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Taamire_hayat/',
     'imageAsset': 'assets/kalam_title/urdu/35.png',
     'imageListAsset': 'assets/kalam_list/urdu/35.png',
-    'artistPaths': {
-    
-    },
+    'artistPaths': {},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -376,9 +333,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Khaab_se_haqiqath_tak_talak/',
     'imageAsset': 'assets/kalam_title/urdu/36.png',
     'imageListAsset': 'assets/kalam_list/urdu/36.png',
-    'artistPaths': {
-    
-    },
+    'artistPaths': {'Arif': 'kalam/Audios/Arif/Ishq/36.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -386,29 +341,23 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Taalib_e_huq/',
     'imageAsset': 'assets/kalam_title/urdu/37.png',
     'imageListAsset': 'assets/kalam_list/urdu/37.png',
-    'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/Ishq/37.mp3',
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/37.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-   {
+  {
     'title': 'YAFT-O-SHUHOOD',
     'firebaseImagePath': 'kalam/Yaaft_o_shuhood/',
     'imageAsset': 'assets/kalam_title/urdu/38.png',
     'imageListAsset': 'assets/kalam_list/urdu/38.png',
-    'artistPaths': {
-      
-    },
+    'artistPaths': {},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-    {
+  {
     'title': 'RAZA BARR KHAZA',
     'firebaseImagePath': 'kalam/Raza_bar_khaza/',
     'imageAsset': 'assets/kalam_title/urdu/39.png',
     'imageListAsset': 'assets/kalam_list/urdu/39.png',
-    'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/Ishq/39.mp3',
-    },
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/39.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -416,10 +365,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Karam_dar_karam/',
     'imageAsset': 'assets/kalam_title/urdu/40.png',
     'imageListAsset': 'assets/kalam_list/urdu/40.png',
-    'artistPaths': {
-      
-      'Arif': 'kalam/Audios/Arif/Ishq/40.mp3',
-    },
+    'artistPaths': {'Arif': 'kalam/Audios/Arif/Ishq/40.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -433,7 +379,7 @@ final List<Map<String, dynamic>> trackData = [
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-    {
+  {
     'title': 'HAQAIQ',
     'firebaseImagePath': 'kalam/Haqayeq/',
     'imageAsset': 'assets/kalam_title/urdu/42.png',
@@ -441,7 +387,6 @@ final List<Map<String, dynamic>> trackData = [
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/Ishq/42.mp3',
       'Imran': 'kalam/Audios/Imran/Ishq/42.mp3',
-      
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
@@ -450,11 +395,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Chashme_beena/',
     'imageAsset': 'assets/kalam_title/urdu/43.png',
     'imageListAsset': 'assets/kalam_list/urdu/43.png',
-    'artistPaths': {
-      
-      'Imran': 'kalam/Audios/Imran/Ishq/43.mp3',
-      
-    },
+    'artistPaths': {'Imran': 'kalam/Audios/Imran/Ishq/43.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -465,11 +406,10 @@ final List<Map<String, dynamic>> trackData = [
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/Ishq/44.mp3',
       'Imran': 'kalam/Audios/Imran/Ishq/44.mp3',
-      
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-   {
+  {
     'title': 'HUSN-E-KAR FARMA',
     'firebaseImagePath': 'kalam/Husn_kar_farma/',
     'imageAsset': 'assets/kalam_title/urdu/45.png',
@@ -477,7 +417,7 @@ final List<Map<String, dynamic>> trackData = [
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/Ishq/45.mp3',
       'Imran': 'kalam/Audios/Imran/Ishq/45.mp3',
-      'Arif': 'kalam/Audios/Arif/Ishq/45.mp3',      
+      'Arif': 'kalam/Audios/Arif/Ishq/45.mp3',
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
@@ -486,11 +426,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Siraj_e_muneer/',
     'imageAsset': 'assets/kalam_title/urdu/46.png',
     'imageListAsset': 'assets/kalam_list/urdu/46.png',
-    'artistPaths': {
-   
-      'Imran': 'kalam/Audios/Imran/Ishq/46.mp3',
-           
-    },
+    'artistPaths': {'Imran': 'kalam/Audios/Imran/Ishq/46.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -501,20 +437,15 @@ final List<Map<String, dynamic>> trackData = [
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/Ishq/47.mp3',
       'Imran': 'kalam/Audios/Imran/Ishq/47.mp3',
-           
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-   {
+  {
     'title': 'FANNA-O-BAQAA',
     'firebaseImagePath': 'kalam/Fana_wo_baqa/',
     'imageAsset': 'assets/kalam_title/urdu/48.png',
     'imageListAsset': 'assets/kalam_list/urdu/48.png',
-    'artistPaths': {
-      
-      'Imran': 'kalam/Audios/Imran/Ishq/48.mp3',
-           
-    },
+    'artistPaths': {'Imran': 'kalam/Audios/Imran/Ishq/48.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -522,11 +453,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Nafse_mutmainna/',
     'imageAsset': 'assets/kalam_title/urdu/49.png',
     'imageListAsset': 'assets/kalam_list/urdu/49.png',
-    'artistPaths': {
-      
-      'Imran': 'kalam/Audios/Imran/Ishq/49.mp3',
-           
-    },
+    'artistPaths': {'Imran': 'kalam/Audios/Imran/Ishq/49.mp3'},
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
@@ -536,12 +463,11 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'assets/kalam_list/urdu/50.png',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/Ishq/50.mp3',
-     
-               
+      'Arif': 'kalam/Audios/Arif/Ishq/50.mp3',
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-   {
+  {
     'title': 'DAWAM-E-HUZOOR',
     'firebaseImagePath': 'kalam/Dawaame_huzoor/',
     'imageAsset': 'assets/kalam_title/urdu/51.png',
@@ -549,7 +475,6 @@ final List<Map<String, dynamic>> trackData = [
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/Ishq/51.mp3',
       'Imran': 'kalam/Audios/Imran/Ishq/51.mp3',
-               
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
@@ -561,249 +486,208 @@ final List<Map<String, dynamic>> trackData = [
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/Ishq/52.mp3',
       'Imran': 'kalam/Audios/Imran/Ishq/52.mp3',
-      'Arif': 'kalam/Audios/Arif/Ishq/52.mp3',          
-    },
-    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-  },
-   {
-    'title': 'ALTAF-E-HUSAN',
-    'firebaseImagePath': 'kalam/Iltefaat_e_husn/',
-    'imageAsset': 'assets/kalam_title/urdu/53.png',
-    'imageListAsset': 'assets/kalam_list/urdu/53.png',
-    'artistPaths': {
-   
-      'Imran': 'kalam/Audios/Imran/Ishq/53.mp3',
-               
-    },
-    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-  },
-   {
-    'title': 'JAAN-E-FARHING',
-    'firebaseImagePath': 'kalam/Jaan_e_farhing/',
-    'imageAsset': 'assets/kalam_title/urdu/54.png',
-    'imageListAsset': 'assets/kalam_list/urdu/54.png',
-    'artistPaths': {
-   
-      'Imran': 'kalam/Audios/Imran/Ishq/54.mp3',
-               
+      'Arif': 'kalam/Audios/Arif/Ishq/52.mp3',
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {
-  'title': 'Ishq-E-Mohtabarr',
-  'firebaseImagePath': 'kalam/Ishq_e_mutabar/',
-  'imageAsset': 'assets/kalam_title/urdu/55.png',
-  'imageListAsset': 'assets/kalam_list/urdu/55.png',
-  'artistPaths': {
-    'Imran': 'kalam/Audios/Imran/Ishq/55.mp3',
+    'title': 'ALTAF-E-HUSAN',
+    'firebaseImagePath': 'kalam/Iltefaat_e_husn/',
+    'imageAsset': 'assets/kalam_title/urdu/53.png',
+    'imageListAsset': 'assets/kalam_list/urdu/53.png',
+    'artistPaths': {'Imran': 'kalam/Audios/Imran/Ishq/53.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Umeed-E-Karam',
-  'firebaseImagePath': 'kalam/Ummeed_e_karam/',
-  'imageAsset': 'assets/kalam_title/urdu/56.png',
-  'imageListAsset': 'assets/kalam_list/urdu/56.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/56.mp3',
-    'Imran': 'kalam/Audios/Imran/Ishq/56.mp3',
+  {
+    'title': 'JAAN-E-FARHING',
+    'firebaseImagePath': 'kalam/Jaan_e_farhing/',
+    'imageAsset': 'assets/kalam_title/urdu/54.png',
+    'imageListAsset': 'assets/kalam_list/urdu/54.png',
+    'artistPaths': {'Imran': 'kalam/Audios/Imran/Ishq/54.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Ya Kareem',
-  'firebaseImagePath': 'kalam/Yaa_kareem/',
-  'imageAsset': 'assets/kalam_title/urdu/57.png',
-  'imageListAsset': 'assets/kalam_list/urdu/57.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/57.mp3',
-    'Imran': 'kalam/Audios/Imran/Ishq/57.mp3',
+  {
+    'title': 'Ishq-E-Mohtabarr',
+    'firebaseImagePath': 'kalam/Ishq_e_mutabar/',
+    'imageAsset': 'assets/kalam_title/urdu/55.png',
+    'imageListAsset': 'assets/kalam_list/urdu/55.png',
+    'artistPaths': {'Imran': 'kalam/Audios/Imran/Ishq/55.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': "Apna Ta'arruf",
-  'firebaseImagePath': 'kalam/Apna_taruf/',
-  'imageAsset': 'assets/kalam_title/urdu/58.png',
-  'imageListAsset': 'assets/kalam_list/urdu/58.png',
-  'artistPaths': {
-    'Imran': 'kalam/Audios/Imran/Ishq/58.mp3',
+  {
+    'title': 'Umeed-E-Karam',
+    'firebaseImagePath': 'kalam/Ummeed_e_karam/',
+    'imageAsset': 'assets/kalam_title/urdu/56.png',
+    'imageListAsset': 'assets/kalam_list/urdu/56.png',
+    'artistPaths': {
+      'Danish': 'kalam/Audios/Danish/Ishq/56.mp3',
+      'Imran': 'kalam/Audios/Imran/Ishq/56.mp3',
+    },
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Tark-E-Azbaab',
-  'firebaseImagePath': 'kalam/Tarke_asbaab/',
-  'imageAsset': 'assets/kalam_title/urdu/59.png',
-  'imageListAsset': 'assets/kalam_list/urdu/59.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/59.mp3',
-    'Imran': 'kalam/Audios/Imran/Ishq/59.mp3',
+  {
+    'title': 'Ya Kareem',
+    'firebaseImagePath': 'kalam/Yaa_kareem/',
+    'imageAsset': 'assets/kalam_title/urdu/57.png',
+    'imageListAsset': 'assets/kalam_list/urdu/57.png',
+    'artistPaths': {
+      'Danish': 'kalam/Audios/Danish/Ishq/57.mp3',
+      'Imran': 'kalam/Audios/Imran/Ishq/57.mp3',
+    },
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': "Hairatoo'n Ka Safar",
-  'firebaseImagePath': 'kalam/Hairatoon_ka_safar/',
-  'imageAsset': 'assets/kalam_title/urdu/60.png',
-  'imageListAsset': 'assets/kalam_list/urdu/60.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/60.mp3',
+  {
+    'title': "Apna Ta'arruf",
+    'firebaseImagePath': 'kalam/Apna_taruf/',
+    'imageAsset': 'assets/kalam_title/urdu/58.png',
+    'imageListAsset': 'assets/kalam_list/urdu/58.png',
+    'artistPaths': {'Imran': 'kalam/Audios/Imran/Ishq/58.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Lillahiyath',
-  'firebaseImagePath': 'kalam/Lillaahiyath/',
-  'imageAsset': 'assets/kalam_title/urdu/61.png',
-  'imageListAsset': 'assets/kalam_list/urdu/61.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/61.mp3',
-    'Imran': 'kalam/Audios/Imran/Ishq/61.mp3',
+  {
+    'title': 'Tark-E-Azbaab',
+    'firebaseImagePath': 'kalam/Tarke_asbaab/',
+    'imageAsset': 'assets/kalam_title/urdu/59.png',
+    'imageListAsset': 'assets/kalam_list/urdu/59.png',
+    'artistPaths': {
+      'Danish': 'kalam/Audios/Danish/Ishq/59.mp3',
+      'Imran': 'kalam/Audios/Imran/Ishq/59.mp3',
+    },
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Shukr Sadh Shukr',
-  'firebaseImagePath': 'kalam/Shukr_sad_shukr/',
-  'imageAsset': 'assets/kalam_title/urdu/62.png',
-  'imageListAsset': 'assets/kalam_list/urdu/62.png',
-  'artistPaths': {
-   
+  {
+    'title': "Hairatoo'n Ka Safar",
+    'firebaseImagePath': 'kalam/Hairatoon_ka_safar/',
+    'imageAsset': 'assets/kalam_title/urdu/60.png',
+    'imageListAsset': 'assets/kalam_list/urdu/60.png',
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/60.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Faizan-E-Mohabbat',
-  'firebaseImagePath': 'kalam/Faizaane_mohabbath/',
-  'imageAsset': 'assets/kalam_title/urdu/63.png',
-  'imageListAsset': 'assets/kalam_list/urdu/63.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/63.mp3',
+  {
+    'title': 'Lillahiyath',
+    'firebaseImagePath': 'kalam/Lillaahiyath/',
+    'imageAsset': 'assets/kalam_title/urdu/61.png',
+    'imageListAsset': 'assets/kalam_list/urdu/61.png',
+    'artistPaths': {
+      'Danish': 'kalam/Audios/Danish/Ishq/61.mp3',
+      'Imran': 'kalam/Audios/Imran/Ishq/61.mp3',
+    },
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Shukr-E-Neamath',
-  'firebaseImagePath': 'kalam/Shukre_nemath/',
-  'imageAsset': 'assets/kalam_title/urdu/64.png',
-  'imageListAsset': 'assets/kalam_list/urdu/64.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/64.mp3',
+  {
+    'title': 'Shukr Sadh Shukr',
+    'firebaseImagePath': 'kalam/Shukr_sad_shukr/',
+    'imageAsset': 'assets/kalam_title/urdu/62.png',
+    'imageListAsset': 'assets/kalam_list/urdu/62.png',
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Duwaa',
-  'firebaseImagePath': 'kalam/Dua/',
-  'imageAsset': 'assets/kalam_title/urdu/65.png',
-  'imageListAsset': 'assets/kalam_list/urdu/65.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/65.mp3',
+  {
+    'title': 'Faizan-E-Mohabbat',
+    'firebaseImagePath': 'kalam/Faizaane_mohabbath/',
+    'imageAsset': 'assets/kalam_title/urdu/63.png',
+    'imageListAsset': 'assets/kalam_list/urdu/63.png',
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/63.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Laayihai Amal',
-  'firebaseImagePath': 'kalam/Lahaye_amal/',
-  'imageAsset': 'assets/kalam_title/urdu/66.png',
-  'imageListAsset': 'assets/kalam_list/urdu/66.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/66.mp3',
+  {
+    'title': 'Shukr-E-Neamath',
+    'firebaseImagePath': 'kalam/Shukre_nemath/',
+    'imageAsset': 'assets/kalam_title/urdu/64.png',
+    'imageListAsset': 'assets/kalam_list/urdu/64.png',
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/64.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Talqeen-E-Khabar',
-  'firebaseImagePath': 'kalam/Talqeene_khabar/',
-  'imageAsset': 'assets/kalam_title/urdu/67.png',
-  'imageListAsset': 'assets/kalam_list/urdu/67.png',
-  'artistPaths': {
-    
+  {
+    'title': 'Duwaa',
+    'firebaseImagePath': 'kalam/Dua/',
+    'imageAsset': 'assets/kalam_title/urdu/65.png',
+    'imageListAsset': 'assets/kalam_list/urdu/65.png',
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/65.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Fiqr-E-Fardaa',
-  'firebaseImagePath': 'kalam/Fikre_firda/',
-  'imageAsset': 'assets/kalam_title/urdu/68.png',
-  'imageListAsset': 'assets/kalam_list/urdu/68.png',
-  'artistPaths': {
-    
+  {
+    'title': 'Laayihai Amal',
+    'firebaseImagePath': 'kalam/Lahaye_amal/',
+    'imageAsset': 'assets/kalam_title/urdu/66.png',
+    'imageListAsset': 'assets/kalam_list/urdu/66.png',
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/66.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Mawaiz-E-Hasana',
-  'firebaseImagePath': 'kalam/Muwaa_ize_hasna/',
-  'imageAsset': 'assets/kalam_title/urdu/69.png',
-  'imageListAsset': 'assets/kalam_list/urdu/69.png',
-  'artistPaths': {
-    
+  {
+    'title': 'Talqeen-E-Khabar',
+    'firebaseImagePath': 'kalam/Talqeene_khabar/',
+    'imageAsset': 'assets/kalam_title/urdu/67.png',
+    'imageListAsset': 'assets/kalam_list/urdu/67.png',
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Lutf-E-Zindagi',
-  'firebaseImagePath': 'kalam/Lutfe_zindagi/',
-  'imageAsset': 'assets/kalam_title/urdu/70.png',
-  'imageListAsset': 'assets/kalam_list/urdu/70.png',
-  'artistPaths': {
-    
+  {
+    'title': 'Fiqr-E-Fardaa',
+    'firebaseImagePath': 'kalam/Fikre_firda/',
+    'imageAsset': 'assets/kalam_title/urdu/68.png',
+    'imageListAsset': 'assets/kalam_list/urdu/68.png',
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Dawat-E-Haqq',
-  'firebaseImagePath': 'kalam/Dawate_haq/',
-  'imageAsset': 'assets/kalam_title/urdu/71.png',
-  'imageListAsset': 'assets/kalam_list/urdu/71.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/71.mp3',
+  {
+    'title': 'Mawaiz-E-Hasana',
+    'firebaseImagePath': 'kalam/Muwaa_ize_hasna/',
+    'imageAsset': 'assets/kalam_title/urdu/69.png',
+    'imageListAsset': 'assets/kalam_list/urdu/69.png',
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Eirtiqaye',
-  'firebaseImagePath': 'kalam/Irtiqa/',
-  'imageAsset': 'assets/kalam_title/urdu/72.png',
-  'imageListAsset': 'assets/kalam_list/urdu/72.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/72.mp3',
+  {
+    'title': 'Lutf-E-Zindagi',
+    'firebaseImagePath': 'kalam/Lutfe_zindagi/',
+    'imageAsset': 'assets/kalam_title/urdu/70.png',
+    'imageListAsset': 'assets/kalam_list/urdu/70.png',
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Bayan-E-Wafaa',
-  'firebaseImagePath': 'kalam/Bayaan_e_wafa/',
-  'imageAsset': 'assets/kalam_title/urdu/73.png',
-  'imageListAsset': 'assets/kalam_list/urdu/73.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/73.mp3',
+  {
+    'title': 'Dawat-E-Haqq',
+    'firebaseImagePath': 'kalam/Dawate_haq/',
+    'imageAsset': 'assets/kalam_title/urdu/71.png',
+    'imageListAsset': 'assets/kalam_list/urdu/71.png',
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/71.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Ehwal-E-Sulook',
-  'firebaseImagePath': 'kalam/Ahwaale_sulook/',
-  'imageAsset': 'assets/kalam_title/urdu/74.png',
-  'imageListAsset': 'assets/kalam_list/urdu/74.png',
-  'artistPaths': {
-    
+  {
+    'title': 'Eirtiqaye',
+    'firebaseImagePath': 'kalam/Irtiqa/',
+    'imageAsset': 'assets/kalam_title/urdu/72.png',
+    'imageListAsset': 'assets/kalam_list/urdu/72.png',
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/72.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-{
-  'title': 'Sair-Fil-Wajood',
-  'firebaseImagePath': 'kalam/Sair_fil_wajood/',
-  'imageAsset': 'assets/kalam_title/urdu/75.png',
-  'imageListAsset': 'assets/kalam_list/urdu/75.png',
-  'artistPaths': {
-    'Danish': 'kalam/Audios/Danish/Ishq/75.mp3',
-    'Imran': 'kalam/Audios/Imran/Ishq/75.mp3',
-    'Arif': 'kalam/Audios/Arif/Ishq/75.mp3',
+  {
+    'title': 'Bayan-E-Wafaa',
+    'firebaseImagePath': 'kalam/Bayaan_e_wafa/',
+    'imageAsset': 'assets/kalam_title/urdu/73.png',
+    'imageListAsset': 'assets/kalam_list/urdu/73.png',
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Ishq/73.mp3'},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
-  'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-},
-
+  {
+    'title': 'Ehwal-E-Sulook',
+    'firebaseImagePath': 'kalam/Ahwaale_sulook/',
+    'imageAsset': 'assets/kalam_title/urdu/74.png',
+    'imageListAsset': 'assets/kalam_list/urdu/74.png',
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
+  },
+  {
+    'title': 'Sair-Fil-Wajood',
+    'firebaseImagePath': 'kalam/Sair_fil_wajood/',
+    'imageAsset': 'assets/kalam_title/urdu/75.png',
+    'imageListAsset': 'assets/kalam_list/urdu/75.png',
+    'artistPaths': {
+      'Danish': 'kalam/Audios/Danish/Ishq/75.mp3',
+      'Imran': 'kalam/Audios/Imran/Ishq/75.mp3',
+      'Arif': 'kalam/Audios/Arif/Ishq/75.mp3',
+    },
+    'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
+  },
 ];

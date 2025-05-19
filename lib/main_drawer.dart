@@ -1,9 +1,12 @@
 import 'dart:io';
 
 import 'package:Mehvesujood/PeerAamirKaleemi.dart';
+
 import 'package:Mehvesujood/about_us.dart';
 import 'package:Mehvesujood/englishPage.dart';
 import 'package:Mehvesujood/urdupage.dart';
+import 'package:Mehvesujood/urdutest.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -34,7 +37,7 @@ class MainDrawer extends StatelessWidget {
                 ),
                 onTap: null,
               ),
-             
+
               ListTile(
                 leading: Icon(Icons.home, color: Colors.white),
                 title: Text(
@@ -50,10 +53,36 @@ class MainDrawer extends StatelessWidget {
                   );
                 },
               ),
-               ListTile(
+
+              ListTile(
+                leading: Icon(Icons.home, color: Colors.white),
+                title: Text(
+                  'Test',
+                  style: GoogleFonts.robotoCondensed(
+                    textStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+                onTap: () {
+                 Navigator.push(
+  context,
+  MaterialPageRoute(
+    builder: (context) => TrackPlayerScreen(
+      title: 'AL MANAJATH',
+      imageAsset: 'assets/arabi_title/urdu/1.png',
+      artistPaths: {
+        'Danish': 'assets/ALLAHU.mp3',
+      },
+      appBarTitle: 'ISHQ-O-MARIFAT',
+    ),
+  ),
+);
+
+                },
+              ),
+              ListTile(
                 leading: Icon(Icons.auto_awesome, color: Colors.white),
                 title: Text(
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:3529432756.
+                  // Suggested code may be subject to a license. Learn more: ~LicenseLog:3529432756.
                   'About Peer Aamir Kaleemi',
                   style: GoogleFonts.robotoCondensed(
                     textStyle: TextStyle(color: Colors.white),
@@ -62,7 +91,9 @@ class MainDrawer extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => PeerAamirKaleemiScreen()),
+                    MaterialPageRoute(
+                      builder: (context) => PeerAamirKaleemiScreen(),
+                    ),
                   );
                 },
               ),
@@ -77,7 +108,7 @@ class MainDrawer extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => urdupage()),
+                    MaterialPageRoute(builder: (context) => UrduPage()),
                   );
                 },
               ),
@@ -98,7 +129,10 @@ class MainDrawer extends StatelessWidget {
               ),
 
               ListTile(
-                leading: Icon(Icons.install_mobile_rounded, color: Colors.white),
+                leading: Icon(
+                  Icons.install_mobile_rounded,
+                  color: Colors.white,
+                ),
                 title: Text(
                   'Install Allahu App',
                   style: GoogleFonts.robotoCondensed(
@@ -110,7 +144,10 @@ class MainDrawer extends StatelessWidget {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.install_mobile_rounded, color: Colors.white),
+                leading: Icon(
+                  Icons.install_mobile_rounded,
+                  color: Colors.white,
+                ),
                 title: Text(
                   'Install Darood-e-Aamir Kaleemi App',
                   style: GoogleFonts.robotoCondensed(
@@ -124,7 +161,7 @@ class MainDrawer extends StatelessWidget {
                 },
               ),
 
-ListTile(
+              ListTile(
                 leading: Icon(Icons.info_outline, color: Colors.white),
                 title: Text(
                   'About Us',
@@ -140,14 +177,17 @@ ListTile(
                 },
               ),
               ListTile(
-                  leading: Icon(Icons.exit_to_app, color: Colors.white),
-                  title: Text('Exit',
-                      style: GoogleFonts.robotoCondensed(
-                          textStyle: TextStyle(color: Colors.white))),
-                  onTap: () {
-                    exit(0);
-                  },
+                leading: Icon(Icons.exit_to_app, color: Colors.white),
+                title: Text(
+                  'Exit',
+                  style: GoogleFonts.robotoCondensed(
+                    textStyle: TextStyle(color: Colors.white),
+                  ),
                 ),
+                onTap: () {
+                  exit(0);
+                },
+              ),
               SizedBox(height: 600.0),
             ],
           ),

@@ -113,6 +113,7 @@ final List<Map<String, dynamic>> trackData = [
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/Ishq/10.mp3',
       'Imran': 'kalam/Audios/Imran/Ishq/10.mp3',
+      'Arif': 'kalam/Audios/Arif/Ishq/10.mp3',
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
@@ -331,7 +332,9 @@ final List<Map<String, dynamic>> trackData = [
         'kalam/English/Ishq_o_maarifat/Khaab_se_haqiqath_tak_talak/',
     'imageAsset': 'assets/kalam_title/english/36.png',
     'imageListAsset': "Ye Jahaa'n Ki Saari Haqeetien",
-    'artistPaths': {},
+    'artistPaths': {
+      'Arif': 'kalam/Audios/Arif/Ishq/36.mp3',
+    },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
   },
   {

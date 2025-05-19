@@ -21,7 +21,7 @@
     'imageAsset': 'assets/noori_title/english/3.png',
     'imageListAsset': 'assets/noori_list/english/3.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/noori/3.mp3',
+      'Danish': 'kalam/Audios/Danish/Noori/3.mp3',
       'Imran': 'kalam/Audios/Imran/Noori/3.mp3',
     },
     'appBarTitle': 'Munaqib-E-Noori',
@@ -55,7 +55,7 @@
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Yaade_Shaik/',
     'imageAsset': 'assets/noori_title/english/7.png',
     'imageListAsset': 'assets/noori_list/english/7.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/noori/7.mp3'},
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/7.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
   {
@@ -72,7 +72,7 @@
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Ay_Andalib_Chal_Ke/',
     'imageAsset': 'assets/noori_title/english/9.png',
     'imageListAsset': 'assets/noori_list/english/9.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/noori/9.mp3'},
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/9.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
 ];
@@ -101,7 +101,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/noori_title/english/3.png',
     'imageListAsset': 'Mere Noor Wale Shaha',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/noori/3.mp3',
+      'Danish': 'kalam/Audios/Danish/Noori/3.mp3',
       'Imran': 'kalam/Audios/Imran/Noori/3.mp3',
     },
     'appBarTitle': 'Munaqib-E-Noori',
@@ -135,7 +135,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Yaade_Shaik/',
     'imageAsset': 'assets/noori_title/english/7.png',
     'imageListAsset': 'Mai Aagaya Jisam Se Yaqeenan',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/noori/7.mp3'},
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/7.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
   {
@@ -151,7 +151,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Ay_Andalib_Chal_Ke/',
     'imageAsset': 'assets/noori_title/english/9.png',
     'imageListAsset': 'Kahin Ruk Gaye Kahin Se Haate',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/noori/9.mp3'},
+    'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/9.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
 ];

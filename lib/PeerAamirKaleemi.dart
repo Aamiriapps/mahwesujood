@@ -28,9 +28,9 @@ class PeerAamirKaleemiScreen extends StatelessWidget {
             children: [
               Text(
                 '''
-        Shamasul Mufassireen Faridul Asr Allama Alhaaj Syed Muhammed Omer Aamir Kaleemi Shah Hasni-Ul-Hussaini Jafari-Ul-Jeelani Chishti Qadri Noori Khwaja Faqeer Nawaz (رحمة الله عليه) was a revered Sufi saint, scholar, and spiritual guide based in South India. He is renowned for founding the Silsila-e-Aamiria, a spiritual lineage rooted in the Chishti and Qadiri orders. He was a descendant of the esteemed Sufi master Sheikh Abdul Qadir Jilani, being his 30th-generation grandson.
+        Shamasul Mufassireen Faridul Asr Allama Alhaaj Syed Muhammed Omer Aamir Kaleemi Shah Hasni-Ul-Hussaini Jafari-Ul-Jeelani Chishti Qadri Noori Khwaja Faqeer Nawaz (RA) was a revered Sufi saint, scholar, and spiritual guide based in South India. He is renowned for founding the Silsila-e-Aamiria, a spiritual lineage rooted in the Chishti and Qadiri orders. He was a descendant of the esteemed Sufi master Sheikh Abdul Qadir Jilani, being his 30th-generation grandson.
         ''',
-                style: GoogleFonts.quicksand(
+                style: GoogleFonts.robotoCondensed(
                   fontSize: 16,
                   height: 1.6,
                   color: Colors.white,
@@ -38,7 +38,7 @@ class PeerAamirKaleemiScreen extends StatelessWidget {
                 textAlign: TextAlign.justify,
               ),
               const SizedBox(height: 16),
-          
+
               // Centered image after the first paragraph
               Center(
                 child: Image.asset(
@@ -47,18 +47,18 @@ class PeerAamirKaleemiScreen extends StatelessWidget {
                   fit: BoxFit.contain,
                 ),
               ),
-          
+
               const SizedBox(height: 20),
-          
+
               Text(
                 '''
-          Hazrat Aamir Kaleemi Shah Noori was a disciple (murid) of the renowned Sufi saint Noor-ul-Mashaikh Sayyid Ahmed Muhiyuddin Jeelani Noori Shah (رحمة الله عليه), a prominent figure in the Chishti-Qadiri Sufi tradition. Under his guidance, Hazrat Aamir Kaleemi Shah Noori underwent extensive spiritual training and was appointed as a khalifa (spiritual successor), leading to the establishment of the Silsila-e-Aamiria.
+          Hazrat Aamir Kaleemi Shah Noori was a murid of the renowned Sufi saint Noor-ul-Mashaikh Sayyid Ahmed Muhiyuddin Jeelani Noori Shah (RA), a prominent figure in the Chishti-Qadiri Sufi tradition. Under his guidance, Hazrat Aamir Kaleemi Shah Noori underwent extensive spiritual training and was appointed as a khalifa, leading to the establishment of the Silsila-e-Aamiria.
           
-          He was a prolific author, with works such as Mehwe Sujood, a collection of Urdu spiritual poetry encompassing Hamd (praise of Allah), Naat (praise of the Prophet Muhammad ﷺ), Manqabat (praise of saints), and Rubaiyat (quatrains). His writings reflect deep insights into Tasawwuf (Sufism) and Islamic spirituality.
+          He was a prolific author, with works such as Mehwe Sujood, a collection of Urdu spiritual poetry encompassing Hamd, Naat Sharief, Manqabat, and Rubaiyat. His writings reflect deep insights into Tasawwuf and Islamic spirituality.
           
-          Hazrat Aamir Kaleemi Shah Noori was known for his profound knowledge of Islamic sciences, including Fiqh (Islamic jurisprudence), Hadith (Prophetic traditions), and Tafsir (Quranic exegesis). He was honored with titles such as "Shams-ul-Mufassireen" (Sun of the Exegetes) and "Sultan-ul-Arifeen" (King of the Gnostics) for his scholarly contributions and spiritual teachings.
+          Hazrat Aamir Kaleemi Shah Noori was known for his profound knowledge of Islamic sciences, including Fiqh, Hadith, and Tafsir. He was honored with titles such as "Shams-ul-Mufassireen" and "Sultan-ul-Arifeen" for his scholarly contributions and spiritual teachings.
           ''',
-                style: GoogleFonts.quicksand(
+                style: GoogleFonts.robotoCondensed(
                   fontSize: 16,
                   height: 1.6,
                   color: Colors.white,

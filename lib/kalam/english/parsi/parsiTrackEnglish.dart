@@ -1,7 +1,7 @@
 /* final List<Map<String, dynamic>> trackData = [
   {
     'title': 'Yaar-O-Aghyaar',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Yaaro_Giyar/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Yaaro_Giyar/',
     'imageAsset': 'assets/parsi_title/english/1.png',
     'imageListAsset': 'assets/parsi_list/english/1.png',
     'artistPaths': {},
@@ -9,7 +9,7 @@
   },
   {
     'title': 'Pas-E-Parda-E-Raaz',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Pase_Pardaye_Raaz/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Pase_Pardaye_Raaz/',
     'imageAsset': 'assets/parsi_title/english/2.png',
     'imageListAsset': 'assets/parsi_list/english/2.png',
     'artistPaths': {},
@@ -17,7 +17,7 @@
   },
   {
     'title': 'Husn-E-Yaganaa',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Husne_Yagana/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Husne_Yagana/',
     'imageAsset': 'assets/parsi_title/english/3.png',
     'imageListAsset': 'assets/parsi_list/english/3.png',
     'artistPaths': {},
@@ -25,7 +25,7 @@
   },
   {
     'title': 'Nawa-E-Shauq',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Nawaye_Showq/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Nawaye_Showq/',
     'imageAsset': 'assets/parsi_title/english/4.png',
     'imageListAsset': 'assets/parsi_list/english/4.png',
     'artistPaths': {},
@@ -33,7 +33,7 @@
   },
   {
     'title': 'Makham-E-Aashiqaa',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Maqaame_Aashiqaan/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Maqaame_Aashiqaan/',
     'imageAsset': 'assets/parsi_title/english/5.png',
     'imageListAsset': 'assets/parsi_list/english/5.png',
     'artistPaths': {},
@@ -41,7 +41,7 @@
   },
   {
     'title': 'Syed-Ul-Bashar ﷺ',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Syedul_Bashar/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Syedul_Bashar/',
     'imageAsset': 'assets/parsi_title/english/6.png',
     'imageListAsset': 'assets/parsi_list/english/6.png',
     'artistPaths': {},
@@ -49,7 +49,7 @@
   },
   {
     'title': 'Shaheenshah-E-Wilayat',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Shahishahe_Wilayath/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Shahishahe_Wilayath/',
     'imageAsset': 'assets/parsi_title/english/7.png',
     'imageListAsset': 'assets/parsi_list/english/7.png',
     'artistPaths': {},
@@ -60,7 +60,7 @@
 final List<Map<String, dynamic>> trackData = [
   {
     'title': 'Yaar-O-Aghyaar',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Yaaro_Giyar/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Yaaro_Giyar/',
     'imageAsset': 'assets/parsi_title/english/1.png',
     'imageListAsset': 'Sanama Tu Jaan-E-Jahaan',
     'artistPaths': {},
@@ -68,7 +68,7 @@ final List<Map<String, dynamic>> trackData = [
   },
   {
     'title': 'Pas-E-Parda-E-Raaz',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Pase_Pardaye_Raaz/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Pase_Pardaye_Raaz/',
     'imageAsset': 'assets/parsi_title/english/2.png',
     'imageListAsset': 'Tu Har Dam Yaad Mi Aayi',
     'artistPaths': {},
@@ -76,7 +76,7 @@ final List<Map<String, dynamic>> trackData = [
   },
   {
     'title': 'Husn-E-Yaganaa',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Husne_Yagana/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Husne_Yagana/',
     'imageAsset': 'assets/parsi_title/english/3.png',
     'imageListAsset': 'Man Cheez-E-Na Bay Mann',
     'artistPaths': {},
@@ -84,7 +84,7 @@ final List<Map<String, dynamic>> trackData = [
   },
   {
     'title': 'Nawa-E-Shauq',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Nawaye_Showq/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Nawaye_Showq/',
     'imageAsset': 'assets/parsi_title/english/4.png',
     'imageListAsset': 'Daanam Ke Tuyi Hasti',
     'artistPaths': {},
@@ -92,7 +92,7 @@ final List<Map<String, dynamic>> trackData = [
   },
   {
     'title': 'Makham-E-Aashiqaa',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Maqaame_Aashiqaan/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Maqaame_Aashiqaan/',
     'imageAsset': 'assets/parsi_title/english/5.png',
     'imageListAsset': 'Kalam-E-Zaahidan Deegar',
     'artistPaths': {},
@@ -100,7 +100,7 @@ final List<Map<String, dynamic>> trackData = [
   },
   {
     'title': 'Syed-Ul-Bashar ﷺ',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Syedul_Bashar/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Syedul_Bashar/',
     'imageAsset': 'assets/parsi_title/english/6.png',
     'imageListAsset': 'Maariz-E-Tu’am Kun Dawa',
     'artistPaths': {},
@@ -108,7 +108,7 @@ final List<Map<String, dynamic>> trackData = [
   },
   {
     'title': 'Shaheenshah-E-Wilayat',
-    'firebaseImagePath': 'kalam/Qinde_Parsi/Shahishahe_Wilayath/',
+    'firebaseImagePath': 'kalam/English/Qinde_Parsi/Shahishahe_Wilayath/',
     'imageAsset': 'assets/parsi_title/english/7.png',
     'imageListAsset': 'Reham Kun Behre Khudaa',
     'artistPaths': {},

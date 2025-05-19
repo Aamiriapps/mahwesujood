@@ -6,7 +6,7 @@
     'imageListAsset': 'assets/naat_list/english/1.png',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/1.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/1.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/1.mp3',
       'Arif': 'kalam/Audios/Arif/naat/1.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
@@ -18,7 +18,7 @@
     'imageListAsset': 'assets/naat_list/english/2.png',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/2.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/2.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/2.mp3',
       'Arif': 'kalam/Audios/Arif/naat/2.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
@@ -30,7 +30,7 @@
     'imageListAsset': 'assets/naat_list/english/3.png',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/3.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/3.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/3.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
   },
@@ -41,7 +41,7 @@
     'imageListAsset': 'assets/naat_list/english/4.png',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/4.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/4.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/4.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
   },
@@ -52,7 +52,7 @@
     'imageListAsset': 'assets/naat_list/english/5.png',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/5.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/5.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/5.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
   },
@@ -71,7 +71,7 @@
     'imageListAsset': 'assets/naat_list/english/7.png',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/7.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/7.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/7.mp3',
       'Arif': 'kalam/Audios/Arif/naat/7.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
@@ -105,7 +105,7 @@
     'firebaseImagePath': 'kalam/English/Naat/Mai_wari_tumpar_jawoon_nabi_ji/',
     'imageAsset': 'assets/naat_title/english/11.png',
     'imageListAsset': 'assets/naat_list/english/11.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/naat/11.mp3'},
+    'artistPaths': {'Imran': 'kalam/Audios/Imran/Naat/11.mp3'},
     'appBarTitle': 'Naat-e-Nabi ﷺ',
   },
 ];
@@ -118,7 +118,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'Har Manzare Aalam Mai Nazar',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/1.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/1.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/1.mp3',
       'Arif': 'kalam/Audios/Arif/naat/1.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
@@ -130,7 +130,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'Dil Mai Hai Basi Mere',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/2.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/2.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/2.mp3',
       'Arif': 'kalam/Audios/Arif/naat/2.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
@@ -142,7 +142,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'Muhammed Mustafa Ka Naam',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/3.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/3.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/3.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
   },
@@ -153,7 +153,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'Kise Boloun Ke Halat Kya Bani',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/4.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/4.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/4.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
   },
@@ -164,7 +164,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'Jaan Tum Par Karun Qurban',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/5.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/5.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/5.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
   },
@@ -183,7 +183,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'Meri Jaan Tum Par Fidaa Hai',
     'artistPaths': {
       'Danish': 'kalam/Audios/Danish/naat/7.mp3',
-      'Imran': 'kalam/Audios/Imran/naat/7.mp3',
+      'Imran': 'kalam/Audios/Imran/Naat/7.mp3',
       'Arif': 'kalam/Audios/Arif/naat/7.mp3',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
@@ -217,7 +217,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/English/Naat/Mai_wari_tumpar_jawoon_nabi_ji/',
     'imageAsset': 'assets/naat_title/english/11.png',
     'imageListAsset': 'Tham Lo Naiya Hamari Mai Wari',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/naat/11.mp3'},
+    'artistPaths': {'Imran': 'kalam/Audios/Imran/Naat/11.mp3'},
     'appBarTitle': 'Naat-e-Nabi ﷺ',
   },
 ];

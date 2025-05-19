@@ -1,67 +1,69 @@
-
-
 import 'dart:async';
-
-import 'package:Mehvesujood/dashborad.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:assets_audio_player/assets_audio_player.dart';
+import 'package:just_audio/just_audio.dart';
+import 'package:Mehvesujood/dashborad.dart';
 
-class splash_screen_one extends StatefulWidget {
+class SplashScreenOne extends StatefulWidget {
+  const SplashScreenOne({Key? key}) : super(key: key);
+
   @override
-  _splash_screen_oneState createState() => _splash_screen_oneState();
+  _SplashScreenOneState createState() => _SplashScreenOneState();
 }
 
-class _splash_screen_oneState extends State<splash_screen_one> {
-  void completed() {
-    Navigator.of(context).pushReplacement(
-      MaterialPageRoute(builder: (context) => Dashboard()),
-    );
+class _SplashScreenOneState extends State<SplashScreenOne> {
+  late AudioPlayer _audioPlayer;
+
+  @override
+  void initState() {
+    super.initState();
+    _audioPlayer = AudioPlayer();
+    _playAudio();
+    Timer(const Duration(seconds: 10), _navigateToDashboard);
   }
 
-  AssetsAudioPlayer assetsAudioPlayer = AssetsAudioPlayer();
+  Future<void> _playAudio() async {
+    try {
+      await _audioPlayer.setAsset('assets/ALLAHU.mp3');
+      _audioPlayer.play();
+    } catch (e) {
+      print('Error playing audio: $e');
+    }
+  }
 
-  onPlayAudio() async {
-    assetsAudioPlayer.open(
-      Audio('assets/ALLAHU.mp3'),
-      autoStart: true,
+  void _navigateToDashboard() {
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(builder: (context) => const Dashboard()),
     );
   }
 
   @override
   void dispose() {
-    // TODO: implement dispose
+    _audioPlayer.dispose();
     super.dispose();
-    assetsAudioPlayer.stop();
-  }
-
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    onPlayAudio();
-    assetsAudioPlayer.play();
-      Timer(Duration(seconds: 10), completed);
   }
 
   @override
   Widget build(BuildContext context) {
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     return Scaffold(
-      body: Column(
-        children: <Widget>[
-          Expanded(
-              flex: 1,
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: AssetImage("assets/Splashscreen2.png"),
-                    fit: BoxFit.fill,
-                  ),
-                ),
-                /* add child content here */
-              )),
-        ],
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        decoration: BoxDecoration(
+          gradient: RadialGradient(
+            colors: [Colors.brown, Colors.black],
+            radius: 0.8,
+          ),
+        ),
+        child: Container(
+          child: Image.asset(
+            "assets/Splashscreen2.png",
+            fit: BoxFit.contain,
+            width: MediaQuery.of(context).size.width * 0.8, // scale image
+            height: MediaQuery.of(context).size.height * 0.5,
+          ),
+        ),
       ),
     );
   }
