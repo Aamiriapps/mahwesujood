@@ -1,10 +1,6 @@
-
-import 'package:Mehvesujood/api/firebase_api.dart';
-import 'package:Mehvesujood/api/firebase_file.dart';
 import 'package:Mehvesujood/main_drawer.dart';
 import 'package:audioplayers/audioplayers.dart';
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:firebase_storage/firebase_storage.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -33,13 +29,13 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen> {
   bool isPlaying = false;
   Duration duration = Duration.zero;
   Duration position = Duration.zero;
-  late Future<List<FirebaseFile>> futureFiles;
+
   late String selectedArtist;
 
   @override
   void initState() {
     super.initState();
-    futureFiles = FirebaseApi.listAll(widget.firebaseImagePath);
+
     if (widget.artistPaths.isNotEmpty) {
       selectedArtist = widget.artistPaths.keys.first;
       setAudio();
@@ -59,14 +55,14 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen> {
     }
   }
 
-  Future setAudio() async {
+  Future<void> setAudio() async {
     try {
-      final path = widget.artistPaths[selectedArtist]!;
-      final ref = FirebaseStorage.instance.ref().child(path);
-      final url = await ref.getDownloadURL();
+      final url = widget.artistPaths[selectedArtist]!;
       await audioPlayer.setSourceUrl(url);
+
+      //await audioPlayer.setSourceUrl('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',);
     } catch (e) {
-      print('❌ Error loading audio: $e');
+      debugPrint('❌ Error loading audio: $e');
     }
   }
 
@@ -178,7 +174,7 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen> {
                                     ),
                                     fontWeight: FontWeight.normal,
                                   ),
-                                ), 
+                                ),
                               ),
                               Slider(
                                 thumbColor: Colors.brown[300],
@@ -274,29 +270,6 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen> {
             const SizedBox(height: 20),
 
             /// 🖼 Images from Firebase
-            FutureBuilder<List<FirebaseFile>>(
-              future: futureFiles,
-              builder: (context, snapshot) {
-                if (snapshot.connectionState == ConnectionState.waiting) {
-                  return const Center(
-                    child: CircularProgressIndicator(color: Colors.brown),
-                  );
-                } else if (snapshot.hasError) {
-                  return const Center(child: Text('Some error occurred!'));
-                } else {
-                  final files = snapshot.data!;
-                  return ListView.builder(
-                    physics: const NeverScrollableScrollPhysics(),
-                    shrinkWrap: true,
-                    itemCount: files.length,
-                    itemBuilder: (context, index) {
-                      final file = files[index];
-                      return CachedNetworkImage(imageUrl: file.url);
-                    },
-                  );
-                }
-              },
-            ),
           ],
         ),
       ),

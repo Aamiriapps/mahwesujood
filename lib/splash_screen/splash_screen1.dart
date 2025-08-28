@@ -50,10 +50,10 @@ class _SplashScreenOneState extends State<SplashScreenOne> {
       body: Container(
         width: double.infinity,
         height: double.infinity,
-        decoration: BoxDecoration(
-          gradient: RadialGradient(
-            colors: [Colors.brown, Colors.black],
-            radius: 0.8,
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/background.png'),
+            fit: BoxFit.cover,
           ),
         ),
         child: Container(

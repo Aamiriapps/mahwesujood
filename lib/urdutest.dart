@@ -644,9 +644,7 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen> {
 
   Future<void> loadPoetry() async {
     try {
-      final String loadedText = await rootBundle.loadString(
-        'assets/testkalam.txt',
-      );
+      final String loadedText = await rootBundle.loadString('assets/5.txt');
       setState(() {
         stanzas =
             loadedText
@@ -688,16 +686,20 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen> {
       extendBodyBehindAppBar: true,
       drawer: MainDrawer(),
       appBar: AppBar(
+        flexibleSpace: ClipRect(
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+            child: Container(color: Colors.transparent),
+          ),
+        ),
         backgroundColor: Colors.transparent,
         elevation: 0,
-        iconTheme: const IconThemeData(color: Colors.white),
+        iconTheme: IconThemeData(color: Colors.white),
         centerTitle: true,
         title: Text(
-          widget.appBarTitle,
+          'ISHQ-o-MARIFAT',
           style: GoogleFonts.robotoCondensed(
-            fontSize: 18,
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
+            textStyle: TextStyle(color: Colors.white),
           ),
         ),
       ),

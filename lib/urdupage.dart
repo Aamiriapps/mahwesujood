@@ -587,16 +587,20 @@ class UrduPage extends StatelessWidget {
  */
 
 import 'dart:ui'; // <--- IMPORTANT for ImageFilter.blur
+import 'package:Mehvesujood/kalam/urdu/arabi/arabi_list.dart';
+import 'package:Mehvesujood/kalam/urdu/salaam/salaam_list.dart';
+import 'package:Mehvesujood/kalam/urdu/sarmadi/sarmadi_list.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+//import 'package:google_fonts/google_fonts.dart';
 
 import 'package:Mehvesujood/main_drawer.dart';
-import 'package:Mehvesujood/TrackClassUrdu.dart';
+//import 'package:Mehvesujood/TrackClassUrdu.dart';
 import 'package:Mehvesujood/kalam/urdu/ishq/ishqlist.dart';
 import 'package:Mehvesujood/kalam/urdu/naat/naat_list.dart';
-import 'package:Mehvesujood/kalam/urdu/noori/noori_list.dart';
-import 'package:Mehvesujood/kalam/urdu/parsi/parsi_list.dart';
+//import 'package:Mehvesujood/kalam/urdu/noori/noori_list.dart';
+//import 'package:Mehvesujood/kalam/urdu/parsi/parsi_list.dart';
 
+/* 
 class UrduPage extends StatelessWidget {
   const UrduPage({Key? key}) : super(key: key);
 
@@ -619,9 +623,12 @@ class UrduPage extends StatelessWidget {
         centerTitle: true,
         title: Text(
           'اردو',
-          style: GoogleFonts.notoNastaliqUrdu(
+          textAlign: TextAlign.center,
+          textDirection: TextDirection.rtl,
+          style: const TextStyle(
+            fontFamily: 'Nastaleeq',
+            fontSize: 35,
             color: Colors.white,
-            fontSize: 30,
           ),
         ),
       ),
@@ -635,6 +642,43 @@ class UrduPage extends StatelessWidget {
           ),
           child: Column(
             children: [
+              Container(
+                //height: 100,
+                // width: 150,
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: Colors.black, // Border color
+                    width: 2, // Border width
+                  ),
+                  borderRadius: BorderRadius.circular(24),
+                  gradient: const LinearGradient(
+                    colors: [
+                      Color(0xFF2F2005),
+                      Color(0xFF92772C),
+                      Color(0xFF2F2005),
+                    ],
+                    begin: Alignment.centerLeft,
+                    end: Alignment.centerRight,
+                  ),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.6),
+                      blurRadius: 8,
+                      offset: Offset(2, 4),
+                    ),
+                  ],
+                ),
+                child: Center(
+                  child: Text(
+                    'Ishq-o-Marifat Pandh-o-Muzath',
+                    textAlign: TextAlign.center,
+                    style: GoogleFonts.robotoCondensed(
+                      textStyle: const TextStyle(color: Colors.white),
+                      fontSize: 28,
+                    ),
+                  ),
+                ),
+              ),
               _buildButtonRow(
                 context,
                 'assets/Naatein.png',
@@ -764,6 +808,147 @@ class UrduPage extends StatelessWidget {
           child: Image.asset(assetPath, fit: BoxFit.contain),
         ),
       ),
+    );
+  }
+}
+ */
+class UrduPage extends StatelessWidget {
+  const UrduPage({Key? key}) : super(key: key);
+
+  // Reusable button builder
+  Widget buildCustomButton(
+    BuildContext context,
+    String text,
+    Widget destinationPage,
+  ) {
+    return InkWell(
+      borderRadius: BorderRadius.circular(24), // ripple matches shape
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => destinationPage),
+        );
+      },
+      child: Container(
+        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
+        decoration: BoxDecoration(
+          border: Border.all(
+            color: Colors.black, // Border color
+            width: 2, // Border width
+          ),
+          borderRadius: BorderRadius.circular(24),
+          gradient: const LinearGradient(
+            colors: [Color(0xFF2F2005), Color(0xFF92772C), Color(0xFF2F2005)],
+            begin: Alignment.centerLeft,
+            end: Alignment.centerRight,
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.6),
+              blurRadius: 8,
+              offset: const Offset(2, 4),
+            ),
+          ],
+        ),
+        child: Center(
+          child: Text(
+            text,
+            textAlign: TextAlign.center,
+            textDirection: TextDirection.rtl,
+            style: TextStyle(
+              fontFamily: 'Nastaleeq',
+              fontSize: 35,
+              //height: 2,
+              color: Colors.white,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      extendBodyBehindAppBar: true,
+      drawer: MainDrawer(),
+      appBar: AppBar(
+        flexibleSpace: ClipRect(
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+            child: Container(color: Colors.transparent),
+          ),
+        ),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        iconTheme: const IconThemeData(color: Colors.white),
+        centerTitle: true,
+        title: const Text(
+          'اردو',
+          textAlign: TextAlign.center,
+          textDirection: TextDirection.rtl,
+          style: TextStyle(
+            fontFamily: 'Nastaleeq',
+            fontSize: 50,
+            color: Colors.white,
+          ),
+        ),
+      ),
+      body: Container(
+        constraints: const BoxConstraints.expand(),
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/background.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: SingleChildScrollView(
+          padding: EdgeInsets.only(top: kToolbarHeight + 20, bottom: 20),
+          child: Column(
+            children: [
+              SizedBox(height: 20),
+              buildCustomButton(
+                context,
+                'عشق و معرفت ، پند و موعظت',
+                const IshqList(),
+              ),
+              buildCustomButton(context, "نعتیں", Naat_list()),
+              buildCustomButton(
+                context,
+                'مناقبِ نوریؒ',
+                const DummyPage(title: 'Munaqib e Noori (RA)'),
+              ),
+              buildCustomButton(
+                context,
+                'نغمۂ سرمدی',
+                SarmadiList(),
+              ),
+              buildCustomButton(
+                context,
+                'قندِ پارسی',
+                const DummyPage(title: 'Qand-e-Parsi'),
+              ),
+              buildCustomButton(context, 'کلامِ عربی', ArabiList()),
+              buildCustomButton(context, 'سلام', SalaamList()),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// Dummy destination page for navigation demo
+class DummyPage extends StatelessWidget {
+  final String title;
+  const DummyPage({Key? key, required this.title}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text(title)),
+      body: Center(child: Text(title, style: const TextStyle(fontSize: 30))),
     );
   }
 }

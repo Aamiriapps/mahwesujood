@@ -391,7 +391,8 @@ class _DashboardState extends State<Dashboard> {
         }
       },
       child: Scaffold(
-         backgroundColor: Colors.black,
+        extendBodyBehindAppBar: true,
+        drawer: MainDrawer(),
         appBar: AppBar(
           flexibleSpace: ClipRect(
             child: BackdropFilter(
@@ -405,23 +406,27 @@ class _DashboardState extends State<Dashboard> {
           centerTitle: true,
           title: Text(
             'Select Language',
-            style: GoogleFonts.robotoCondensed(
-              color: Colors.white,
-              fontSize: 18,
+            style: GoogleFonts.cormorantGaramond(
+              textStyle: const TextStyle(color: Colors.white),
             ),
           ),
         ),
-        drawer: MainDrawer(),
+
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: const BoxDecoration(
-            gradient: RadialGradient(
+            image: DecorationImage(
+              image: AssetImage('assets/background.png'),
+              fit: BoxFit.cover,
+            ),
+          ),
+
+          /* gradient: RadialGradient(
               colors: [Colors.brown, Colors.black],
               radius: 0.8,
               center: Alignment.center,
-            ),
-          ),
+            ), */
           child: Center(
             child: SingleChildScrollView(
               padding: const EdgeInsets.symmetric(vertical: 5),
@@ -435,7 +440,47 @@ class _DashboardState extends State<Dashboard> {
                         MaterialPageRoute(builder: (_) => const UrduPage()),
                       );
                     },
-                    child: Image.asset('assets/urdu.png', width: 150),
+                    child: Container(
+                      height: 100,
+                      width: 150,
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.black, // Border color
+                          width: 2, // Border width
+                        ),
+                        borderRadius: BorderRadius.circular(24),
+                        gradient: const LinearGradient(
+                          colors: [
+                            Color(0xFF2F2005),
+                            Color(0xFF92772C),
+                            Color(0xFF2F2005),
+                          ],
+                          begin: Alignment.centerLeft,
+                          end: Alignment.centerRight,
+                        ),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.6),
+                            blurRadius: 8,
+                            offset: Offset(2, 4),
+                          ),
+                        ],
+                      ),
+                      child: const Center(
+                        child: Text(
+                          'اردو',
+                          textAlign: TextAlign.center,
+                          textDirection: TextDirection.rtl,
+                          style: TextStyle(
+                            fontFamily: 'Nastaleeq',
+                            fontSize: 60,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    //Image.asset('assets/urdu.png', width: 150),
                   ),
                   const SizedBox(height: 40),
                   GestureDetector(
@@ -445,7 +490,46 @@ class _DashboardState extends State<Dashboard> {
                         MaterialPageRoute(builder: (_) => const Englishpage()),
                       );
                     },
-                    child: Image.asset('assets/english.png', width: 150),
+                    child: Container(
+                      height: 100,
+                      width: 150,
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.black, // Border color
+                          width: 2, // Border width
+                        ),
+                        borderRadius: BorderRadius.circular(24),
+                        gradient: const LinearGradient(
+                          colors: [
+                            Color(0xFF2F2005),
+                            Color(0xFF92772C),
+                            Color(0xFF2F2005),
+                          ],
+                          begin: Alignment.centerLeft,
+                          end: Alignment.centerRight,
+                        ),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.6),
+                            blurRadius: 8,
+                            offset: Offset(2, 4),
+                          ),
+                        ],
+                      ),
+                      child: Center(
+                        child: Text(
+                          'English',
+                          textAlign: TextAlign.center,
+                          style: GoogleFonts.cormorantGaramond(
+                            fontWeight: FontWeight.w700,
+                            textStyle: const TextStyle(color: Colors.white),
+                            fontSize: 28,
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    //Image.asset('assets/english.png', width: 150),
                   ),
                   const SizedBox(height: 40),
                 ],
@@ -472,7 +556,7 @@ Future<bool> showExitPopup(BuildContext context) async {
         context: context,
         builder: (context) {
           return AlertDialog(
-            backgroundColor: Colors.brown.shade800,
+            backgroundColor: Colors.black,
             title: const Text('Warning', style: TextStyle(color: Colors.white)),
             content: const Text(
               'Are you sure you want to exit?',

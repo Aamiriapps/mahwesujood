@@ -434,6 +434,7 @@ class _EnglishpageState extends State<Englishpage> {
  */
 
 import 'dart:ui';
+import 'package:Mehvesujood/kalam/urdu/naat/naat_list.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -443,7 +444,7 @@ import 'package:Mehvesujood/kalam/english/ishq/ishqListEnglish.dart';
 import 'package:Mehvesujood/kalam/english/naat/naat_list_english.dart';
 import 'package:Mehvesujood/kalam/english/noori/noori_list_english.dart';
 import 'package:Mehvesujood/kalam/english/parsi/parsi_list_english.dart';
-
+/* 
 class Englishpage extends StatefulWidget {
   const Englishpage({super.key});
 
@@ -612,6 +613,154 @@ class _EnglishpageState extends State<Englishpage> {
           child: Image.asset(assetPath, fit: BoxFit.contain),
         ),
       ),
+    );
+  }
+}
+ */
+
+class Englishpage extends StatelessWidget {
+  const Englishpage({Key? key}) : super(key: key);
+
+  // Reusable button builder
+  Widget buildCustomButton(
+    BuildContext context,
+    String text,
+    Widget destinationPage,
+  ) {
+    return InkWell(
+      borderRadius: BorderRadius.circular(24), // ripple matches shape
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => destinationPage),
+        );
+      },
+      child: Container(
+        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
+        decoration: BoxDecoration(
+          border: Border.all(
+            color: Colors.black, // Border color
+            width: 2, // Border width
+          ),
+          borderRadius: BorderRadius.circular(24),
+          gradient: const LinearGradient(
+            colors: [Color(0xFF2F2005), Color(0xFF92772C), Color(0xFF2F2005)],
+            begin: Alignment.centerLeft,
+            end: Alignment.centerRight,
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.6),
+              blurRadius: 8,
+              offset: const Offset(2, 4),
+            ),
+          ],
+        ),
+        child: Center(
+          child: Text(
+            text,
+
+            style: GoogleFonts.cormorantGaramond(
+              textStyle: const TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.w700,
+                fontSize: 22,
+                height: 2,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      extendBodyBehindAppBar: true,
+      drawer: MainDrawer(),
+      appBar: AppBar(
+        flexibleSpace: ClipRect(
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+            child: Container(color: Colors.transparent),
+          ),
+        ),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        iconTheme: const IconThemeData(color: Colors.white),
+        centerTitle: true,
+        title: Text(
+          'English',
+          style: GoogleFonts.robotoCondensed(
+            height: 2,
+            textStyle: const TextStyle(color: Colors.white),
+          ),
+        ),
+      ),
+      body: Container(
+        constraints: const BoxConstraints.expand(),
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/background.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: SingleChildScrollView(
+          padding: EdgeInsets.only(top: kToolbarHeight + 20, bottom: 20),
+          child: Column(
+            children: [
+              SizedBox(height: 20),
+              buildCustomButton(
+                context,
+                'Ishq-o-Marifat Pandh-o-Muzath',
+                const IshqList(),
+              ),
+              buildCustomButton(context, "Naath'en", Naat_list_english()),
+              buildCustomButton(
+                context,
+                'Munaqib-e-Noori(RA)',
+                const DummyPage(title: 'Munaqib e Noori (RA)'),
+              ),
+              buildCustomButton(
+                context,
+                'Naghma-e-Sarmadi',
+                const DummyPage(title: 'Naghma-e-Sarmadi'),
+              ),
+              buildCustomButton(
+                context,
+                'Qand-e-Parsi',
+                const DummyPage(title: 'Qand-e-Parsi'),
+              ),
+              buildCustomButton(
+                context,
+                'Kalaam-e-Arabi',
+                const DummyPage(title: 'Kalaam-e-Arabi'),
+              ),
+              buildCustomButton(
+                context,
+                'Salaam',
+                const DummyPage(title: 'Salaam'),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// Dummy destination page for navigation demo
+class DummyPage extends StatelessWidget {
+  final String title;
+  const DummyPage({Key? key, required this.title}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text(title)),
+      body: Center(child: Text(title, style: const TextStyle(fontSize: 30))),
     );
   }
 }

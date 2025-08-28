@@ -2,18 +2,32 @@
 
 final List<Map<String, dynamic>> trackData = [
   {
-    'title': 'Mazhar-E-Haqq',
-    'firebaseImagePath': 'kalam/Naat/Mazhar_e_haq/',
-    'imageAsset': 'assets/naat_title/urdu/1.png',
-    'imageListAsset': 'assets/naat_list/urdu/1.png',
+    'title': ' مظہرِ حق ',
+    'nazam': 'assets/naat_list/urdu/01.txt',
+
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/naat/1.mp3',
-      'Imran': 'kalam/Audios/Imran/Naat/1.mp3',
-      'Arif': 'kalam/Audios/Arif/naat/1.mp3',
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1MgvMpO8JBLeePLgyANZdbmbqgU97TOwm',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1DPYYrtVbHyluMOwXKPcOX1z1eA-Uc2NG',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1ZOYeJqZtOVkvsDI-Gdz789YzcT8iztwo',
     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
   },
   {
+    'title': ' انوارِ محمد ﷺ ',
+    'nazam': 'assets/naat_list/urdu/02.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=16cR2bouG_91k9Q_wDJxHDQ-IJcGmiGR2',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1Z3yrbgwmi6Q12kwHPGSs5423ORNMIJYm',
+    },
+    'appBarTitle': 'Naat-e-Nabi ﷺ',
+  },
+  /* {
     'title': 'Anwar-E-Mohammed ﷺ',
     'firebaseImagePath': 'kalam/Naat/Anwar_e_mohammed/',
     'imageAsset': 'assets/naat_title/urdu/2.png',
@@ -108,5 +122,6 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'assets/naat_list/urdu/11.png',
     'artistPaths': {'Imran': 'kalam/Audios/Imran/Naat/11.mp3'},
     'appBarTitle': 'Naat-e-Nabi ﷺ',
-  }, // Add more track maps here...
+  }, */
+  // Add more track maps here...
 ];

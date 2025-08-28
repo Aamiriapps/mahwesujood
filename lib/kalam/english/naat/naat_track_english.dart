@@ -110,20 +110,21 @@
   },
 ];
  */
-final List<Map<String, dynamic>> trackData = [ 
+final List<Map<String, dynamic>> trackData = [
   {
     'title': 'Mazhar-E-Haqq',
-    'firebaseImagePath': 'kalam/English/Naat/Mazhar_e_haq/',
-    'imageAsset': 'assets/naat_title/english/1.png',
-    'imageListAsset': 'Har Manzare Aalam Mai Nazar',
+    'nazam': 'assets/naat_list/english/1.txt',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/naat/1.mp3',
-      'Imran': 'kalam/Audios/Imran/Naat/1.mp3',
-      'Arif': 'kalam/Audios/Arif/naat/1.mp3',
-    },
+       'Danish':
+          'https://drive.google.com/uc?export=download&id=1MgvMpO8JBLeePLgyANZdbmbqgU97TOwm',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1DPYYrtVbHyluMOwXKPcOX1z1eA-Uc2NG',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1ZOYeJqZtOVkvsDI-Gdz789YzcT8iztwo',
+     },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
   },
-  {
+  /* {
     'title': 'Anwar-E-Mohammed ﷺ',
     'firebaseImagePath': 'kalam/English/Naat/Anwar_e_mohammed/',
     'imageAsset': 'assets/naat_title/english/2.png',
@@ -219,5 +220,5 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'Tham Lo Naiya Hamari Mai Wari',
     'artistPaths': {'Imran': 'kalam/Audios/Imran/Naat/11.mp3'},
     'appBarTitle': 'Naat-e-Nabi ﷺ',
-  },
+  }, */
 ];

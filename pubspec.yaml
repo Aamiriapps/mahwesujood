@@ -78,15 +78,12 @@ flutter:
    - assets/kalam_title/
    - assets/kalam_title/urdu/
    - assets/kalam_title/english/
-   - assets/naat_title/
-   - assets/naat_title/urdu/
-   - assets/naat_title/english/
+   - assets/arabi_list/
+   - assets/arabi_list/english/
+   - assets/arabi_list/urdu/
    - assets/naat_list/
    - assets/naat_list/urdu/
    - assets/naat_list/english/
-   - assets/noori_title/
-   - assets/noori_title/urdu/
-   - assets/noori_title/english/
    - assets/noori_list/
    - assets/noori_list/urdu/
    - assets/noori_list/english/
@@ -97,15 +94,29 @@ flutter:
    - assets/parsi_title/urdu/
    - assets/parsi_title/english/
    - assets/salaam_title/
+   - assets/salaam_list/
+   - assets/salaam_list/urdu/
+   - assets/salaam_list/english/
    - assets/arabi_title/
    - assets/arabi_title/urdu/
    - assets/arabi_title/english/
    - assets/eng_button/
+   - assets/audio/
+   - assets/sarmadi_list/english/
+   - assets/sarmadi_list/urdu/
 
   fonts:
-    - family: FajerNoori
+    - family: Nastaleeq
       fonts:
-        - asset: assets/FajerNooriNastalique.ttf 
+        - asset: assets/fonts/ALQALAM_ALVI_NASTALEEQ_SHIPPED.TTF
+
+    - family: Michegar
+      fonts:
+        - asset: assets/fonts/Michegar.ttf
+
+    - family: Al_Majeed
+      fonts:
+        - asset: assets/fonts/Al_Majeed_Quranic_Font_shiped.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -134,7 +145,9 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
+  #ALQALAM_ALVI_NASTALEEQ_SHIPPED.TTF
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
   
+    

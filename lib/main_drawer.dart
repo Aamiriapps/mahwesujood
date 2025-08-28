@@ -6,6 +6,8 @@ import 'package:Mehvesujood/about_us.dart';
 import 'package:Mehvesujood/englishPage.dart';
 import 'package:Mehvesujood/urdupage.dart';
 import 'package:Mehvesujood/urdutest.dart';
+import 'package:Mehvesujood/urdutest2.dart';
+import 'package:Mehvesujood/urdutest4.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -22,8 +24,23 @@ class MainDrawer extends StatelessWidget {
       child: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Container(
+          decoration: BoxDecoration(
+            //shape: BoxShape.circle,
+            gradient: const LinearGradient(
+              colors: [Color(0xFF2F2005), Color(0xFF92772C), Color(0xFF2F2005)],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withOpacity(0.4),
+                blurRadius: 10,
+                spreadRadius: 3,
+              ),
+            ],
+          ),
           margin: EdgeInsets.only(bottom: 0.0),
-          color: Colors.brown[900],
+          //color: Colors.brown[900],
           child: Column(
             children: <Widget>[
               SizedBox(height: 30.0),
@@ -57,26 +74,74 @@ class MainDrawer extends StatelessWidget {
               ListTile(
                 leading: Icon(Icons.home, color: Colors.white),
                 title: Text(
+                  'Test2',
+                  style: GoogleFonts.robotoCondensed(
+                    textStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder:
+                          (context) => TrackPlayerScreen4(
+                            title: 'سیر فی الوجود',
+                            nazam: 'assets/75.txt',
+                            //   imageAsset: 'assets/arabi_title/urdu/1.png',
+                            artistPaths: {
+                              'Danish': 'audio/75.mp3',
+                              'Imran': 'audio/75.mp3',
+                            },
+                            appBarTitle: 'ISHQ-O-MARIFAT',
+                          ),
+                    ),
+                  );
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.home, color: Colors.white),
+                title: Text(
+                  'Test4',
+                  style: GoogleFonts.robotoCondensed(
+                    textStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder:
+                          (context) => TrackPlayerScreen(
+                            title: 'AL MANAJATH',
+                            imageAsset: 'assets/arabi_title/urdu/1.png',
+                            artistPaths: {'Danish': 'assets/ALLAHU.mp3'},
+                            appBarTitle: 'ISHQ-O-MARIFAT',
+                          ),
+                    ),
+                  );
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.home, color: Colors.white),
+                title: Text(
                   'Test',
                   style: GoogleFonts.robotoCondensed(
                     textStyle: TextStyle(color: Colors.white),
                   ),
                 ),
                 onTap: () {
-                 Navigator.push(
-  context,
-  MaterialPageRoute(
-    builder: (context) => TrackPlayerScreen(
-      title: 'AL MANAJATH',
-      imageAsset: 'assets/arabi_title/urdu/1.png',
-      artistPaths: {
-        'Danish': 'assets/ALLAHU.mp3',
-      },
-      appBarTitle: 'ISHQ-O-MARIFAT',
-    ),
-  ),
-);
-
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder:
+                          (context) => TrackPlayerScreen2(
+                            title: 'AL MANAJATH',
+                            imageAsset: 'assets/arabi_title/urdu/1.png',
+                            artistPaths: {'Danish': 'assets/audio/75.mp3'},
+                            appBarTitle: 'ISHQ-O-MARIFAT',
+                          ),
+                    ),
+                  );
                 },
               ),
               ListTile(

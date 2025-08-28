@@ -12,9 +12,9 @@ class splash_screen extends StatefulWidget {
 
 class _splash_screenState extends State<splash_screen> {
   void completed() {
-    Navigator.of(
-      context,
-    ).pushReplacement(MaterialPageRoute(builder: (context) => SplashScreenOne()));
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(builder: (context) => SplashScreenOne()),
+    );
   }
 
   @override
@@ -37,10 +37,12 @@ class _splash_screenState extends State<splash_screen> {
                 gradient: RadialGradient(
                   colors: [
                     //Colors.brown.shade900,
-                    Colors.brown,
-                    Colors.black,
+                    Color(0xFF92772C),
+                    Color(0xFF2F2005),
+
+                    //Color(0xFF2F2005),
                   ],
-                  radius: 0.8,
+                  radius: 0.9,
                 ),
                 /* image: DecorationImage(
                     image: AssetImage("assets/splashscreen.png"),
