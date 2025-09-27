@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:Mehvesujood/splash_screen/splash_screen1.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+//import 'package:google_fonts/google_fonts.dart';
 
 class splash_screen extends StatefulWidget {
   @override
@@ -21,7 +21,7 @@ class _splash_screenState extends State<splash_screen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Timer(Duration(seconds: 2), completed);
+    Timer(Duration(seconds: 5), completed);
   }
 
   @override
@@ -53,14 +53,28 @@ class _splash_screenState extends State<splash_screen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
+                    'مَحوِ سُجود',
+                    textAlign: TextAlign.center,
+                    textDirection: TextDirection.rtl,
+                    style: TextStyle(
+                      fontFamily: 'Al_Majeed',
+                      fontSize: 70,
+                      color: Colors.white,
+                    ),
+                  ),
+                  SizedBox(height: 3),
+                  Center(child: Image.asset("assets/g14636.png", width: 100)),
+                  SizedBox(height: 8),
+                  Text(
                     'Mehwe Sujood',
-                    style: GoogleFonts.quicksand(
+                    style: TextStyle(
+                      fontFamily: 'Trajan',
                       color: Colors.white,
                       fontSize: 30,
                     ),
                   ),
-                  SizedBox(height: 5),
-                  Center(child: Image.asset("assets/g14636.png", width: 100)),
+                  SizedBox(height: 10),
+
                   // SizedBox(height: 300),
                 ],
               ),

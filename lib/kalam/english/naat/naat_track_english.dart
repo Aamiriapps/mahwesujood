@@ -112,18 +112,139 @@
  */
 final List<Map<String, dynamic>> trackData = [
   {
-    'title': 'Mazhar-E-Haqq',
+    'title': 'Mazhar-E-Haqq ',
     'nazam': 'assets/naat_list/english/1.txt',
+
     'artistPaths': {
-       'Danish':
+      'Danish':
           'https://drive.google.com/uc?export=download&id=1MgvMpO8JBLeePLgyANZdbmbqgU97TOwm',
       'Imran':
           'https://drive.google.com/uc?export=download&id=1DPYYrtVbHyluMOwXKPcOX1z1eA-Uc2NG',
       'Arif':
           'https://drive.google.com/uc?export=download&id=1ZOYeJqZtOVkvsDI-Gdz789YzcT8iztwo',
-     },
+    },
     'appBarTitle': 'Naat-e-Nabi ﷺ',
   },
+
+  {
+    'title': ' Anwaar-E-Muhammed ﷺ ',
+    'nazam': 'assets/naat_list/english/2.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=16cR2bouG_91k9Q_wDJxHDQ-IJcGmiGR2',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1Z3yrbgwmi6Q12kwHPGSs5423ORNMIJYm',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=15lRbKIJmkejfikufXyBnmqLfSSepC8QT',
+    },
+    'appBarTitle': 'Naat-e-Nabi ﷺ',
+  },
+
+  {
+    'title': ' Khaasa-E-Khaasan-E-Rusul ',
+    'nazam': 'assets/naat_list/english/3.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1Ezgf4EERsmsgeqrML7twzhmAleurl5dX',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1tsOBdhjUQB14O-lin1KSTOXfzsvy05oB',
+    },
+    'appBarTitle': 'Naat-e-Nabi ﷺ',
+  },
+
+  {
+    'title': ' Armaghan-E-Naat  ',
+    'nazam': 'assets/naat_list/english/4.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1BTlDAXcfQOi_-gE12-AYfUoNLrHhr25b',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1ew73387gpX9J1jCSgsFdiiToLGJISJMC',
+    },
+    'appBarTitle': 'Naat-e-Nabi ﷺ',
+  },
+
+  {
+    'title': ' Madeene Waale ',
+    'nazam': 'assets/naat_list/english/5.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1LkPXIaSRQg2EQ96n5xwlDOSZm1t6K83t',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1Y0_D8oZefx9VBK8qgxfxRWJO-QZ9NqgV',
+    },
+    'appBarTitle': 'Naat-e-Nabi ﷺ',
+  },
+
+  {
+    'title': ' TAJDAR-E-MADEENA',
+    'nazam': 'assets/naat_list/english/6.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Naat-e-Nabi ﷺ',
+  },
+
+  {
+    'title': ' MERAJ-E-ABDIYATH ',
+    'nazam': 'assets/naat_list/english/7.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1CMfV4F12Wo25rOQYEuc-JsC71pBU8KX5',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1iwa_qV8UP90GFWtLOeWDPUrlnS7pqN_H',
+    },
+    'appBarTitle': 'Naat-e-Nabi ﷺ',
+  },
+
+  {
+    'title': ' SAAHIB-E-LAULAAQﷺ ',
+    'nazam': 'assets/naat_list/english/8.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1e2tAVTjTRJmVTJp9lCGChD2UJtIusUlc',
+    },
+    'appBarTitle': 'Naat-e-Nabi ﷺ',
+  },
+
+  {
+    'title': ' SARAPA NOOR ',
+    'nazam': 'assets/naat_list/english/9.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=11fycdInu7wgfdSjmHaqbWW-kO_lA_9uf',
+    },
+    'appBarTitle': 'Naat-e-Nabi ﷺ',
+  },
+
+  {
+    'title': ' AYE SAYYADI MUKHTAAR ',
+    'nazam': 'assets/naat_list/english/10.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1fdwt5wERJEh2meg-xsRsD0kXLr8f87Yc',
+    },
+    'appBarTitle': 'Naat-e-Nabi ﷺ',
+  },
+
+  {
+    'title': 'MAI WAARI TUM PAR JAON NABIJI',
+    'nazam': 'assets/naat_list/english/11.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1qt6rPg9KhV4ymmg4WeJwpwFb_SBW-Qg-',
+    },
+    'appBarTitle': 'Naat-e-Nabi ﷺ',
+  },
+
   /* {
     'title': 'Anwar-E-Mohammed ﷺ',
     'firebaseImagePath': 'kalam/English/Naat/Anwar_e_mohammed/',

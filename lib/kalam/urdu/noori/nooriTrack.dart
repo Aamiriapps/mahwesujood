@@ -1,5 +1,99 @@
 final List<Map<String, dynamic>> trackData = [
   {
+    'title':
+        '  رہبرِکامل  \n دامت برکا تہم اپنے پیر و مرشد سے مخاطب ہیں    ان اشعار میں از ابتداتا انتہا حضرت مصنف  ',
+    'nazam': 'assets/noori_list/urdu/01.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1vczVKn4O8NDjKBKnDJiL8Dd7w1IrhAPO',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'سِپاس  نا مہ ',
+    'nazam': 'assets/noori_list/urdu/02.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'فیضانِ نظر ',
+    'nazam': 'assets/noori_list/urdu/03.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=11GNK8AHfDabJyoRi28OPZ0-A0HrxwmJT',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1PEULD5ccry54UQkvz2ME7xsSex89j82u',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'مرشد سے خطاب ',
+    'nazam': 'assets/noori_list/urdu/04.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1XEBJzSZPtc2NgQFt2d8IVQVvRpAq7Ofn',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'پیر نوری ',
+    'nazam': 'assets/noori_list/urdu/05.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'بہ بارگاہِ مشیخت پناہ ',
+    'nazam': 'assets/noori_list/urdu/06.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1dZ4OA0k4dl3ZU3OWbKo7onbMGGbKC02k',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'یادِشیخ ',
+    'nazam': 'assets/noori_list/urdu/07.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=140gHanDd4jGB_QMRGzWpgHZTlqwtrP0T',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'دیارِ نوری کو روانگی سے پہلے ',
+    'nazam': 'assets/noori_list/urdu/08.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'اے عند لیب چل کہ چلے دن بہارکے',
+
+    'nazam': 'assets/noori_list/urdu/09.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1IQSCZuKXSfRwrHsiGlqLhEbUuYDt-3YX',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  /* {
     'title': 'Rehbar-E-Kaamil',
     'firebaseImagePath': 'kalam/Munaqib_e_Noori/Rahbare_Kamil/',
     'imageAsset': 'assets/noori_title/urdu/1.png',
@@ -77,5 +171,5 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'assets/noori_list/urdu/9.png',
     'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/9.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
-  },
+  }, */
 ];

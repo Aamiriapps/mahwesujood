@@ -316,10 +316,11 @@ class Naat_list_english extends StatelessWidget {
                     ),
                     title: Text(
                       songList[index],
-                      style: GoogleFonts.cormorantGaramond(
-                        fontSize: 20,
+                      style: TextStyle(
+                        fontFamily: 'Trajan',
+                        fontSize: 18,
                         color: Colors.white,
-                        fontWeight: FontWeight.w500,
+                        //fontWeight: FontWeight.w500,
 
                         //  fontWeight: FontWeight.bold,
                       ),

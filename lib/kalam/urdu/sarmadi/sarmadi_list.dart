@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:Mehvesujood/TrackClassArabic.dart';
+import 'package:Mehvesujood/TrackClassSarmadiUrdu.dart';
 import 'package:flutter/material.dart';
 import 'package:Mehvesujood/main_drawer.dart';
 
@@ -45,7 +46,7 @@ class SarmadiList extends StatelessWidget {
           textAlign: TextAlign.center,
           textDirection: TextDirection.rtl,
           style: TextStyle(
-            fontFamily: 'Nastaleeq',
+            fontFamily: 'Alvi',
             fontSize: 30,
             color: Colors.white,
           ),
@@ -124,7 +125,7 @@ class SarmadiList extends StatelessWidget {
                                 context,
                                 MaterialPageRoute(
                                   builder:
-                                      (_) => TrackPlayerScreenArabic(
+                                      (_) => Trackclasssarmadiurdu(
                                         title: track['title'],
                                         nazam: track['nazam'],
 

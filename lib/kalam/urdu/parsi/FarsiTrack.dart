@@ -1,5 +1,60 @@
 final List<Map<String, dynamic>> trackData = [
   {
+    'title': 'یار و اغیار ',
+    'nazam': 'assets/parsi_list/urdu/01.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+
+  {
+    'title': 'پسِ پردۂ راز ',
+    'nazam': 'assets/parsi_list/urdu/02.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+
+  {
+    'title': 'حسنِ یگانہ ',
+    'nazam': 'assets/parsi_list/urdu/03.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+
+  {
+    'title': 'نوائے شاق',
+    'nazam': 'assets/parsi_list/urdu/04.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-parsi',
+  },
+
+  {
+    'title': 'مقامِ عاشقاں ',
+    'nazam': 'assets/parsi_list/urdu/05.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+
+  {
+    'title': 'سید البشر ﷺ ',
+    'nazam': 'assets/parsi_list/urdu/06.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+
+  {
+    'title': 'شہنشاہِ ولایت ',
+    'nazam': 'assets/parsi_list/urdu/07.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+  /* {
     'title': 'Yaar-O-Aghyaar',
     'webImageFolderPath': 'https://habibifoundation.org/wp-admin/kalam/urdu/Farsi/Yaaro_Giyar/',
     'webAudioBasePath': 'https://habibifoundation.org/kalam/urdu/Farsi/Yaaro_Giyar/',
@@ -61,5 +116,5 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'assets/parsi_list/urdu/7.png',
     'artistPaths': {},
     'appBarTitle': 'Qand-E-Farsi',
-  },
+  }, */
 ];

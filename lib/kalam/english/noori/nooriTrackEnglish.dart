@@ -80,6 +80,98 @@
 
 final List<Map<String, dynamic>> trackData = [
   {
+    'title': ' Rehbar-E- Kaamil',
+    'nazam': 'assets/noori_list/english/1.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1vczVKn4O8NDjKBKnDJiL8Dd7w1IrhAPO',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'Sepaas Nama ',
+    'nazam': 'assets/noori_list/english/2.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'Faizan-E-Nazar ',
+    'nazam': 'assets/noori_list/english/3.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=11GNK8AHfDabJyoRi28OPZ0-A0HrxwmJT',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1PEULD5ccry54UQkvz2ME7xsSex89j82u',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'Murshid Se Khitaab ',
+    'nazam': 'assets/noori_list/english/4.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1XEBJzSZPtc2NgQFt2d8IVQVvRpAq7Ofn',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'Peer Noori ',
+    'nazam': 'assets/noori_list/english/5.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'Bargah-E-Mashiyath Panaa',
+    'nazam': 'assets/noori_list/english/6.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1dZ4OA0k4dl3ZU3OWbKo7onbMGGbKC02k',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'Yaad-E-Shaikh ',
+    'nazam': 'assets/noori_list/english/7.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=140gHanDd4jGB_QMRGzWpgHZTlqwtrP0T',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'Daayare Noori Ko Rawaangi Se Pehle',
+    'nazam': 'assets/noori_list/english/8.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+
+  {
+    'title': 'Aye Eind Laib Chalke Chale Din Bahar Ke',
+    'nazam': 'assets/noori_list/english/9.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1IQSCZuKXSfRwrHsiGlqLhEbUuYDt-3YX',
+    },
+    'appBarTitle': 'Munaqib-E-Noori',
+  },
+];
+/* {
     'title': 'Rehbar-E-Kaamil',
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Rahbare_Kamil/',
     'imageAsset': 'assets/noori_title/english/1.png',
@@ -153,5 +245,4 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'Kahin Ruk Gaye Kahin Se Haate',
     'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/9.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
-  },
-];
+  }, */

@@ -520,10 +520,10 @@ class _DashboardState extends State<Dashboard> {
                         child: Text(
                           'English',
                           textAlign: TextAlign.center,
-                          style: GoogleFonts.cormorantGaramond(
-                            fontWeight: FontWeight.w700,
-                            textStyle: const TextStyle(color: Colors.white),
-                            fontSize: 28,
+                          style: TextStyle(
+                            fontFamily: 'Trajan',
+                            color: Colors.white,
+                            fontSize: 20,
                           ),
                         ),
                       ),

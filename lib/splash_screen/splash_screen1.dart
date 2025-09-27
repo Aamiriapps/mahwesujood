@@ -56,7 +56,8 @@ class _SplashScreenOneState extends State<SplashScreenOne> {
             fit: BoxFit.cover,
           ),
         ),
-        child: Container(
+        child: Padding(
+          padding: const EdgeInsets.all(12.0),
           child: Image.asset(
             "assets/Splashscreen2.png",
             fit: BoxFit.contain,

@@ -434,16 +434,21 @@ class _EnglishpageState extends State<Englishpage> {
  */
 
 import 'dart:ui';
-import 'package:Mehvesujood/kalam/urdu/naat/naat_list.dart';
+//import 'package:Mehvesujood/kalam/urdu/naat/naat_list.dart';
+import 'package:Mehvesujood/kalam/english/arabi/arabiListEnglish.dart';
+import 'package:Mehvesujood/kalam/english/noori/noori_list_english.dart';
+import 'package:Mehvesujood/kalam/english/parsi/parsi_list_english.dart';
+import 'package:Mehvesujood/kalam/english/salaam/salaam_list_english.dart';
+import 'package:Mehvesujood/kalam/english/sarmadi/sarmadi_list_english.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:Mehvesujood/main_drawer.dart';
-import 'package:Mehvesujood/TrackClassEnglish.dart';
+//import 'package:Mehvesujood/TrackClassEnglish.dart';
 import 'package:Mehvesujood/kalam/english/ishq/ishqListEnglish.dart';
 import 'package:Mehvesujood/kalam/english/naat/naat_list_english.dart';
-import 'package:Mehvesujood/kalam/english/noori/noori_list_english.dart';
-import 'package:Mehvesujood/kalam/english/parsi/parsi_list_english.dart';
+//import 'package:Mehvesujood/kalam/english/noori/noori_list_english.dart';
+//import 'package:Mehvesujood/kalam/english/parsi/parsi_list_english.dart';
 /* 
 class Englishpage extends StatefulWidget {
   const Englishpage({super.key});
@@ -660,14 +665,13 @@ class Englishpage extends StatelessWidget {
         child: Center(
           child: Text(
             text,
-
-            style: GoogleFonts.cormorantGaramond(
-              textStyle: const TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.w700,
-                fontSize: 22,
-                height: 2,
-              ),
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontFamily: 'Trajan',
+              color: Colors.white,
+              //fontWeight: FontWeight.w700,
+              fontSize: 20,
+              height: 2,
             ),
           ),
         ),
@@ -715,52 +719,26 @@ class Englishpage extends StatelessWidget {
               buildCustomButton(
                 context,
                 'Ishq-o-Marifat Pandh-o-Muzath',
-                const IshqList(),
+                IshqList(),
               ),
               buildCustomButton(context, "Naath'en", Naat_list_english()),
               buildCustomButton(
                 context,
                 'Munaqib-e-Noori(RA)',
-                const DummyPage(title: 'Munaqib e Noori (RA)'),
+                NooriListEnglish(),
               ),
               buildCustomButton(
                 context,
-                'Naghma-e-Sarmadi',
-                const DummyPage(title: 'Naghma-e-Sarmadi'),
+                'Naghmaye Sarmadi',
+                SarmadiListEnglish(),
               ),
-              buildCustomButton(
-                context,
-                'Qand-e-Parsi',
-                const DummyPage(title: 'Qand-e-Parsi'),
-              ),
-              buildCustomButton(
-                context,
-                'Kalaam-e-Arabi',
-                const DummyPage(title: 'Kalaam-e-Arabi'),
-              ),
-              buildCustomButton(
-                context,
-                'Salaam',
-                const DummyPage(title: 'Salaam'),
-              ),
+              buildCustomButton(context, 'Qand-e-Parsi', ParsiListEnglish()),
+              buildCustomButton(context, 'Kalaam-e-Arabi', Arabilistenglish()),
+              buildCustomButton(context, 'Salaam', SalaamListEnglish()),
             ],
           ),
         ),
       ),
-    );
-  }
-}
-
-// Dummy destination page for navigation demo
-class DummyPage extends StatelessWidget {
-  final String title;
-  const DummyPage({Key? key, required this.title}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text(title)),
-      body: Center(child: Text(title, style: const TextStyle(fontSize: 30))),
     );
   }
 }

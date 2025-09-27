@@ -59,6 +59,61 @@
  */
 final List<Map<String, dynamic>> trackData = [
   {
+    'title': 'Yaar-O-Aghyaar ',
+    'nazam': 'assets/parsi_list/english/1.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+
+  {
+    'title': 'Pas-E-Parda-E-Raaz ',
+    'nazam': 'assets/parsi_list/english/2.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+
+  {
+    'title': 'Husn-E-Yaganaa ',
+    'nazam': 'assets/parsi_list/english/3.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+
+  {
+    'title': 'Nawa-E-Shauq ',
+    'nazam': 'assets/parsi_list/english/4.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+
+  {
+    'title': 'Makhaam-E-Aashiqaa ',
+    'nazam': 'assets/parsi_list/english/5.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+
+  {
+    'title': 'Syed-Ul-Bashaar ',
+    'nazam': 'assets/parsi_list/english/6.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+
+  {
+    'title': 'Shaheenshah-E-Wilayat ',
+    'nazam': 'assets/parsi_list/english/7.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Qand-E-Parsi',
+  },
+  /* {
     'title': 'Yaar-O-Aghyaar',
     'firebaseImagePath': 'kalam/English/Qinde_Parsi/Yaaro_Giyar/',
     'imageAsset': 'assets/parsi_title/english/1.png',
@@ -113,5 +168,5 @@ final List<Map<String, dynamic>> trackData = [
     'imageListAsset': 'Reham Kun Behre Khudaa',
     'artistPaths': {},
     'appBarTitle': 'Qand-E-Farsi',
-  },
+  }, */
 ];

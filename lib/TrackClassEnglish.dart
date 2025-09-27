@@ -1,16 +1,16 @@
 import 'dart:math' as math;
 import 'dart:ui';
 
-import 'package:Mehvesujood/api/firebase_api.dart';
-import 'package:Mehvesujood/api/firebase_file.dart';
+//import 'package:Mehvesujood/api/firebase_api.dart';
+//import 'package:Mehvesujood/api/firebase_file.dart';
 import 'package:Mehvesujood/main_drawer.dart';
 import 'package:audioplayers/audioplayers.dart';
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:firebase_storage/firebase_storage.dart';
+//import 'package:cached_network_image/cached_network_image.dart';
+//import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-
+/* 
 class TrackPlayerScreen extends StatefulWidget {
   final String title;
   final String firebaseImagePath;
@@ -174,9 +174,9 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen> {
                                 padding: const EdgeInsets.all(10),
                                 child: Text(
                                   widget.title,
-                                  style: GoogleFonts.robotoCondensed(
+                                  style: GoogleFonts.cormorantGaramond(
                                     textStyle: TextStyle(
-                                      fontSize: 18,
+                                      fontSize: 15,
                                       color: Colors.brown.shade100,
                                     ),
                                     fontWeight: FontWeight.normal,
@@ -305,7 +305,8 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen> {
       ),
     );
   }
-}
+} */
+//import 'package:auto_size_text/auto_size_text.dart';
 
 class TrackClassEnglishNew extends StatefulWidget {
   final String title;
@@ -379,13 +380,12 @@ class _TrackPlayerScreenNewState extends State<TrackClassEnglishNew> {
     try {
       final String loadedText = await rootBundle.loadString(widget.nazam);
       setState(() {
-        stanzas =
-            loadedText
-                .trim()
-                .split(RegExp(r'\n\s*\n'))
-                .map((s) => s.trim())
-                .where((s) => s.isNotEmpty)
-                .toList();
+        stanzas = loadedText
+            .trim()
+            .split(RegExp(r'\n\s*\n'))
+            .map((s) => s.trim())
+            .where((s) => s.isNotEmpty)
+            .toList();
       });
     } catch (e) {
       debugPrint('❌ Error loading kalam: $e');
@@ -592,17 +592,16 @@ class _TrackPlayerScreenNewState extends State<TrackClassEnglishNew> {
                                 child: Icon(
                                   isAudioAvailable
                                       ? (isPlaying
-                                          ? Icons.pause_rounded
-                                          : Icons.play_arrow_rounded)
+                                            ? Icons.pause_rounded
+                                            : Icons.play_arrow_rounded)
                                       : Icons.music_off_rounded,
                                   size: (buttonDiameter * 0.45).clamp(
                                     36.0,
                                     120.0,
                                   ),
-                                  color:
-                                      isAudioAvailable
-                                          ? const Color(0xFFab9a87)
-                                          : Colors.white,
+                                  color: isAudioAvailable
+                                      ? const Color(0xFFab9a87)
+                                      : Colors.white,
                                 ),
                               ),
                             ),
@@ -664,83 +663,87 @@ class _TrackPlayerScreenNewState extends State<TrackClassEnglishNew> {
                 child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Row(
-                    children:
-                        widget.artistPaths.keys.map((artist) {
-                          bool isSelected = selectedArtist == artist;
-                          return GestureDetector(
-                            onTap: () async {
-                              if (selectedArtist != artist) {
-                                setState(() {
-                                  selectedArtist = artist;
-                                  isPlaying = false;
-                                  currentPosition = Duration.zero;
-                                  totalDuration = Duration.zero;
-                                });
-                                await audioPlayer.stop();
-                                await setAudio();
-                              }
-                            },
-                            child: Padding(
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 8.0,
-                              ),
-                              child: Column(
-                                children: [
-                                  Container(
-                                    padding: const EdgeInsets.all(3),
-                                    decoration: BoxDecoration(
-                                      shape: BoxShape.circle,
-                                      border: Border.all(
-                                        color:
-                                            isSelected
-                                                ? const Color(0xFF92772C)
-                                                : const Color(0xFF2F2005),
-                                        width: 3,
-                                      ),
-                                    ),
-                                    child: ClipOval(
-                                      child: Container(
-                                        color: Colors.white,
-                                        child: Image.asset(
-                                          'assets/$artist.png',
-                                          width: 70,
-                                          height: 70,
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
+                    children: widget.artistPaths.keys.map((artist) {
+                      bool isSelected = selectedArtist == artist;
+                      return GestureDetector(
+                        onTap: () async {
+                          if (selectedArtist != artist) {
+                            setState(() {
+                              selectedArtist = artist;
+                              isPlaying = false;
+                              currentPosition = Duration.zero;
+                              totalDuration = Duration.zero;
+                            });
+                            await audioPlayer.stop();
+                            await setAudio();
+                          }
+                        },
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                          child: Column(
+                            children: [
+                              Container(
+                                padding: const EdgeInsets.all(3),
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  border: Border.all(
+                                    color: isSelected
+                                        ? const Color(0xFF92772C)
+                                        : const Color(0xFF2F2005),
+                                    width: 3,
+                                  ),
+                                ),
+                                child: ClipOval(
+                                  child: Container(
+                                    color: Colors.white,
+                                    child: Image.asset(
+                                      'assets/$artist.png',
+                                      width: 70,
+                                      height: 70,
+                                      fit: BoxFit.cover,
                                     ),
                                   ),
-                                  const SizedBox(height: 6),
-                                  Text(
-                                    artist,
-                                    style: TextStyle(
-                                      color:
-                                          isSelected
-                                              ? const Color(0xFF92772C)
-                                              : Colors.white,
-                                      fontWeight:
-                                          isSelected
-                                              ? FontWeight.bold
-                                              : FontWeight.normal,
-                                    ),
-                                  ),
-                                ],
+                                ),
                               ),
-                            ),
-                          );
-                        }).toList(),
+                              const SizedBox(height: 6),
+                              Text(
+                                artist,
+                                style: TextStyle(
+                                  color: isSelected
+                                      ? const Color(0xFF92772C)
+                                      : Colors.white,
+                                  fontWeight: isSelected
+                                      ? FontWeight.bold
+                                      : FontWeight.normal,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      );
+                    }).toList(),
                   ),
                 ),
               ),
 
             const SizedBox(height: 10),
 
-            Text(
-              widget.title,
-              textAlign: TextAlign.center,
-              style: GoogleFonts.robotoCondensed(
-                fontSize: 35,
-                color: Colors.white,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(
+                widget.title,
+                textAlign: TextAlign.center,
+
+                style: TextStyle(
+                  fontFamily: 'Trajan',
+                  fontSize: 30, // starting size, will shrink if needed
+                  color: Colors.white,
+                ),
+                /* GoogleFonts.cormorantGaramond(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 35,
+                  color: Colors.white,
+                ), */
               ),
             ),
 
@@ -755,7 +758,7 @@ class _TrackPlayerScreenNewState extends State<TrackClassEnglishNew> {
                   ),
                   padding: const EdgeInsets.symmetric(
                     horizontal: 8,
-                    vertical: 10,
+                    vertical: 12,
                   ),
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.black, width: 2),
@@ -782,11 +785,16 @@ class _TrackPlayerScreenNewState extends State<TrackClassEnglishNew> {
                     child: Text(
                       stanza,
                       textAlign: TextAlign.center,
-
-                      style: GoogleFonts.cormorantGaramond(
-                        // fontFamily: 'Nastaleeq',
-                        fontSize: 35,
+                      style: const TextStyle(
+                        fontFamily: 'Trajan',
+                        //height: 2,
+                        fontSize: 30,
                         color: Colors.white,
+
+                        /* style: GoogleFonts.cormorantGaramond(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        color: Colors.white, */
                       ),
                     ),
                   ),
@@ -825,12 +833,11 @@ class SemiCircleProgressPainter extends CustomPainter {
     final center = Offset(size.width / 2, size.height - (buttonDiameter / 2));
     final radius = (size.width / 2) - (strokeWidth / 2);
 
-    final backgroundPaint =
-        Paint()
-          ..color = Colors.grey.withOpacity(0.18)
-          ..strokeWidth = strokeWidth
-          ..style = PaintingStyle.stroke
-          ..strokeCap = StrokeCap.round;
+    final backgroundPaint = Paint()
+      ..color = Colors.grey.withOpacity(0.18)
+      ..strokeWidth = strokeWidth
+      ..style = PaintingStyle.stroke
+      ..strokeCap = StrokeCap.round;
 
     canvas.drawArc(
       Rect.fromCircle(center: center, radius: radius),
@@ -840,16 +847,15 @@ class SemiCircleProgressPainter extends CustomPainter {
       backgroundPaint,
     );
 
-    final progressPaint =
-        Paint()
-          ..shader = LinearGradient(
-            colors: [Color(0xFFab9a87), Color(0xFF92772C), Color(0xFF2F2005)],
-            begin: Alignment.centerLeft,
-            end: Alignment.centerRight,
-          ).createShader(Rect.fromCircle(center: center, radius: radius))
-          ..strokeWidth = strokeWidth
-          ..style = PaintingStyle.stroke
-          ..strokeCap = StrokeCap.round;
+    final progressPaint = Paint()
+      ..shader = LinearGradient(
+        colors: [Color(0xFFab9a87), Color(0xFF92772C), Color(0xFF2F2005)],
+        begin: Alignment.centerLeft,
+        end: Alignment.centerRight,
+      ).createShader(Rect.fromCircle(center: center, radius: radius))
+      ..strokeWidth = strokeWidth
+      ..style = PaintingStyle.stroke
+      ..strokeCap = StrokeCap.round;
 
     final sweepAngle = math.pi * progress.clamp(0.0, 1.0);
     canvas.drawArc(

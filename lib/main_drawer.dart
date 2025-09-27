@@ -5,9 +5,8 @@ import 'package:Mehvesujood/PeerAamirKaleemi.dart';
 import 'package:Mehvesujood/about_us.dart';
 import 'package:Mehvesujood/englishPage.dart';
 import 'package:Mehvesujood/urdupage.dart';
-import 'package:Mehvesujood/urdutest.dart';
-import 'package:Mehvesujood/urdutest2.dart';
 import 'package:Mehvesujood/urdutest4.dart';
+
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -71,7 +70,7 @@ class MainDrawer extends StatelessWidget {
                 },
               ),
 
-              ListTile(
+               ListTile(
                 leading: Icon(Icons.home, color: Colors.white),
                 title: Text(
                   'Test2',
@@ -97,7 +96,7 @@ class MainDrawer extends StatelessWidget {
                     ),
                   );
                 },
-              ),
+              ),/* 
               ListTile(
                 leading: Icon(Icons.home, color: Colors.white),
                 title: Text(
@@ -143,7 +142,7 @@ class MainDrawer extends StatelessWidget {
                     ),
                   );
                 },
-              ),
+              ), */
               ListTile(
                 leading: Icon(Icons.auto_awesome, color: Colors.white),
                 title: Text(

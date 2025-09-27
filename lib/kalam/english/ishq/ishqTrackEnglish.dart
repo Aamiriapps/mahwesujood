@@ -1,5 +1,862 @@
 final List<Map<String, dynamic>> trackData = [
   {
+    'title': ' Hamd-E-Baehad ',
+    'nazam': 'assets/kalam_list/english/1.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1N4T0MZ2sKi4JQK5uvus7muH95DgTIov2',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1KtqbInPHvajS52EVt-8jaXVk96-8I1Wb',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1PZ_GGDW-UyxObVEtBGB751sLLOn5tRlt',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Mast-E-Alast ',
+    'nazam': 'assets/kalam_list/english/2.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1HinYqgM4Xh5l7Q2rcMarF5On4iPj7jHM',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1B6DsJ85kNDXE2DRxghsipCcnlDwMMB2i',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1glEbzSRtp7IRJ5X-s6xxXZA5WL4wgba2',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Noor-O-Zuhoor',
+    'nazam': 'assets/kalam_list/english/3.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1QpzthrDxbq_g5ixHeQjd-yj_ScKx79L_',
+
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1fTcZunZ-jbibArlG6Wqx7RifPUYaf3gW',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Raaz He Raaz',
+    'nazam': 'assets/kalam_list/english/4.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1fG8dHqg5GRB29b1n7ondjdLWLmlEsnfZ',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1tiAetiRkxx4PXTdd9E2p80kFh2emh_pE',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1CcQnjOjbDHEgwIN_rYnMW0rurZdCrJEI',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Haal-E-Bismil ',
+    'nazam': 'assets/kalam_list/english/5.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1-yt9oVF3gEbPa685piakLPqjsAZAFfch',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1cDj2XNxfS7sTxteUrRgHft4OLe0u3faZ',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1uxXv09m_46uGZtooe5JduzQ-d9NsL0p2',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Jazb-O-Sulook ',
+    'nazam': 'assets/kalam_list/english/6.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1kFL3bDqiHp0Uv8jfiW4wFrPQR9YVFEYa',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1AaYKS88Hq_1FwOJKs7eb7ygkUdgH7tck',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1r_yL3M1BYGbHriQ3CE689igb_wiLLXUq',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Khayal-E-Yaar ',
+    'nazam': 'assets/kalam_list/english/7.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1ZU_9abVafQfHjI3Tn0uc6rnhkiBe7Nf_',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1VxzQYIoU5JqT2BooMLMRwN3mcbWP9P_X',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1SR3NsaYoiwHRMTUSZrYsm8RYVYqzO1Art',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Faizaan-E-Baari Talaa ',
+    'nazam': 'assets/kalam_list/english/8.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=10UMM_PL_M0UB4gcjECGXr-hml3cgHyl_',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1bi4fDSNVsNlwlv1r49UoyTyo7eWpfGwg',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1L5otGRgXyTyJUZVUwkUfnglyNby8oJkx',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Barrqe Tajalli  ',
+    'nazam': 'assets/kalam_list/english/9.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=12RR8IWz-qtal2W65yTvnKd0OJK3OrFL4',
+
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1jyj9_Ss_ksIQP11_DA42Fpe322mi-3EM',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Sharaab-E-Irfaan ',
+    'nazam': 'assets/kalam_list/english/10.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=12lcZWopS1ob3iGaETi_UbzSGTxzeWdHB',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1BG5sax0LdeVEGuciyPyXBLEDqiblutos',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1gzSJMo9OAvIg93mo-YegJVYHTksvRirC',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Keyamat-E-Hasti ',
+    'nazam': 'assets/kalam_list/english/11.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1LQhlWi7tEqDNn_bzHsTPTgNNYVoL5OgN',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Tasveer-E-Janana',
+    'nazam': 'assets/kalam_list/english/12.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1V17x8zL3wtj5g9iLWtVBFcwQSSq7L0OH',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Jaan-E-Tamanna ',
+    'nazam': 'assets/kalam_list/english/13.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1YJmDsQisR-ZamSLs2RFghUQgjPRYdJvQ',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Zauq-E-Zindagaani ',
+    'nazam': 'assets/kalam_list/english/14.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1ELG-sDDpX6-uXqEAfJ31llT8izzIN0gw',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Khalwath Darr Anjumann ',
+    'nazam': 'assets/kalam_list/english/15.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=19d_xYqpQZRLmIfr4H0V8qZPPjXQQd66i',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Jaamaye Azdaad ',
+    'nazam': 'assets/kalam_list/english/16.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Tark-e-Alayaqh ',
+    'nazam': 'assets/kalam_list/english/17.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Nishaan-E-Manzil ',
+    'nazam': 'assets/kalam_list/english/18.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=15hhT4Uf358VLNAPMilyVqt1-fSbqs0GC',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Kuch Ishaare',
+    'nazam': 'assets/kalam_list/english/19.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1szB1iIH-Y2oxNAlelfGR3qv0RXAgqt0P',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Bae Hamtaa ',
+    'nazam': 'assets/kalam_list/english/20.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1HuVQk-NpOcQz6iIPAssiFhjbVEKJNv36',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Hijab-E-Noor ',
+    'nazam': 'assets/kalam_list/english/21.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=11LbmBjhC0VClGKleVdmbbtsUcYGWiqpa',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Ishq-O-Irfaan ',
+    'nazam': 'assets/kalam_list/english/22.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1JwA_-HD2Qxb11a9650VIAY_CXnANyXDo',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Mareez-E-Ishq ',
+    'nazam': 'assets/kalam_list/english/23.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Harf-O-Hikayath',
+    'nazam': 'assets/kalam_list/english/24.txt',
+
+    'artistPaths': {
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=11hvzO7JL6vj1cBzyCud_67k118X0RfX4',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Azayiem',
+    'nazam': 'assets/kalam_list/english/25.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1ZIjE2afTiQC-Xn7nUJW5HPkWEZK0aKAg',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Hamd-O-Shukr ',
+    'nazam': 'assets/kalam_list/english/26.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1ymy3TP3GlWyyblgCE-JB3ip2Vd-IAge8',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Mayeyath-E-Ellah ',
+    'nazam': 'assets/kalam_list/english/27.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Raabit-E-Mehkam',
+    'nazam': 'assets/kalam_list/english/28.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1dCGnYJogbTwcmVetNAZ0jJx1hmybwXFr',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1SkuruvneZBxhWnvt7T2UNWwLmbx2NzqP',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Huwass Sami-Ul-Baseer',
+    'nazam': 'assets/kalam_list/english/29.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Muqtaar-E-Ghani ',
+    'nazam': 'assets/kalam_list/english/30.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1vYTrz8-AMjCiTsXLOmFvpXSMiyEIrxmM',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Daulat-E-Jaavid ',
+    'nazam': 'assets/kalam_list/english/31.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1C4CryyMSGSsxOq0pDtNyQBcX2OCkvXOt',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Kaif-E-Itlaaq ',
+    'nazam': 'assets/kalam_list/english/32.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1N0K9qLCGFmUfyYckrG7ufiYcHUUudNnM',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1GvUBylf956iuVUlhLsoIEdVQqmhZ-ZZU',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Taalib-E-Maula ',
+    'nazam': 'assets/kalam_list/english/33.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=12LI63azf9cqiTgWz81Eo9sWx1H8-F8Ut',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1YnhMEhWEvPJzrIlmEi4jILe1nS5f7jfp',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Tarjumaani Jazbaat ',
+    'nazam': 'assets/kalam_list/english/34.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Taamir-E-Hayat',
+    'nazam': 'assets/kalam_list/english/35.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Khwaab Se Haqeeqat Tak',
+    'nazam': 'assets/kalam_list/english/36.txt',
+
+    'artistPaths': {
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1uiojHBCG-AcIQx8eg5yDJ0kTfFboOz16',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Talab-E-Haqq',
+    'nazam': 'assets/kalam_list/english/37.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1CWf9uX5FIVfEfRUkyoAYcaHotI20R-Gq',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Yaft-O-Shuhood',
+    'nazam': 'assets/kalam_list/english/38.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Raza Barr Khaza',
+    'nazam': 'assets/kalam_list/english/39.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1Bj2NvCypl6RhOfYQ_t9hOn-TMErLVNfC',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Karam Darr Karam ',
+    'nazam': 'assets/kalam_list/english/40.txt',
+
+    'artistPaths': {
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=15UAtlymfklJmL_vQ4O77W9xowjruk21n',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Raaz-E-Tadbir ',
+    'nazam': 'assets/kalam_list/english/41.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1bj9nKrOXXWRn1n211Tmwdm9Rq0Ho9q6y',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=14y4A6sLt3Woi0dzUeCDQ4dDEQcfeW7Ii',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Aqaayekh ',
+    'nazam': 'assets/kalam_list/english/42.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1NBKQBZBlgBs_f61W1jxa_OeSPszgevry',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=17wEDFYGp85J7yxVrU__tWLwPWK-7Xb6M',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Chashme Beena',
+    'nazam': 'assets/kalam_list/english/43.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=13dXH4N1SeaH8krV_erfm5myf5gWAM1wm',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Aqs-O-Aaina',
+    'nazam': 'assets/kalam_list/english/44.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1rqA65XmIiXdJwM6tfm6wDimepl1lUrD9',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1rmbipw5KsSVvPqShj9sY-Ouk91zMAq61',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Husne Kaar Farmaa',
+    'nazam': 'assets/kalam_list/english/45.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1CSR0FnKRI33vOPiOGljIN9KaY5leZHJA',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1AQRxd0WaFrv5uPBS3VH3qzW9ujFYp_3s',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1cTBbUEg8CAUi_gDPLM-H-fkWwzhR4lwu',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Siraaj-E-Muneer ',
+    'nazam': 'assets/kalam_list/english/46.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1gEjqACWDzaucuyBvvuF08lQUHkOqh6O8',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Sarmaye Hayat',
+    'nazam': 'assets/kalam_list/english/47.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1Cu8vD5ZJIiAdoDigWg_VEMbpH6Bauz6J',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=18QRLyfm9HM_DcVSSzWvWOhKi9RsOn7J5',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Fanaa-O-Baqaa',
+    'nazam': 'assets/kalam_list/english/48.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1VUiM55IpM719M5dBeRmBwxl3P89jyKhJ',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Nafs-E-Mutmainna',
+    'nazam': 'assets/kalam_list/english/49.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1PhCSzKi-E_nF7B2OHWxQDfpH9rPCEyaE',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Ahwaal-E-Kaleemi',
+    'nazam': 'assets/kalam_list/english/50.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1XI7kzsTs6QeNgkbaSdL-Q2co8gnirARu',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1C0pQvNfB_eTAqcRc0l88RDgLoT7k4xaP',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Dawaam-E-Huzoor',
+    'nazam': 'assets/kalam_list/english/51.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=11rHCXABNXlW6IOWIaVdk5OBplJz3VI5N',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1WkSSlmnV3ATpQD1--LH_6GwBK-FFFJWL',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Rashk-E-Sikandari',
+    'nazam': 'assets/kalam_list/english/52.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1Bg4c_MBgd8NeS827-Im7f7yhgpsi9aBK',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1ggLzL-pzL3yDGyLZgFhlShnNvyZDTm_z',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1g_L1-9I2xDdlnUZ71Xp1ddWcGPAI2LTf',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Altaaf-E-Husann',
+    'nazam': 'assets/kalam_list/english/53.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1B5MoWkcdy9ywXqPPhs7B-9Gt2uxCQS0I',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Jaan-E-Firrhang',
+    'nazam': 'assets/kalam_list/english/54.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1ve4qlqZhJ9pDNKGyaXS4ib9zyboWdQ3A',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Ishq-E-Mootabarr ',
+    'nazam': 'assets/kalam_list/english/55.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=14loBweQI1XFVKeE6iz6F0UGvHrwgqaqT',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Umeed-E-Karam',
+    'nazam': 'assets/kalam_list/english/56.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1N41WB33Mz2DY9IR-70Ht32dAGQxEvPD5',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1p2gkkpQN1pKB6ytSEJTbqAoIXeGiFhMs',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Ya Kareem',
+    'nazam': 'assets/kalam_list/english/57.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=12dP79qPXabi4UzgTSDo9OgZhvgNOzJdB',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1qzSapPKIQV9dnGoSIXTTpXt0Z47vEo8b',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Apna Taaruf ',
+    'nazam': 'assets/kalam_list/english/58.txt',
+
+    'artistPaths': {
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1aqiW3WidzKtU_4lBWsQw7KePHUTIhdif',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Tark-E-Ajbaab ',
+    'nazam': 'assets/kalam_list/english/59.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1kN2Z4WX1n9Xpc6Dt76WMg5_MDqLMHk1h',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1egbAfCsEC7MASuUMCiLZwMDPadJ3VzTx',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Hairatoon Ka Safar ',
+    'nazam': 'assets/kalam_list/english/60.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1xjUnIe2DZsRZxcc2r_bGV0lZY5OniMOY',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Lillahiyat',
+    'nazam': 'assets/kalam_list/english/61.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1dMDS6r57T3MDjfjZFz0RDCd8fDGlwKu8',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1IPZM9ql7JGv-nwDNY2wQikksteqEGl51',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Shukar Sadd Shukar ',
+    'nazam': 'assets/kalam_list/english/62.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Faizan-E-Mohabbat ',
+    'nazam': 'assets/kalam_list/english/63.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1FsyOqqXBl7D0r_CPQVfeGCjLX5__iynS',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Shukr-E-Nemat ',
+    'nazam': 'assets/kalam_list/english/64.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=11bzNuo7daWqahJ1dlcmQiFDjZdHCzxWE',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Dua ',
+    'nazam': 'assets/kalam_list/english/65.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1acM86vhRU_Vb-IXqpIerRl7KAgHF3q0U',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Laaihe-E-Amal ',
+    'nazam': 'assets/kalam_list/english/66.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1U0pgsnTrRZfLh3L77ePXZmvm6dnokPX0',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Talqeen-E-Khabr ',
+    'nazam': 'assets/kalam_list/english/67.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+  {
+    'title': 'Fikr-e-Farda ',
+    'nazam': 'assets/kalam_list/english/68.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Mawaiz-e-Hasana ',
+    'nazam': 'assets/kalam_list/english/69.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Lutf-E-Zindagi ',
+    'nazam': 'assets/kalam_list/english/70.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Dawat-e-Haqq ',
+    'nazam': 'assets/kalam_list/english/71.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1V6hRzTuMs0MXZmjuhBnNGQhEFMDST2bw',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Irrtiqaa ',
+    'nazam': 'assets/kalam_list/english/72.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1SgllUpZHX8xOr_L3MnM7fn_SMJ1U7OAj',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Bayan-E-Wafaa ',
+    'nazam': 'assets/kalam_list/english/73.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=1ucXgaugoXKct4Xl4qLPt31F5OsnhTozW',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': 'Ahwal-E-Sulook ',
+    'nazam': 'assets/kalam_list/english/74.txt',
+
+    'artistPaths': {},
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+
+  {
+    'title': ' Sair Fil Wajood ',
+    'nazam': 'assets/kalam_list/english/75.txt',
+
+    'artistPaths': {
+      'Danish':
+          'https://drive.google.com/uc?export=download&id=15dz75Mki3EJ50T6w_MwpZc2CbpiYji3w',
+      'Imran':
+          'https://drive.google.com/uc?export=download&id=1TGAKmTkmrqzd4pIF_F7KFPjw8DsYNL6J',
+      'Arif':
+          'https://drive.google.com/uc?export=download&id=1yS4EGgKQ86ifVxadTdRYQOp2I-0bU04_',
+    },
+    'appBarTitle': 'Ishq-O-Marifat',
+  },
+  /* {
     'title': 'HAMD E BAEHAD',
     'firebaseImagePath': 'kalam/English/Ishq_o_maarifat/Hamde_Behad/',
     'imageAsset': 'assets/kalam_title/english/1.png',
@@ -687,5 +1544,5 @@ final List<Map<String, dynamic>> trackData = [
       'Arif': 'kalam/Audios/Arif/Ishq/75.mp3',
     },
     'appBarTitle': 'Ishq-o-Marifat, Pind-o-Mouzat',
-  },
+  }, */
 ];

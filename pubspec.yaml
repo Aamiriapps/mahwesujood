@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+8
 
 environment:
-  sdk: ^3.7.0-209.1.beta
+  sdk: ^3.8.0-278.2.beta
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -45,6 +45,7 @@ dependencies:
   cached_network_image: ^3.2.3
   store_redirect: ^2.0.1
   just_audio: ^0.10.1
+  auto_size_text: ^3.0.0
  
  
 
@@ -75,9 +76,6 @@ flutter:
    - assets/kalam_list/
    - assets/kalam_list/urdu/
    - assets/kalam_list/english/
-   - assets/kalam_title/
-   - assets/kalam_title/urdu/
-   - assets/kalam_title/english/
    - assets/arabi_list/
    - assets/arabi_list/english/
    - assets/arabi_list/urdu/
@@ -90,17 +88,12 @@ flutter:
    - assets/parsi_list/
    - assets/parsi_list/urdu/
    - assets/parsi_list/english/
-   - assets/parsi_title/
-   - assets/parsi_title/urdu/
-   - assets/parsi_title/english/
-   - assets/salaam_title/
    - assets/salaam_list/
    - assets/salaam_list/urdu/
    - assets/salaam_list/english/
    - assets/arabi_title/
    - assets/arabi_title/urdu/
    - assets/arabi_title/english/
-   - assets/eng_button/
    - assets/audio/
    - assets/sarmadi_list/english/
    - assets/sarmadi_list/urdu/
@@ -117,6 +110,17 @@ flutter:
     - family: Al_Majeed
       fonts:
         - asset: assets/fonts/Al_Majeed_Quranic_Font_shiped.ttf
+
+    - family: Trajan
+      fonts:
+        - asset: assets/fonts/Trajan-Pro-Semibold-.otf 
+
+    - family:  Alvi 
+      fonts:
+        - asset: assets/fonts/Alvi_Nastaleeq.ttf    
+
+
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:

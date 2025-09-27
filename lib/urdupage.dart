@@ -588,6 +588,8 @@ class UrduPage extends StatelessWidget {
 
 import 'dart:ui'; // <--- IMPORTANT for ImageFilter.blur
 import 'package:Mehvesujood/kalam/urdu/arabi/arabi_list.dart';
+import 'package:Mehvesujood/kalam/urdu/noori/noori_list.dart';
+import 'package:Mehvesujood/kalam/urdu/parsi/Farsi_list.dart';
 import 'package:Mehvesujood/kalam/urdu/salaam/salaam_list.dart';
 import 'package:Mehvesujood/kalam/urdu/sarmadi/sarmadi_list.dart';
 import 'package:flutter/material.dart';
@@ -857,7 +859,7 @@ class UrduPage extends StatelessWidget {
             textAlign: TextAlign.center,
             textDirection: TextDirection.rtl,
             style: TextStyle(
-              fontFamily: 'Nastaleeq',
+              fontFamily: 'Alvi',
               fontSize: 35,
               //height: 2,
               color: Colors.white,
@@ -914,21 +916,9 @@ class UrduPage extends StatelessWidget {
                 const IshqList(),
               ),
               buildCustomButton(context, "نعتیں", Naat_list()),
-              buildCustomButton(
-                context,
-                'مناقبِ نوریؒ',
-                const DummyPage(title: 'Munaqib e Noori (RA)'),
-              ),
-              buildCustomButton(
-                context,
-                'نغمۂ سرمدی',
-                SarmadiList(),
-              ),
-              buildCustomButton(
-                context,
-                'قندِ پارسی',
-                const DummyPage(title: 'Qand-e-Parsi'),
-              ),
+              buildCustomButton(context, 'مناقبِ نوریؒ', NooriListUrdu()),
+              buildCustomButton(context, 'نغمۂ سرمدی', SarmadiList()),
+              buildCustomButton(context, 'قندِ پارسی', ParsiList()),
               buildCustomButton(context, 'کلامِ عربی', ArabiList()),
               buildCustomButton(context, 'سلام', SalaamList()),
             ],

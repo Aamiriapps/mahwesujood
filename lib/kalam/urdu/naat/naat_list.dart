@@ -99,7 +99,7 @@ import 'package:Mehvesujood/kalam/urdu/naat/naatTrack.dart';
 import 'package:Mehvesujood/main_drawer.dart';
 import 'package:Mehvesujood/urdutest4.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 import 'package:flutter/services.dart' show rootBundle;
 
 // make sure this is imported for trackData
@@ -121,7 +121,7 @@ class Naat_list extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final tileColors = ['#cbc0b8', '#ddd6ce'];
+    //  final tileColors = ['#cbc0b8', '#ddd6ce'];
 
     return Scaffold(
       extendBodyBehindAppBar: true,
@@ -142,7 +142,7 @@ class Naat_list extends StatelessWidget {
           textAlign: TextAlign.center,
           textDirection: TextDirection.rtl,
           style: TextStyle(
-            fontFamily: 'Nastaleeq',
+            fontFamily: 'Alvi',
             fontSize: 30,
             color: Colors.white,
           ),
@@ -259,7 +259,7 @@ class Naat_list extends StatelessWidget {
                     title: Text(
                       songList[index],
                       style: const TextStyle(
-                        fontFamily: 'Nastaleeq',
+                        fontFamily: 'Alvi',
                         fontSize: 30,
                         color: Colors.white,
                       ),

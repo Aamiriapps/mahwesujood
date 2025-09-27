@@ -228,7 +228,7 @@ class SalaamList extends StatelessWidget {
           textAlign: TextAlign.center,
           textDirection: TextDirection.rtl,
           style: TextStyle(
-            fontFamily: 'Nastaleeq',
+            fontFamily: 'Alvi',
             fontSize: 30,
             color: Colors.white,
           ),
