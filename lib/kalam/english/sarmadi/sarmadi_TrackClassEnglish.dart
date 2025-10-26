@@ -507,7 +507,8 @@ class _TrackPlayerScreenNewState extends State<SarmadiTrackclassenglish> {
                           TextSpan(
                             text: firstLine,
                             style: const TextStyle(
-                              fontSize: 30,
+                              fontSize: 23,
+                              height: 2.5,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -516,7 +517,11 @@ class _TrackPlayerScreenNewState extends State<SarmadiTrackclassenglish> {
                           if (rest.isNotEmpty)
                             TextSpan(
                               text: rest,
-                              style: const TextStyle(fontSize: 12, height: 1.5),
+                              style: const TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.bold,
+                                height: 2,
+                              ),
                             ),
                         ],
                       ),

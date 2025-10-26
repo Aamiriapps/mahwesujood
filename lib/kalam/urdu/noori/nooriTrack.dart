@@ -8,7 +8,7 @@ final List<Map<String, dynamic>> trackData = [
       'Imran':
           'https://drive.google.com/uc?export=download&id=1vczVKn4O8NDjKBKnDJiL8Dd7w1IrhAPO',
     },
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
 
   {
@@ -16,7 +16,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/noori_list/urdu/02.txt',
 
     'artistPaths': {},
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
 
   {
@@ -29,7 +29,7 @@ final List<Map<String, dynamic>> trackData = [
       'Imran':
           'https://drive.google.com/uc?export=download&id=1PEULD5ccry54UQkvz2ME7xsSex89j82u',
     },
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
 
   {
@@ -40,7 +40,7 @@ final List<Map<String, dynamic>> trackData = [
       'Imran':
           'https://drive.google.com/uc?export=download&id=1XEBJzSZPtc2NgQFt2d8IVQVvRpAq7Ofn',
     },
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
 
   {
@@ -48,7 +48,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/noori_list/urdu/05.txt',
 
     'artistPaths': {},
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
 
   {
@@ -59,7 +59,7 @@ final List<Map<String, dynamic>> trackData = [
       'Imran':
           'https://drive.google.com/uc?export=download&id=1dZ4OA0k4dl3ZU3OWbKo7onbMGGbKC02k',
     },
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
 
   {
@@ -70,7 +70,7 @@ final List<Map<String, dynamic>> trackData = [
       'Danish':
           'https://drive.google.com/uc?export=download&id=140gHanDd4jGB_QMRGzWpgHZTlqwtrP0T',
     },
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
 
   {
@@ -78,7 +78,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/noori_list/urdu/08.txt',
 
     'artistPaths': {},
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
 
   {
@@ -90,7 +90,7 @@ final List<Map<String, dynamic>> trackData = [
       'Danish':
           'https://drive.google.com/uc?export=download&id=1IQSCZuKXSfRwrHsiGlqLhEbUuYDt-3YX',
     },
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
 
   /* {
@@ -99,7 +99,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/noori_title/urdu/1.png',
     'imageListAsset': 'assets/noori_list/urdu/1.png',
     'artistPaths': {'Imran': 'kalam/Audios/Imran/Noori/1.mp3'},
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
   {
     'title': 'Sipaas Nama',
@@ -107,7 +107,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/noori_title/urdu/2.png',
     'imageListAsset': 'assets/noori_list/urdu/2.png',
     'artistPaths': {},
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
   {
     'title': 'Faizan-E-Nazar',
@@ -118,7 +118,7 @@ final List<Map<String, dynamic>> trackData = [
       'Danish': 'kalam/Audios/Danish/Noori/3.mp3',
       'Imran': 'kalam/Audios/Imran/Noori/3.mp3',
     },
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
   {
     'title': 'Murshid Se Khitaab',
@@ -129,7 +129,7 @@ final List<Map<String, dynamic>> trackData = [
       'Imran': 'kalam/Audios/Imran/Noori/4.mp3',
       'Arif': 'kalam/Audios/Arif/Noori/4.mp3',
     },
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
   {
     'title': 'Peer Noori',
@@ -137,7 +137,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/noori_title/urdu/5.png',
     'imageListAsset': 'assets/noori_list/urdu/5.png',
     'artistPaths': {},
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
   {
     'title': 'Bargah-E-Mashkhiyath Panaa',
@@ -145,7 +145,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/noori_title/urdu/6.png',
     'imageListAsset': 'assets/noori_list/urdu/6.png',
     'artistPaths': {'Imran': 'kalam/Audios/Imran/Noori/6.mp3'},
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
   {
     'title': 'Yaad-E-Shaikh',
@@ -153,7 +153,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/noori_title/urdu/7.png',
     'imageListAsset': 'assets/noori_list/urdu/7.png',
     'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/7.mp3'},
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
   {
     'title': 'Dyar-E-Noori Ko Rawangi Se Pehle',
@@ -162,7 +162,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/noori_title/urdu/8.png',
     'imageListAsset': 'assets/noori_list/urdu/8.png',
     'artistPaths': {},
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   },
   {
     'title': 'Aye Eind Laib Chalke Chale Din Bahar Ke',
@@ -170,6 +170,6 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/noori_title/urdu/9.png',
     'imageListAsset': 'assets/noori_list/urdu/9.png',
     'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/9.mp3'},
-    'appBarTitle': 'Munaqib-E-Noori',
+    'appBarTitle': 'مناقبِ نوریؒ',
   }, */
 ];

@@ -62,15 +62,21 @@ class _splash_screenState extends State<splash_screen> {
                       color: Colors.white,
                     ),
                   ),
-                  SizedBox(height: 3),
-                  Center(child: Image.asset("assets/g14636.png", width: 100)),
+                  SizedBox(height: 6),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Center(
+                      child: Image.asset("assets/g14636.png", width: 100),
+                    ),
+                  ),
                   SizedBox(height: 8),
                   Text(
-                    'Mehwe Sujood',
+                    'Mehve Sujood',
                     style: TextStyle(
                       fontFamily: 'Trajan',
                       color: Colors.white,
                       fontSize: 30,
+                      fontWeight: FontWeight.w900,
                     ),
                   ),
                   SizedBox(height: 10),

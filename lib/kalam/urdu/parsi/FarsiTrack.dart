@@ -4,7 +4,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/parsi_list/urdu/01.txt',
 
     'artistPaths': {},
-    'appBarTitle': 'Qand-E-Parsi',
+    'appBarTitle': 'قندِ پارسی',
   },
 
   {
@@ -12,7 +12,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/parsi_list/urdu/02.txt',
 
     'artistPaths': {},
-    'appBarTitle': 'Qand-E-Parsi',
+    'appBarTitle': 'قندِ پارسی',
   },
 
   {
@@ -20,7 +20,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/parsi_list/urdu/03.txt',
 
     'artistPaths': {},
-    'appBarTitle': 'Qand-E-Parsi',
+    'appBarTitle': 'قندِ پارسی',
   },
 
   {
@@ -28,7 +28,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/parsi_list/urdu/04.txt',
 
     'artistPaths': {},
-    'appBarTitle': 'Qand-E-parsi',
+    'appBarTitle': 'قندِ پارسی',
   },
 
   {
@@ -36,7 +36,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/parsi_list/urdu/05.txt',
 
     'artistPaths': {},
-    'appBarTitle': 'Qand-E-Parsi',
+    'appBarTitle': 'قندِ پارسی',
   },
 
   {
@@ -44,7 +44,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/parsi_list/urdu/06.txt',
 
     'artistPaths': {},
-    'appBarTitle': 'Qand-E-Parsi',
+    'appBarTitle': 'قندِ پارسی',
   },
 
   {
@@ -52,7 +52,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/parsi_list/urdu/07.txt',
 
     'artistPaths': {},
-    'appBarTitle': 'Qand-E-Parsi',
+    'appBarTitle': 'قندِ پارسی',
   },
   /* {
     'title': 'Yaar-O-Aghyaar',

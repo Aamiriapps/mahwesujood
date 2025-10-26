@@ -1389,13 +1389,12 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreenArabic> {
     try {
       final String loadedText = await rootBundle.loadString(widget.nazam);
       setState(() {
-        stanzas =
-            loadedText
-                .trim()
-                .split(RegExp(r'\n\s*\n'))
-                .map((s) => s.trim())
-                .where((s) => s.isNotEmpty)
-                .toList();
+        stanzas = loadedText
+            .trim()
+            .split(RegExp(r'\n\s*\n'))
+            .map((s) => s.trim())
+            .where((s) => s.isNotEmpty)
+            .toList();
       });
     } catch (e) {
       debugPrint('❌ Error loading kalam: $e');
@@ -1568,17 +1567,16 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreenArabic> {
                                 child: Icon(
                                   isAudioAvailable
                                       ? (isPlaying
-                                          ? Icons.pause_rounded
-                                          : Icons.play_arrow_rounded)
+                                            ? Icons.pause_rounded
+                                            : Icons.play_arrow_rounded)
                                       : Icons.music_off_rounded,
                                   size: (buttonDiameter * 0.45).clamp(
                                     36.0,
                                     120.0,
                                   ),
-                                  color:
-                                      isAudioAvailable
-                                          ? const Color(0xFFab9a87)
-                                          : Colors.white,
+                                  color: isAudioAvailable
+                                      ? const Color(0xFFab9a87)
+                                      : Colors.white,
                                 ),
                               ),
                             ),
@@ -1640,71 +1638,65 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreenArabic> {
                 child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Row(
-                    children:
-                        widget.artistPaths.keys.map((artist) {
-                          bool isSelected = selectedArtist == artist;
-                          return GestureDetector(
-                            onTap: () async {
-                              if (selectedArtist != artist) {
-                                setState(() {
-                                  selectedArtist = artist;
-                                  isPlaying = false;
-                                  currentPosition = Duration.zero;
-                                  totalDuration = Duration.zero;
-                                });
-                                await audioPlayer.stop();
-                                await setAudio();
-                              }
-                            },
-                            child: Padding(
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 8.0,
-                              ),
-                              child: Column(
-                                children: [
-                                  Container(
-                                    padding: const EdgeInsets.all(3),
-                                    decoration: BoxDecoration(
-                                      shape: BoxShape.circle,
-                                      border: Border.all(
-                                        color:
-                                            isSelected
-                                                ? const Color(0xFF92772C)
-                                                : const Color(0xFF2F2005),
-                                        width: 3,
-                                      ),
-                                    ),
-                                    child: ClipOval(
-                                      child: Container(
-                                        color: Colors.white,
-                                        child: Image.asset(
-                                          'assets/$artist.png',
-                                          width: 70,
-                                          height: 70,
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
+                    children: widget.artistPaths.keys.map((artist) {
+                      bool isSelected = selectedArtist == artist;
+                      return GestureDetector(
+                        onTap: () async {
+                          if (selectedArtist != artist) {
+                            setState(() {
+                              selectedArtist = artist;
+                              isPlaying = false;
+                              currentPosition = Duration.zero;
+                              totalDuration = Duration.zero;
+                            });
+                            await audioPlayer.stop();
+                            await setAudio();
+                          }
+                        },
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                          child: Column(
+                            children: [
+                              Container(
+                                padding: const EdgeInsets.all(3),
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  border: Border.all(
+                                    color: isSelected
+                                        ? const Color(0xFF92772C)
+                                        : const Color(0xFF2F2005),
+                                    width: 3,
+                                  ),
+                                ),
+                                child: ClipOval(
+                                  child: Container(
+                                    color: Colors.white,
+                                    child: Image.asset(
+                                      'assets/$artist.png',
+                                      width: 70,
+                                      height: 70,
+                                      fit: BoxFit.cover,
                                     ),
                                   ),
-                                  const SizedBox(height: 6),
-                                  Text(
-                                    artist,
-                                    style: TextStyle(
-                                      color:
-                                          isSelected
-                                              ? const Color(0xFF92772C)
-                                              : Colors.white,
-                                      fontWeight:
-                                          isSelected
-                                              ? FontWeight.bold
-                                              : FontWeight.normal,
-                                    ),
-                                  ),
-                                ],
+                                ),
                               ),
-                            ),
-                          );
-                        }).toList(),
+                              const SizedBox(height: 6),
+                              Text(
+                                artist,
+                                style: TextStyle(
+                                  color: isSelected
+                                      ? const Color(0xFF92772C)
+                                      : Colors.white,
+                                  fontWeight: isSelected
+                                      ? FontWeight.bold
+                                      : FontWeight.normal,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      );
+                    }).toList(),
                   ),
                 ),
               ),
@@ -1761,16 +1753,16 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreenArabic> {
                       textAlign: TextAlign.center,
                       textDirection: TextDirection.rtl,
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
+                        fontFamily: 'Mush',
                         height: 2.0,
                         fontSize: 35,
                         color: Colors.white,
                       ),
-                      /* style: GoogleFonts.gulzar(
+                      /*  style: GoogleFonts.katibeh(
                         height: 2.5,
                         fontSize: 35,
                         color: Colors.white,
-                      ) */
+                      ), */
                     ),
                   ),
                 ),
@@ -1808,12 +1800,11 @@ class SemiCircleProgressPainter extends CustomPainter {
     final center = Offset(size.width / 2, size.height - (buttonDiameter / 2));
     final radius = (size.width / 2) - (strokeWidth / 2);
 
-    final backgroundPaint =
-        Paint()
-          ..color = Colors.grey.withOpacity(0.18)
-          ..strokeWidth = strokeWidth
-          ..style = PaintingStyle.stroke
-          ..strokeCap = StrokeCap.round;
+    final backgroundPaint = Paint()
+      ..color = Colors.grey.withOpacity(0.18)
+      ..strokeWidth = strokeWidth
+      ..style = PaintingStyle.stroke
+      ..strokeCap = StrokeCap.round;
 
     canvas.drawArc(
       Rect.fromCircle(center: center, radius: radius),
@@ -1823,16 +1814,15 @@ class SemiCircleProgressPainter extends CustomPainter {
       backgroundPaint,
     );
 
-    final progressPaint =
-        Paint()
-          ..shader = LinearGradient(
-            colors: [Color(0xFFab9a87), Color(0xFF92772C), Color(0xFF2F2005)],
-            begin: Alignment.centerLeft,
-            end: Alignment.centerRight,
-          ).createShader(Rect.fromCircle(center: center, radius: radius))
-          ..strokeWidth = strokeWidth
-          ..style = PaintingStyle.stroke
-          ..strokeCap = StrokeCap.round;
+    final progressPaint = Paint()
+      ..shader = LinearGradient(
+        colors: [Color(0xFFab9a87), Color(0xFF92772C), Color(0xFF2F2005)],
+        begin: Alignment.centerLeft,
+        end: Alignment.centerRight,
+      ).createShader(Rect.fromCircle(center: center, radius: radius))
+      ..strokeWidth = strokeWidth
+      ..style = PaintingStyle.stroke
+      ..strokeCap = StrokeCap.round;
 
     final sweepAngle = math.pi * progress.clamp(0.0, 1.0);
     canvas.drawArc(

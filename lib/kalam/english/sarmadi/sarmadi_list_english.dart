@@ -43,7 +43,7 @@ class SarmadiListEnglish extends StatelessWidget {
         centerTitle: true,
         title: Text(
           'English',
-          style: GoogleFonts.robotoCondensed(
+          style: GoogleFonts.cormorantGaramond(
             textStyle: const TextStyle(color: Colors.white),
           ),
         ),

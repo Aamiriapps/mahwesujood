@@ -488,7 +488,7 @@ class _TrackPlayerScreenNewState extends State<TrackClassEnglishNew> {
         centerTitle: true,
         title: Text(
           widget.appBarTitle,
-          style: GoogleFonts.robotoCondensed(
+          style: GoogleFonts.cormorantGaramond(
             textStyle: const TextStyle(color: Colors.white),
           ),
         ),

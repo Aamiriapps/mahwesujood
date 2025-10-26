@@ -83,8 +83,9 @@ class ArabiList extends StatelessWidget {
             return ListView.builder(
               itemCount: songList.length,
               itemBuilder: (context, index) {
-                final track =
-                    index < trackData.length ? trackData[index] : null;
+                final track = index < trackData.length
+                    ? trackData[index]
+                    : null;
 
                 return Container(
                   margin: const EdgeInsets.symmetric(
@@ -116,26 +117,24 @@ class ArabiList extends StatelessWidget {
                     ],
                   ),
                   child: ListTile(
-                    onTap:
-                        track != null
-                            ? () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder:
-                                      (_) => TrackPlayerScreenArabic(
-                                        title: track['title'],
-                                        nazam: track['nazam'],
+                    onTap: track != null
+                        ? () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => TrackPlayerScreenArabic(
+                                  title: track['title'],
+                                  nazam: track['nazam'],
 
-                                        artistPaths: Map<String, String>.from(
-                                          track['artistPaths'],
-                                        ),
-                                        appBarTitle: track['appBarTitle'],
-                                      ),
+                                  artistPaths: Map<String, String>.from(
+                                    track['artistPaths'],
+                                  ),
+                                  appBarTitle: track['appBarTitle'],
                                 ),
-                              );
-                            }
-                            : null,
+                              ),
+                            );
+                          }
+                        : null,
                     trailing: Container(
                       width: 40,
                       height: 40,
@@ -161,7 +160,8 @@ class ArabiList extends StatelessWidget {
                       songList[index],
                       textAlign: TextAlign.center,
                       textDirection: TextDirection.rtl,
-                      style: GoogleFonts.gulzar(
+                      style: TextStyle(
+                        fontFamily: 'Al_Majeed',
                         fontSize: 30,
                         color: Colors.white,
                       ),

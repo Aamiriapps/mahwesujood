@@ -7,7 +7,6 @@ import 'package:Mehvesujood/englishPage.dart';
 import 'package:Mehvesujood/urdupage.dart';
 import 'package:Mehvesujood/urdutest4.dart';
 
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -45,7 +44,7 @@ class MainDrawer extends StatelessWidget {
               SizedBox(height: 30.0),
               ListTile(
                 title: Text(
-                  'Mehwe Sujood',
+                  'Mehve Sujood',
                   style: GoogleFonts.robotoCondensed(
                     textStyle: TextStyle(fontSize: 22, color: Colors.white),
                     fontWeight: FontWeight.bold,
@@ -70,7 +69,7 @@ class MainDrawer extends StatelessWidget {
                 },
               ),
 
-               ListTile(
+              /* ListTile(
                 leading: Icon(Icons.home, color: Colors.white),
                 title: Text(
                   'Test2',
@@ -96,7 +95,8 @@ class MainDrawer extends StatelessWidget {
                     ),
                   );
                 },
-              ),/* 
+              ), */
+              /* 
               ListTile(
                 leading: Icon(Icons.home, color: Colors.white),
                 title: Text(
@@ -251,6 +251,17 @@ class MainDrawer extends StatelessWidget {
                 onTap: () {
                   exit(0);
                 },
+              ),
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Text(
+                  'Source: Mehve Sujood Book',
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.white,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
               ),
               SizedBox(height: 600.0),
             ],

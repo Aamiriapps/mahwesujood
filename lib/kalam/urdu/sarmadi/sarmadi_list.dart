@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:Mehvesujood/TrackClassArabic.dart';
+//import 'package:Mehvesujood/TrackClassArabic.dart';
 import 'package:Mehvesujood/TrackClassSarmadiUrdu.dart';
 import 'package:flutter/material.dart';
 import 'package:Mehvesujood/main_drawer.dart';
@@ -85,8 +85,9 @@ class SarmadiList extends StatelessWidget {
             return ListView.builder(
               itemCount: songList.length,
               itemBuilder: (context, index) {
-                final track =
-                    index < trackData.length ? trackData[index] : null;
+                final track = index < trackData.length
+                    ? trackData[index]
+                    : null;
 
                 return Container(
                   margin: const EdgeInsets.symmetric(
@@ -118,26 +119,24 @@ class SarmadiList extends StatelessWidget {
                     ],
                   ),
                   child: ListTile(
-                    onTap:
-                        track != null
-                            ? () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder:
-                                      (_) => Trackclasssarmadiurdu(
-                                        title: track['title'],
-                                        nazam: track['nazam'],
+                    onTap: track != null
+                        ? () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => Trackclasssarmadiurdu(
+                                  title: track['title'],
+                                  nazam: track['nazam'],
 
-                                        artistPaths: Map<String, String>.from(
-                                          track['artistPaths'],
-                                        ),
-                                        appBarTitle: track['appBarTitle'],
-                                      ),
+                                  artistPaths: Map<String, String>.from(
+                                    track['artistPaths'],
+                                  ),
+                                  appBarTitle: track['appBarTitle'],
                                 ),
-                              );
-                            }
-                            : null,
+                              ),
+                            );
+                          }
+                        : null,
                     trailing: Container(
                       width: 40,
                       height: 40,

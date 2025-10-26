@@ -187,6 +187,7 @@ import 'dart:ui';
 import 'package:Mehvesujood/TrackClassArabic.dart';
 import 'package:Mehvesujood/kalam/urdu/salaam/salaamTrack.dart';
 import 'package:Mehvesujood/main_drawer.dart';
+import 'package:Mehvesujood/urdutest4.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -267,8 +268,9 @@ class SalaamList extends StatelessWidget {
             return ListView.builder(
               itemCount: songList.length,
               itemBuilder: (context, index) {
-                final track =
-                    index < trackData.length ? trackData[index] : null;
+                final track = index < trackData.length
+                    ? trackData[index]
+                    : null;
 
                 return Container(
                   margin: const EdgeInsets.symmetric(
@@ -300,26 +302,24 @@ class SalaamList extends StatelessWidget {
                     ],
                   ),
                   child: ListTile(
-                    onTap:
-                        track != null
-                            ? () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder:
-                                      (_) => TrackPlayerScreenArabic(
-                                        title: track['title'],
-                                        nazam: track['nazam'],
+                    onTap: track != null
+                        ? () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => TrackPlayerScreen4(
+                                  title: track['title'],
+                                  nazam: track['nazam'],
 
-                                        artistPaths: Map<String, String>.from(
-                                          track['artistPaths'],
-                                        ),
-                                        appBarTitle: track['appBarTitle'],
-                                      ),
+                                  artistPaths: Map<String, String>.from(
+                                    track['artistPaths'],
+                                  ),
+                                  appBarTitle: track['appBarTitle'],
                                 ),
-                              );
-                            }
-                            : null,
+                              ),
+                            );
+                          }
+                        : null,
                     trailing: Container(
                       width: 40,
                       height: 40,
@@ -345,7 +345,8 @@ class SalaamList extends StatelessWidget {
                       songList[index],
                       textAlign: TextAlign.center,
                       textDirection: TextDirection.rtl,
-                      style: GoogleFonts.gulzar(
+                      style: TextStyle(
+                        fontFamily: 'Al_Majeed',
                         fontSize: 30,
                         color: Colors.white,
                       ),

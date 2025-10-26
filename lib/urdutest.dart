@@ -646,13 +646,12 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen> {
     try {
       final String loadedText = await rootBundle.loadString('assets/5.txt');
       setState(() {
-        stanzas =
-            loadedText
-                .trim()
-                .split(RegExp(r'\n\s*\n'))
-                .map((s) => s.trim())
-                .where((s) => s.isNotEmpty)
-                .toList();
+        stanzas = loadedText
+            .trim()
+            .split(RegExp(r'\n\s*\n'))
+            .map((s) => s.trim())
+            .where((s) => s.isNotEmpty)
+            .toList();
       });
       print('✅ Loaded ${stanzas.length} stanzas');
     } catch (e) {

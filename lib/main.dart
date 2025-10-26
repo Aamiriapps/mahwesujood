@@ -8,6 +8,16 @@ void main() async {
 
   runApp(
     MaterialApp(
+      theme: ThemeData(
+        scaffoldBackgroundColor: Colors.transparent,
+        canvasColor: Colors.transparent,
+        primaryColor: Colors.black,
+        splashColor: Colors.transparent,
+        highlightColor: Colors.transparent,
+        colorScheme: ColorScheme.dark(
+          background: Colors.black, // <-- underlay fallback color
+        ),
+      ),
       debugShowCheckedModeBanner: false,
       routes: {'/': (context) => splash_screen()},
     ),

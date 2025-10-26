@@ -117,7 +117,19 @@ flutter:
 
     - family:  Alvi 
       fonts:
-        - asset: assets/fonts/Alvi_Nastaleeq.ttf    
+        - asset: assets/fonts/Alvi_Nastaleeq.ttf  
+
+    - family:  Mush 
+      fonts:
+        - asset: assets/fonts/Al_Mushaf.ttf 
+
+    - family:  Saleem 
+      fonts:
+        - asset: assets/fonts/_PDMS_Saleem_QuranFont.ttf  
+        
+    - family:  Al_Qalam 
+      fonts:
+        - asset: assets/fonts/Al_Qalam_Quran_Majeed.ttf 
 
 
 

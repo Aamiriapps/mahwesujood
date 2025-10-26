@@ -697,7 +697,7 @@ class Englishpage extends StatelessWidget {
         centerTitle: true,
         title: Text(
           'English',
-          style: GoogleFonts.robotoCondensed(
+          style: GoogleFonts.cormorantGaramond(
             height: 2,
             textStyle: const TextStyle(color: Colors.white),
           ),
@@ -727,13 +727,14 @@ class Englishpage extends StatelessWidget {
                 'Munaqib-e-Noori(RA)',
                 NooriListEnglish(),
               ),
+              buildCustomButton(context, 'Qand-e-Parsi', ParsiListEnglish()),
+              buildCustomButton(context, 'Kalaam-e-Arabi', Arabilistenglish()),
               buildCustomButton(
                 context,
                 'Naghmaye Sarmadi',
                 SarmadiListEnglish(),
               ),
-              buildCustomButton(context, 'Qand-e-Parsi', ParsiListEnglish()),
-              buildCustomButton(context, 'Kalaam-e-Arabi', Arabilistenglish()),
+
               buildCustomButton(context, 'Salaam', SalaamListEnglish()),
             ],
           ),

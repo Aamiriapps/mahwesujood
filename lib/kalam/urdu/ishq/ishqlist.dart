@@ -73,8 +73,9 @@ class IshqList extends StatelessWidget {
             return ListView.builder(
               itemCount: songList.length,
               itemBuilder: (context, index) {
-                final track =
-                    index < trackData.length ? trackData[index] : null;
+                final track = index < trackData.length
+                    ? trackData[index]
+                    : null;
 
                 return Container(
                   margin: const EdgeInsets.symmetric(
@@ -109,26 +110,24 @@ class IshqList extends StatelessWidget {
                     ],
                   ),
                   child: ListTile(
-                    onTap:
-                        track != null
-                            ? () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder:
-                                      (_) => TrackPlayerScreen4(
-                                        title: track['title'],
-                                        nazam: track['nazam'],
+                    onTap: track != null
+                        ? () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => TrackPlayerScreen4(
+                                  title: track['title'],
+                                  nazam: track['nazam'],
 
-                                        artistPaths: Map<String, String>.from(
-                                          track['artistPaths'],
-                                        ),
-                                        appBarTitle: track['appBarTitle'],
-                                      ),
+                                  artistPaths: Map<String, String>.from(
+                                    track['artistPaths'],
+                                  ),
+                                  appBarTitle: track['appBarTitle'],
                                 ),
-                              );
-                            }
-                            : null,
+                              ),
+                            );
+                          }
+                        : null,
                     trailing: Container(
                       width: 40,
                       height: 40,

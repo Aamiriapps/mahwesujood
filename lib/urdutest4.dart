@@ -1704,8 +1704,63 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen4> {
     }
   }
 
-  /// 🔑 Parser for Urdu + Arabic markers
   List<TextSpan> parseStanza(String stanza) {
+    final regex = RegExp(r'\[AR\](.*?)\[\/AR\]', dotAll: true);
+    final spans = <TextSpan>[];
+    int lastIndex = 0;
+
+    for (final match in regex.allMatches(stanza)) {
+      if (match.start > lastIndex) {
+        // Add Urdu text before Arabic
+        spans.add(
+          TextSpan(
+            text: stanza.substring(lastIndex, match.start),
+            style: const TextStyle(
+              fontFamily: 'Alvi',
+              fontSize: 35,
+              color: Colors.white,
+              height: 1.6,
+            ),
+          ),
+        );
+      }
+
+      // Add Arabic text inside [AR]...[/AR]
+      spans.add(
+        TextSpan(
+          text: match.group(1),
+          style: const TextStyle(
+            fontFamily: 'Al_Majeed',
+            fontSize: 35,
+            color: Colors.white,
+            height: 1.6,
+          ),
+        ),
+      );
+
+      lastIndex = match.end;
+    }
+
+    // Add remaining Urdu text
+    if (lastIndex < stanza.length) {
+      spans.add(
+        TextSpan(
+          text: stanza.substring(lastIndex),
+          style: const TextStyle(
+            fontFamily: 'Alvi',
+            fontSize: 35,
+            color: Colors.white,
+            height: 1.6,
+          ),
+        ),
+      );
+    }
+
+    return spans;
+  }
+
+  /// 🔑 Parser for Urdu + Arabic markers
+  /* List<TextSpan> parseStanza(String stanza) {
     final regex = RegExp(r'\[AR\](.*?)\[\/AR\]');
     final spans = <TextSpan>[];
     int lastIndex = 0;
@@ -1740,7 +1795,7 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen4> {
       lastIndex = match.end;
     }
 
-    if (lastIndex < stanza.length) {
+  /*   if (lastIndex < stanza.length) {
       // Add remaining Urdu text
       spans.add(
         TextSpan(
@@ -1752,10 +1807,10 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen4> {
           ),
         ),
       );
-    }
+    } */
 
     return spans;
-  }
+  } */
 
   @override
   Widget build(BuildContext context) {
@@ -1788,9 +1843,7 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen4> {
         centerTitle: true,
         title: Text(
           widget.appBarTitle,
-          style: GoogleFonts.robotoCondensed(
-            textStyle: const TextStyle(color: Colors.white),
-          ),
+          style: TextStyle(fontFamily: 'Alvi', color: Colors.white),
         ),
       ),
       body: Container(
@@ -1888,8 +1941,8 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen4> {
                                 child: Icon(
                                   isAudioAvailable
                                       ? (isPlaying
-                                          ? Icons.pause_rounded
-                                          : Icons.play_arrow_rounded)
+                                            ? Icons.pause_rounded
+                                            : Icons.play_arrow_rounded)
                                       : Icons.music_off_rounded,
                                   size: (buttonDiameter * 0.45).clamp(
                                     36.0,
@@ -1975,8 +2028,7 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen4> {
                           }
                         },
                         child: Padding(
-                          padding:
-                              const EdgeInsets.symmetric(horizontal: 8.0),
+                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
                           child: Column(
                             children: [
                               Container(
@@ -2030,7 +2082,7 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen4> {
               widget.title,
               textAlign: TextAlign.center,
               style: const TextStyle(
-                fontFamily: 'Nastaleeq',
+                fontFamily: 'Alvi',
                 fontSize: 45,
                 color: Colors.white,
               ),

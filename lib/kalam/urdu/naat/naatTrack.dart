@@ -13,7 +13,7 @@ final List<Map<String, dynamic>> trackData = [
       'Arif':
           'https://drive.google.com/uc?export=download&id=1ZOYeJqZtOVkvsDI-Gdz789YzcT8iztwo',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
 
   {
@@ -28,7 +28,7 @@ final List<Map<String, dynamic>> trackData = [
       'Arif':
           'https://drive.google.com/uc?export=download&id=15lRbKIJmkejfikufXyBnmqLfSSepC8QT',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
 
   {
@@ -41,7 +41,7 @@ final List<Map<String, dynamic>> trackData = [
       'Imran':
           'https://drive.google.com/uc?export=download&id=1tsOBdhjUQB14O-lin1KSTOXfzsvy05oB',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
 
   {
@@ -54,7 +54,7 @@ final List<Map<String, dynamic>> trackData = [
       'Imran':
           'https://drive.google.com/uc?export=download&id=1ew73387gpX9J1jCSgsFdiiToLGJISJMC',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
 
   {
@@ -67,7 +67,7 @@ final List<Map<String, dynamic>> trackData = [
       'Imran':
           'https://drive.google.com/uc?export=download&id=1Y0_D8oZefx9VBK8qgxfxRWJO-QZ9NqgV',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
 
   {
@@ -75,7 +75,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/naat_list/urdu/06.txt',
 
     'artistPaths': {},
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
 
   {
@@ -88,7 +88,7 @@ final List<Map<String, dynamic>> trackData = [
       'Imran':
           'https://drive.google.com/uc?export=download&id=1iwa_qV8UP90GFWtLOeWDPUrlnS7pqN_H',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
 
   {
@@ -99,7 +99,7 @@ final List<Map<String, dynamic>> trackData = [
       'Danish':
           'https://drive.google.com/uc?export=download&id=1e2tAVTjTRJmVTJp9lCGChD2UJtIusUlc',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
 
   {
@@ -110,7 +110,7 @@ final List<Map<String, dynamic>> trackData = [
       'Danish':
           'https://drive.google.com/uc?export=download&id=11fycdInu7wgfdSjmHaqbWW-kO_lA_9uf',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
 
   {
@@ -121,7 +121,7 @@ final List<Map<String, dynamic>> trackData = [
       'Danish':
           'https://drive.google.com/uc?export=download&id=1fdwt5wERJEh2meg-xsRsD0kXLr8f87Yc',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
 
   {
@@ -132,7 +132,7 @@ final List<Map<String, dynamic>> trackData = [
       'Imran':
           'https://drive.google.com/uc?export=download&id=1qt6rPg9KhV4ymmg4WeJwpwFb_SBW-Qg-',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
 
   /* {
@@ -145,7 +145,7 @@ final List<Map<String, dynamic>> trackData = [
       'Imran': 'kalam/Audios/Imran/Naat/2.mp3',
       'Arif': 'kalam/Audios/Arif/naat/2.mp3',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
   {
     'title': 'Khaasaye Khaasan-E-Rusul',
@@ -156,7 +156,7 @@ final List<Map<String, dynamic>> trackData = [
       'Danish': 'kalam/Audios/Danish/naat/3.mp3',
       'Imran': 'kalam/Audios/Imran/Naat/3.mp3',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
   {
     'title': 'Armaghan-E-Naat',
@@ -167,7 +167,7 @@ final List<Map<String, dynamic>> trackData = [
       'Danish': 'kalam/Audios/Danish/naat/4.mp3',
       'Imran': 'kalam/Audios/Imran/Naat/4.mp3',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
   {
     'title': 'Madeene Wale',
@@ -178,7 +178,7 @@ final List<Map<String, dynamic>> trackData = [
       'Danish': 'kalam/Audios/Danish/naat/5.mp3',
       'Imran': 'kalam/Audios/Imran/Naat/5.mp3',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
   {
     'title': 'Tajdar-E-Madeena',
@@ -186,7 +186,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/naat_title/urdu/6.png',
     'imageListAsset': 'assets/naat_list/urdu/6.png',
     'artistPaths': {},
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
   {
     'title': 'Meraaj-E-Abdiyath',
@@ -197,7 +197,7 @@ final List<Map<String, dynamic>> trackData = [
       'Danish': 'kalam/Audios/Danish/naat/7.mp3',
       'Imran': 'kalam/Audios/Imran/Naat/7.mp3',
     },
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
   {
     'title': 'Sahib-E-Laulaak ﷺ',
@@ -205,7 +205,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/naat_title/urdu/8.png',
     'imageListAsset': 'assets/naat_list/urdu/8.png',
     'artistPaths': {'Danish': 'kalam/Audios/Danish/naat/8.mp3'},
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
   {
     'title': 'Sarapa Noor',
@@ -213,7 +213,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/naat_title/urdu/9.png',
     'imageListAsset': 'assets/naat_list/urdu/9.png',
     'artistPaths': {'Danish': 'kalam/Audios/Danish/naat/9.mp3'},
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
   {
     'title': 'Aye Sayyadi Mukhtaar',
@@ -221,7 +221,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/naat_title/urdu/10.png',
     'imageListAsset': 'assets/naat_list/urdu/10.png',
     'artistPaths': {'Danish': 'kalam/Audios/Danish/naat/10.mp3'},
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   },
   {
     'title': 'Mai Waari Tum Par Jaon Nabiji',
@@ -229,7 +229,7 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/naat_title/urdu/11.png',
     'imageListAsset': 'assets/naat_list/urdu/11.png',
     'artistPaths': {'Imran': 'kalam/Audios/Imran/Naat/11.mp3'},
-    'appBarTitle': 'Naat-e-Nabi ﷺ',
+    'appBarTitle': 'نعتیں',
   }, */
   // Add more track maps here...
 ];
