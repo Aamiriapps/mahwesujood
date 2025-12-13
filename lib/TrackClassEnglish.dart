@@ -710,7 +710,7 @@ class _TrackPlayerScreenNewState extends State<TrackClassEnglishNew> {
                                 artist,
                                 style: TextStyle(
                                   color: isSelected
-                                      ? const Color(0xFF92772C)
+                                      ? Colors.white 
                                       : Colors.white,
                                   fontWeight: isSelected
                                       ? FontWeight.bold

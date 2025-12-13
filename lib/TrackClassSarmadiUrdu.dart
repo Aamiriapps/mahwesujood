@@ -272,9 +272,10 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
 
                   // Artist Name or Audio coming soon
                   Text(
-                    isAudioAvailable ? selectedArtist : "Audio coming soon",
+                    isAudioAvailable ? selectedArtist : "آڈیو جلد آرہی ہے",
                     style: const TextStyle(
-                      fontSize: 20,
+                      fontFamily: 'Alvi',
+                      fontSize: 28,
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
                     ),
@@ -366,8 +367,10 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                               Text(
                                 artist,
                                 style: TextStyle(
+                                  fontFamily: 'Alvi',
+                                  fontSize: 19,
                                   color: isSelected
-                                      ? const Color(0xFF92772C)
+                                      ? Colors.white
                                       : Colors.white,
                                   fontWeight: isSelected
                                       ? FontWeight.bold
@@ -382,13 +385,26 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   ),
                 ),
               ),
+            const SizedBox(height: 10),
+
+            Text(
+              widget.title,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                fontFamily: 'Alvi',
+                fontSize: 45,
+                color: Colors.white,
+              ),
+            ),
+
+            const SizedBox(height: 10),
             DecoratedTextBlock(
               spans: [
                 TextSpan(
                   text: "اَﷲُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -401,7 +417,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "تیری خاطر میں پھرتا ہوں اب کو بکو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -409,7 +425,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "اَﷲُ ",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -417,15 +433,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "کے سِوا کچھ نہیں جستجو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَﷲُ   اَﷲُ   اَﷲُ   اَﷲُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -449,7 +465,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلرَّحْمٰنُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -464,17 +480,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "مان رحمان کو",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text:
-                          "لَا شَرِیْکَ لَہُ\n"
-                          "اَﷲُ   اَﷲُ   اَﷲُ   اَﷲُ\n",
+                      text: "لَا شَرِیْکَ لَہُ\n",
                       style: TextStyle(
                         fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontSize: 27,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -498,7 +520,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلرَّحِیْمُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -513,20 +535,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "جانِ ہر خوبرو    جلوہ کن    روبرو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَﷲُ   اَﷲُ   اَﷲُ   اَﷲُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -543,7 +565,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمَلِکُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -558,15 +580,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "کائناتِ جہاں ہست    در    دستِ او\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَﷲُ   اَﷲُ   اَﷲُ   اَﷲُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -591,7 +613,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْقُدُّوْسُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -606,15 +628,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "تا زِ غیبش کُشا ید در خِیر اُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -636,7 +658,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
               spans: [
                 TextSpan(
                   text: "  اَلْسَّلَامُ\n",
-                  style: GoogleFonts.amiri(fontSize: 40, color: Colors.white),
+                  style: GoogleFonts.amiri(fontSize: 32, color: Colors.white),
                 ),
                 TextSpan(
                   children: [
@@ -644,7 +666,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "اَلسَّلَامُ عَلَیکَ ",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 34,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -657,20 +679,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "تو ہی تو کی ہے یہ با ہمی گفتگو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -687,7 +709,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُؤْمِنُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -702,15 +724,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "امن تجھ سے ہے ملتا کہ مومن ہے تُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -732,7 +754,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُھَیْمِنُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -747,15 +769,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "اپنے کیا غیروں کا بھی مھیمن ہے تُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -777,7 +799,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْعَزِیْزُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -792,15 +814,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "جان لے اُس کی قدرت سے بچتا ہے تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -824,7 +846,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْجَبَّارُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -839,15 +861,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "اس کی جبّاریت کو سمجھ عدل تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -869,7 +891,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُتَکَبِّرُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -884,15 +906,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "۱؎    کبِریائی    یقیناً         سزاورِ     اُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -916,7 +938,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْخَالِقُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -931,15 +953,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "خلق    آئینہ ء  خالق ست اے کُفو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -961,7 +983,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْبَارِئُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -976,15 +998,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "بے پدر جلوۂ حق رہے روبرو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1006,7 +1028,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُصَوِّرُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1021,15 +1043,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ورنہ ہوتے کہاں یہ حسیں ماہرو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1051,7 +1073,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْغَفَّارُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1066,15 +1088,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "بول غفّار تو       اور      ستّار     تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1096,7 +1118,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْقَھَّارُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1110,30 +1132,32 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "کیا بچے   گا   بچائے   گا  کوئی    گدا\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
                       text: "اَالَا ماں اَلَاماں ",
-                      style: GoogleFonts.amiri(
-                        fontSize: 40,
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
+
                     TextSpan(
                       text: "  کی ہے بس گفتگو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1141,7 +1165,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text:
                           "━━━━❀❀❀━━━━\n"
                           "۱؎ جب اس نے قہر و عتاب نازل فرما\n"
-                          "نے کا فیصلہ فرمادیا \n",
+                          "نے کا فیصلہ فرمادیا ",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -1158,7 +1182,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْوَھَّابُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1173,15 +1197,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہم عدم تھے! کیا  جس نے موجود   تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1203,7 +1227,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلرَّزَّاقُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1218,15 +1242,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "دینے   والا   تو  ہی  لینے والے سبھو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1248,7 +1272,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْفَتَّاحُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1263,15 +1287,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "بند کرنے میں تو کھولنے میں بھی تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1293,7 +1317,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْعَلِیْمُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1308,15 +1332,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "بے خبر کی خبر کے لئے بس ہے تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1338,7 +1362,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْقَابِضُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1353,15 +1377,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "اس   لئے    بیکسوں    کا  مددگار       تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1383,7 +1407,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْبَاسِطُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1393,7 +1417,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "یَقبِضُ      یَبسُطُ",
                       style: TextStyle(
                         fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -1404,7 +1428,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "  تیرے قبضے میں",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -1412,7 +1436,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "اَنفُس ",
                       style: TextStyle(
                         fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -1423,15 +1447,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "قبض میں بھی ہے تو بسط میں بھی ہے تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1453,7 +1477,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْخَافِضُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1468,15 +1492,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہم تو سب  جھک گئے  اب  اٹھائے   تو تُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1498,7 +1522,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلرَّافِعُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1513,15 +1537,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "تیری رفعت کو جانے تو بس تُو ہی تُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -1543,7 +1567,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُعِزُّ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1553,15 +1577,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "تو",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "ّ مُعِز ",
+                      text: "ّ مُعِزِّ ",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -1574,7 +1598,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "تُو    ",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -1582,7 +1606,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "مُعِزِّ ",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -1590,20 +1614,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "حقیقی      ہے      تجھ  میں  علُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -1620,7 +1644,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُذِلُّ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1628,7 +1652,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "ہے ",
                   style: TextStyle(
                     fontFamily: 'Alvi',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1638,7 +1662,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "مُذِلِّ ",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -1651,20 +1675,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "عزّتیں ہیں تری ،عزّتوں  میں  ہے  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -1681,7 +1705,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلسَّمِیْعُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1696,20 +1720,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہم سنائیں  تجھے  اور  شنوا  ہے  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -1726,7 +1750,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْبَصِیْرُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1741,20 +1765,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "دیکھتا بھی ہے  تو   اور  دکھاتا  بھی  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -1771,7 +1795,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْحَکَمُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1786,20 +1810,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "تو حَکم  ہے  حقیقی   خدائے   عَفو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -1816,7 +1840,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْعَدَلُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1828,7 +1852,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ظلم سے    تو      بری  ہے  ",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -1836,7 +1860,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: " اَعَز ّ  و    اَجَل\n",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -1847,20 +1871,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "عدل میں بھی ہے تو فضل میں بھی ہے تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -1877,7 +1901,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَللَّطِیْفُُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1892,20 +1916,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے لطیف  و   لطافت  بھی  لطف  بھی تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -1922,7 +1946,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْخَبِیْرُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1937,20 +1961,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے خبیرِحقیقی   تو   بس  تُو  ہی  تُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -1967,7 +1991,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْحَلِیْمُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -1982,20 +2006,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "مقتدر   ہوکے  بھی  ہے  حلیم  ایسا تُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2012,7 +2036,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْعَظِیْمُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2025,15 +2049,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "خالقِ    جز   و   کُل  رَبّ ِ   آدم   تو      ہی\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "حَا کِم   ُ الحَکُمَاء ",
+                      text: "حَا کِمُ الحَکُمَاء ",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -2043,20 +2067,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے عظیمِ دو عالم  بھی  عظمت بھی  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2073,7 +2097,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْغَفُوْرُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2088,20 +2112,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے غفوری   تری  مغفرت میں  ہے  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2118,7 +2142,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلشَّکُوْرُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2133,20 +2157,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے شکور ِحقیقی   شکور     ایسا         تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2163,7 +2187,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْعَلِیُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2178,20 +2202,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے   عُلو   مرتبت     اور     بلند ی   بھی    تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2208,7 +2232,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْکَبِیْرُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2223,15 +2247,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے   بڑے  سے   بڑا       اور   بڑائی میں تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -2241,7 +2265,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "  ۱؎ حضرت مصنف دامت برکاتہم نے قصداً \n"
                           "مقامی زبان استعمال کی ہے\n"
                           "  ہماری طرف سہانا زیب دینے کے \n"
-                          "معنوں میں بولا جاتا ہے\n",
+                          "معنوں میں بولا جاتا ہے",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2258,7 +2282,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْحَفِیْظُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2273,20 +2297,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ظاہراً    باطناً     ہے   حفیظ     ایسا      تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2303,7 +2327,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُقِیْتُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2318,20 +2342,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے    مقیتِ   حقیقی   تو        رز ّا ق    تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2348,17 +2372,17 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْحَسِیْبُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
                 TextSpan(
                   children: [
                     TextSpan(
-                      text: "حَسبُنا اللہ ُ ",
+                      text: "حَسبُنااﷲُ ُ ",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -2370,29 +2394,29 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "وہ   اگر    مل  گیا  تو  ہو   اس  پر فدا\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
                       text:
-                          "مَن تَوَکَّل     عَلیَ   اللّٰہ  ھُوَ     حَسْبُہ‘    \n",
+                          "مَن تَوَکَّل     عَلیَ   اللّٰہ  ھُوَ     حَسْبُہ‘  \n",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2409,7 +2433,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْجَلِیْلُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2424,23 +2448,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے  جمال   و    کمال   و     جلالت    میں  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -2454,7 +2478,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْکَرِیْمُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2469,20 +2493,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "بس کرم   اتنا  ہو  کہ  ملے  ہم  کو تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2499,7 +2523,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلرَّقِیْبُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2514,20 +2538,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "تو   نگہباں  ہے  جب  کیا  ہو  خوففِ  عدو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2544,7 +2568,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُجِیْبُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2559,23 +2583,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "میری  بھی  سن  دعا   سننے   والا  ہے  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -2589,7 +2613,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْوَاسِعُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2604,20 +2628,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "وسعتوں میں بھی تو    اور      واسع   بھی  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2634,7 +2658,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْحَکِیْمُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2649,20 +2673,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "سب حکیممِ    مجازی     ،    حقیقی     ہے    تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2679,7 +2703,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْوَدُوْدُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2694,23 +2718,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "عاشقوں  میں  تجھی  سے ہے یہ رنگ  و  بو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -2724,7 +2748,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمَجِیْدُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2739,23 +2763,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "مجد   تیرا   مجید ِ  دو      عالم     ہے       تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -2769,7 +2793,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْبَاْعِثُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2784,28 +2808,28 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "باعثی    ہے  تری ",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "‘لَا   شَرِیْکَ لَہ\n",
+                      text: "لَا   شَرِیْکَ لَہ‘\n",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2822,7 +2846,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلشَّھِیْدُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2836,7 +2860,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "تجھ سے کوئی چھپا  اور   نہ  کوئی جدا\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -2844,20 +2868,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "وَالشَّھِیْدُ ھُوَ الشَّاھِدُ یَشْھَدُ\n",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2874,7 +2898,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْحَقُّ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2889,20 +2913,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "حق ہے تو حق ہے تو حق ہے تو حق ہے  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2919,7 +2943,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْوَکِیْلُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2934,20 +2958,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "کارسازی  میں  تو  رہبری  میں  بھی  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -2964,7 +2988,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْقَوِیُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -2979,23 +3003,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "بالیقیں   ہے    قوی    بے    گماں   تو   ہی    تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -3009,7 +3033,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمَتِیْنُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3024,23 +3048,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے  قوی  و  متین  اے  خداوند   تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -3054,7 +3078,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: " اَلْوَلِیُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3069,20 +3093,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "کیا کرے اس  سےبڑھ کر کوئی   آرزو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3099,7 +3123,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْحَمِیْدُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3114,20 +3138,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "لائقِ   حمد  تو   مالک ِ    حمد   تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3144,7 +3168,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُحْصِیُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3159,15 +3183,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "سب   کا   محصی   ہے بس  خالق ِ   خلق    تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -3191,7 +3215,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "  اَلْمُبْدِئُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3206,20 +3230,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "سارے عالم کا مبدئ ہے بس ایک تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3236,7 +3260,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُعِیْدُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3251,28 +3275,28 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے  مُعیدِ    حقیقی      تو    ہی",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "‘وَحْدَہ \n",
+                      text: "وَحْدَہ‘ \n",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3289,7 +3313,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُعْیِ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3304,23 +3328,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "زندگی  دینے  والے  محی  ہے  تو  تُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -3334,7 +3358,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُمِیْتُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3349,20 +3373,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "مرنے  والا  مرا     اس  میں  کیا  گفتگو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3379,7 +3403,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْحَیُّ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3394,20 +3418,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "مردہ ہم ،زندہ تُو، زندگی میں بھی تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3424,7 +3448,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: " اَلْقَیُّوْمُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3439,20 +3463,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "تصدقے  جائیں  قیام  و   بقا    میں  ہے  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3469,7 +3493,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْوَاجِدُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3484,20 +3508,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "تُو  ہے  واجد  یقیناً  ہے  موجود    تُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
+                        fontFamily: 'Alvi',
                         fontSize: 34,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3514,7 +3538,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمَاجِدُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3529,20 +3553,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہم سے کیا ہو بھلا ہم نہیں سب ہے تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3559,7 +3583,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْوَاحِدُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3569,15 +3593,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "تو   اکیلا  ہے  ساتھی  کوئی  بھی  نہیں\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
                       text: "لَاشَرِیکَ لَہ‘",
                       style: TextStyle(
-                        fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontFamily: 'Al_Majeed',
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -3585,15 +3609,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "میں نبیؐ بھی نہیں\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "َا اِلٰہ‘",
+                      text: "َ لَااِلٰہ‘",
                       style: TextStyle(
-                        fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontFamily: 'Al_Majeed',
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -3601,15 +3625,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "کہا  تو    ولی   بھی   نہیں\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
                       text: "وَحدَہ‘",
                       style: TextStyle(
-                        fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontFamily: 'Al_Majeed',
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -3617,15 +3641,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: " کہدیا    تو  کوئی  بھی نہیں\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
                       text: "وَحْدَہ‘ لَا شَرِیْکَ لَہ‘  ‘",
                       style: TextStyle(
-                        fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontFamily: 'Al_Majeed',
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -3633,20 +3657,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: " تو   ہی  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3674,15 +3698,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "اس طرح ذات میں  مختفی ھُو ہی ھُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -3706,7 +3730,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلصَّمَدُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3721,20 +3745,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "لامکاں  کا   مکیں  ہے  تو  بس  تو  ہی  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3751,7 +3775,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْقَادِرُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3766,20 +3790,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "میرا   مالک  ہے  تو  میرا    قادر  ہے  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3796,7 +3820,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُقْتَدِرُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3811,20 +3835,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے   رضا   بر    قضا   میں   مری    آبرہ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -3841,7 +3865,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُقَدِّمُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3853,10 +3877,10 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "جتنے   آگے   بڑھے   وہ   معظم  ہوئے\n"
                           "دین  کی  دی   کرامت  مکرَّم    ہوئے\n"
                           "جس کو   دی  حرمتیں  وہ  محرَّم  ہوئے\n"
-                          "ساری   تقدیم  تیری   \n",
+                          "ساری   تقدیم  تیری ",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -3864,7 +3888,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "مُقَدِّم",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -3872,23 +3896,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "ہے   تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -3902,7 +3926,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُؤَخِّرُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -3912,7 +3936,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "جن  کو   پیچھے  کیا   وہ",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -3920,7 +3944,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "مُؤَخَّر",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -3930,7 +3954,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "    ہر عمل میں گھٹے    وہ ",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -3938,7 +3962,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "مُحَقَّر   ",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -3950,7 +3974,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "یہ  ہے  تاخیر  تیری",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -3958,7 +3982,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "مُؤَخِّر",
                       style: TextStyle(
                         fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -3966,23 +3990,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "ہے   تُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -3996,7 +4020,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْاَوَّلُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4011,23 +4035,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "سب خدائی سے اوّل ہی اوّل ہے تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4039,7 +4063,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
               spans: [
                 TextSpan(
                   text: "اَلْا ٰخِرُ \n",
-                  style: GoogleFonts.amiri(fontSize: 40, color: Colors.white),
+                  style: GoogleFonts.amiri(fontSize: 32, color: Colors.white),
                 ),
                 TextSpan(
                   children: [
@@ -4050,15 +4074,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "خود    ",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
                       text: "  ھُوَا لا ٰخِرُ",
                       style: TextStyle(
-                        fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontFamily: 'Al_Majeed',
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -4066,15 +4090,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "اکا    نظارہ    کرے\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "وَحْدَہ‘ لَا شَرِیْکَ لَہ‘  \n",
+                      text: "وَحْدَہ‘ لَا شَرِیْکَ لَہ‘ ",
                       style: TextStyle(
-                        fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontFamily: 'Al_Majeed',
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
@@ -4084,20 +4108,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "خود   اکیلا   کہے   جائے   گا     اللہُ ُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -4114,7 +4138,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلظَّاھِرُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4129,7 +4153,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "حق بہ صورتِ شئے ہے",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -4137,23 +4161,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: " ھُوَ الظَّاھِرُ\n",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4167,7 +4191,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْبَاطِنُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4182,20 +4206,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ظاہراً      باطناً        بس        وجوداً         ہے     تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -4212,7 +4236,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْوَالِیُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4227,15 +4251,15 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "اس   ولایت   کا   والی   فقط  تو  ہی   تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ \n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ \n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -4262,7 +4286,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُتَعَالِیُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4277,23 +4301,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہے  بلند  تو   ہی  تو  ہے  بلند  تو  ہی  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4307,7 +4331,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْبَرُّ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4322,23 +4346,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "بدہماری صفت اور برّ  ہے تو   تُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4352,7 +4376,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلتَّوَابُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4367,23 +4391,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "کرلے تو بہ اسی میں ہے بس   آبرو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4397,7 +4421,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُنْتَقِمُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4412,20 +4436,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "بدلہ لیتا ہے حق اس میں کیا گفتگو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -4442,7 +4466,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْعَفَوُّ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4457,23 +4481,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "اس لئے نام اس نے رکھا ہے عفُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4487,7 +4511,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلرَّؤُوْفُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4502,23 +4526,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "شد  رَؤوْفٌ   رَّحِیْمْ  ہمچناں   اسمِ  او\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4532,7 +4556,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: " مَالِکَ الْمُلْکُ\n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4546,7 +4570,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "بس  وجوداً    خدا   کا   احاطہ  ہے  سب\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -4554,23 +4578,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "لَاشَرِیْکَ لَہ‘ وَلَہ‘ مُلکہ‘\n",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4582,7 +4606,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
               spans: [
                 TextSpan(
                   text: "ذَالْجَلَالِی وَالْاِ کْرَامُ\n",
-                  style: GoogleFonts.lateef(fontSize: 40, color: Colors.white),
+                  style: GoogleFonts.lateef(fontSize: 32, color: Colors.white),
                 ),
                 TextSpan(
                   children: [
@@ -4595,23 +4619,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "چوں جلالت صفت و جلیل اسمِ او\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4625,7 +4649,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُقْسِطُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4640,23 +4664,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "زیں  وجہ  تو   بخوانیش  یا  مُقسِطُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4670,7 +4694,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْجَامِعُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4685,23 +4709,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "فَا ذْکُرُوْہ‘ وَ قُولُوْا    لَہ‘ جَامِعُ\n",
                       style: TextStyle(
                         fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4715,7 +4739,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْغَنِیُّ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4730,23 +4754,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           " اَیُّھَا الْفُقَرَآءُ فَقُو لُوا لَہ‘\n",
                       style: TextStyle(
                         fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4760,7 +4784,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمُغْنِیُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4775,23 +4799,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           " رَبُّنَا مُغْنِی وَ الْعَالَمُ عَبدُہ‘\n",
                       style: TextStyle(
                         fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4805,7 +4829,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْمَانِعُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4820,23 +4844,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "وَلِذَا اِنَّکَ الْمُعْطِیُ الْمَانِعُ\n",
                       style: TextStyle(
                         fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4850,7 +4874,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلضَّآرُّ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4865,23 +4889,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "فَا د عُہ‘ بِاسمِہٖ اِنَّہ‘ الضَّآرُّ\n",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4895,7 +4919,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلنَّافِعُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Majeed',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4904,29 +4928,29 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                     TextSpan(
                       text:
                           "وَھُوَ النَّافِعُ نَفْعُہ‘ عِنْدَہ‘\n"
-                          "     اِن اَرَدتَّ النَّفَعْ فَاَرِد عِنْدَہ ‘\n"
-                          "   اِنَّہ‘ لَیْسَ بِمُخْلِفٍ  وَّعدَہ ‘\n"
-                          "   مِنْہ‘ یَاتِیکَ نَفْعُکَ یَا عَبدَہ ‘\n"
+                          "     اِن اَرَدتَّ النَّفَعْ فَاَرِد عِنْدَہ \n"
+                          "   اِنَّہ‘ لَیْسَ بِمُخْلِفٍ  وَّعدَہ \n"
+                          "   مِنْہ‘ یَاتِیکَ نَفْعُکَ یَا عَبدَہ \n"
                           "  فَا طْلُبُوا النَّفْعُ قُولُوا لَہُ النَّافِعُ  \n",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4940,7 +4964,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلنُّورُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -4955,23 +4979,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "بعد  ازاں  نورِ  عرفاں  بود  نورِ اُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -4985,7 +5009,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْھَادِیُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -5000,23 +5024,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "ہست    ہادی    نبیؐ    از     خداوندِ    اُو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -5030,7 +5054,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْبَدِیْعُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -5045,23 +5069,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "      پس  بداں   ایں  کمال ِ   خداواندِ    تو،\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -5075,7 +5099,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْبَاقِیُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -5089,7 +5113,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "  ہست  فنا   از  گدا    و   بقا     از    خدا\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -5097,23 +5121,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: "عِنْدَنا یَنْفَدُ وَالْبَقَا عِنْدہ‘\n",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
+                        fontSize: 27,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -5127,7 +5151,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلْوَارِثُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -5142,23 +5166,23 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "    اس کو   وارث  سمجھتے  ہوئے  مانگ  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 27,
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -5172,7 +5196,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلرَّشِیْدُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -5180,14 +5204,14 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   children: [
                     TextSpan(
                       text:
-                          "آفریدنِ  حق  بے    مثال    آمدہ\n"
-                          "اَوَّلا ً       پیدا     کر دہ     ہمہ  خلق      را\n"
-                          "بعد ازاں  صورتش    را      اعادہ    شدہ \n"
-                          " گشت بدیع  او  سماوات   و   الارض    را\n"
-                          "  پس  بداں   ایں  کمال ِ   خداواندِ    تو،\n",
+                          "دین  کے  مرحلوں  میں  رشیدی  کو   پا\n"
+                          "تا  ملے  تجھ  کو بھی   رُشد   کا   مرتبہ\n"
+                          "رُشد   وہ   فہم  ہے  جس  سے  ملتا   خدا\n"
+                          "جس  کو    یہ  مل  گیا  وہ   تو   راشد  بنا\n"
+                          "پھر کمالِ ",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
@@ -5195,31 +5219,31 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                       text: " تَعَدِّی",
                       style: TextStyle(
                         fontFamily: 'Al_Qalam',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "   تَعَدِّی   میں مرشِد    ہے  تو\n",
-                      style: TextStyle(
-                        fontFamily: 'Alvi',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
-                      style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
-                      style: TextStyle(
-                        fontFamily: 'Alvi',
                         fontSize: 27,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: " میں مرشِد    ہے  تو\n",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 32,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "━━━━❀❀❀━━━━",
+                      style: TextStyle(
+                        fontFamily: 'Alvi',
+                        fontSize: 28,
                         color: Colors.white,
                       ),
                     ),
@@ -5233,7 +5257,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                   text: "اَلصَّبُوْرُ \n",
                   style: TextStyle(
                     fontFamily: 'Al_Qalam',
-                    fontSize: 40,
+                    fontSize: 32,
                     color: Colors.white,
                   ),
                 ),
@@ -5248,20 +5272,20 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           "بخش دے   میرے  غفّار  و    صبّار  تو\n",
                       style: TextStyle(
                         fontFamily: 'Alvi',
-                        fontSize: 40,
+                        fontSize: 32,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "اَللّٰہُ   اَللّٰہُ   اَللّٰہُ   اَللّٰہُ\n",
+                      text: "اﷲُ   اﷲُ   اﷲُ   اﷲُ\n",
                       style: TextStyle(
-                        fontFamily: 'Al_Majeed',
-                        fontSize: 40,
+                        fontFamily: 'Alvi',
+                        fontSize: 30,
                         color: Colors.white,
                       ),
                     ),
                     TextSpan(
-                      text: "━━━━❀❀❀━━━━\n",
+                      text: "━━━━❀❀❀━━━━",
                       style: TextStyle(
                         fontFamily: 'Alvi',
                         fontSize: 28,
@@ -5323,7 +5347,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
 
                           style: const TextStyle(
                             fontFamily: 'Alvi',
-                            fontSize: 35,
+                            fontSize: 32,
                             color: Colors.white,
                           ),
                         ),
@@ -5394,7 +5418,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
 
                           style: const TextStyle(
                             fontFamily: 'Alvi',
-                            fontSize: 35,
+                            fontSize: 32,
                             color: Colors.white,
                           ),
                         ),
@@ -5403,7 +5427,7 @@ class _TrackclasssarmadiurduState extends State<Trackclasssarmadiurdu> {
                           text: "اللہ ُ   اللہ  ُ  اللہ ُ   اللہُ ",
                           style: TextStyle(
                             fontFamily: 'Saleem',
-                            fontSize: 35,
+                            fontSize: 32,
                             color: Colors.white,
                           ),
                         ),

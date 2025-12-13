@@ -1590,7 +1590,7 @@ import 'dart:ui';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
+//import 'package:google_fonts/google_fonts.dart';
 import 'main_drawer.dart';
 
 class TrackPlayerScreen4 extends StatefulWidget {
@@ -1964,9 +1964,11 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen4> {
 
                   // Artist Name
                   Text(
-                    isAudioAvailable ? selectedArtist : "Audio coming soon",
+                    isAudioAvailable ? selectedArtist : "آڈیو جلد آرہی ہے",
                     style: const TextStyle(
-                      fontSize: 20,
+                      fontFamily: 'Alvi',
+                      fontSize: 28,
+
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
                     ),
@@ -2058,8 +2060,10 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreen4> {
                               Text(
                                 artist,
                                 style: TextStyle(
+                                  fontFamily: 'Alvi',
+                                  fontSize: 19,
                                   color: isSelected
-                                      ? const Color(0xFF92772C)
+                                      ? Colors.white
                                       : Colors.white,
                                   fontWeight: isSelected
                                       ? FontWeight.bold

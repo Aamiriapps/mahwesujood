@@ -1590,9 +1590,10 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreenArabic> {
 
                   // Artist Name or Audio coming soon
                   Text(
-                    isAudioAvailable ? selectedArtist : "Audio coming soon",
+                    isAudioAvailable ? selectedArtist : "آڈیو جلد آرہی ہے",
                     style: const TextStyle(
-                      fontSize: 20,
+                      fontFamily: 'Alvi',
+                      fontSize: 28,
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
                     ),
@@ -1684,8 +1685,10 @@ class _TrackPlayerScreenState extends State<TrackPlayerScreenArabic> {
                               Text(
                                 artist,
                                 style: TextStyle(
+                                  fontFamily: 'Alvi',
+                                  fontSize: 19,
                                   color: isSelected
-                                      ? const Color(0xFF92772C)
+                                      ? Colors.white
                                       : Colors.white,
                                   fontWeight: isSelected
                                       ? FontWeight.bold

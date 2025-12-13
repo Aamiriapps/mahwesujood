@@ -6,11 +6,11 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/01.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1N4T0MZ2sKi4JQK5uvus7muH95DgTIov2',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1KtqbInPHvajS52EVt-8jaXVk96-8I1Wb',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1PZ_GGDW-UyxObVEtBGB751sLLOn5tRlt',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -21,12 +21,14 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/02.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1HinYqgM4Xh5l7Q2rcMarF5On4iPj7jHM',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1B6DsJ85kNDXE2DRxghsipCcnlDwMMB2i',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1glEbzSRtp7IRJ5X-s6xxXZA5WL4wgba2',
+      'کفیل آمری':
+          'https://drive.google.com/uc?export=download&id=14ljoccX-tIvNRFX2N7KCNBGkjF4x0XDx',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -36,10 +38,10 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/03.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1QpzthrDxbq_g5ixHeQjd-yj_ScKx79L_',
 
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1fTcZunZ-jbibArlG6Wqx7RifPUYaf3gW',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -50,11 +52,11 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/04.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1fG8dHqg5GRB29b1n7ondjdLWLmlEsnfZ',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1tiAetiRkxx4PXTdd9E2p80kFh2emh_pE',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1CcQnjOjbDHEgwIN_rYnMW0rurZdCrJEI',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -65,11 +67,11 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/05.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1-yt9oVF3gEbPa685piakLPqjsAZAFfch',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1cDj2XNxfS7sTxteUrRgHft4OLe0u3faZ',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1uxXv09m_46uGZtooe5JduzQ-d9NsL0p2',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -80,11 +82,11 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/06.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1kFL3bDqiHp0Uv8jfiW4wFrPQR9YVFEYa',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1AaYKS88Hq_1FwOJKs7eb7ygkUdgH7tck',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1r_yL3M1BYGbHriQ3CE689igb_wiLLXUq',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -95,12 +97,14 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/07.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1ZU_9abVafQfHjI3Tn0uc6rnhkiBe7Nf_',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1VxzQYIoU5JqT2BooMLMRwN3mcbWP9P_X',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1SR3NsaYoiwHRMTUSZrYsm8RYVYqzO1Art',
+      'صدیق  آمری':
+          'https://drive.google.com/uc?export=download&id=1wSks20LXnfM5FeTOaYiBMisrl8kuXHQA',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -110,12 +114,14 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/08.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=10UMM_PL_M0UB4gcjECGXr-hml3cgHyl_',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1bi4fDSNVsNlwlv1r49UoyTyo7eWpfGwg',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1L5otGRgXyTyJUZVUwkUfnglyNby8oJkx',
+      'صدیق  آمری':
+          'https://drive.google.com/uc?export=download&id=1pn1M1ZCEbw-dqx5Ny-K_YBf9EsGB1hvT',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -125,10 +131,10 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/09.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=12RR8IWz-qtal2W65yTvnKd0OJK3OrFL4',
 
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1jyj9_Ss_ksIQP11_DA42Fpe322mi-3EM',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -139,11 +145,11 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/10.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=12lcZWopS1ob3iGaETi_UbzSGTxzeWdHB',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1BG5sax0LdeVEGuciyPyXBLEDqiblutos',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1gzSJMo9OAvIg93mo-YegJVYHTksvRirC',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -154,7 +160,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/11.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1LQhlWi7tEqDNn_bzHsTPTgNNYVoL5OgN',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -165,7 +171,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/12.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1V17x8zL3wtj5g9iLWtVBFcwQSSq7L0OH',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -176,7 +182,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/13.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1YJmDsQisR-ZamSLs2RFghUQgjPRYdJvQ',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -187,7 +193,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/14.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1ELG-sDDpX6-uXqEAfJ31llT8izzIN0gw',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -198,8 +204,10 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/15.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=19d_xYqpQZRLmIfr4H0V8qZPPjXQQd66i',
+      'صدیق  آمری':
+          'https://drive.google.com/uc?export=download&id=1KzkzecLwzRaSg2smn67h1wabKtCcxdH4',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -217,6 +225,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/17.txt',
 
     'artistPaths': {},
+    'کفیل آمری':
+        'https://drive.google.com/uc?export=download&id=1piCf3Nsg1jXpg0EWTnBVO2MuK7ZhWmHl',
+
     'appBarTitle': 'عشق و معرفت',
   },
 
@@ -225,7 +236,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/18.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=15hhT4Uf358VLNAPMilyVqt1-fSbqs0GC',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -236,7 +247,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/19.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1szB1iIH-Y2oxNAlelfGR3qv0RXAgqt0P',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -247,7 +258,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/20.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1HuVQk-NpOcQz6iIPAssiFhjbVEKJNv36',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -258,8 +269,10 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/21.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=11LbmBjhC0VClGKleVdmbbtsUcYGWiqpa',
+      'عارف  آمری':
+          'https://drive.google.com/uc?export=download&id=1it5ZdRb8M6U75ZLlrYRIQ2kCjZdJxQow',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -269,7 +282,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/22.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1JwA_-HD2Qxb11a9650VIAY_CXnANyXDo',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -288,7 +301,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/24.txt',
 
     'artistPaths': {
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=11hvzO7JL6vj1cBzyCud_67k118X0RfX4',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -299,7 +312,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/25.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1ZIjE2afTiQC-Xn7nUJW5HPkWEZK0aKAg',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -310,7 +323,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/26.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1ymy3TP3GlWyyblgCE-JB3ip2Vd-IAge8',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -329,10 +342,12 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/28.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1dCGnYJogbTwcmVetNAZ0jJx1hmybwXFr',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1SkuruvneZBxhWnvt7T2UNWwLmbx2NzqP',
+      'کفیل آمری':
+          'https://drive.google.com/uc?export=download&id=1ZuMrQR2xGVj90DMY975akA_kL5MFETNj',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -350,7 +365,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/30.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1vYTrz8-AMjCiTsXLOmFvpXSMiyEIrxmM',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -361,7 +376,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/31.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1C4CryyMSGSsxOq0pDtNyQBcX2OCkvXOt',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -372,9 +387,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/32.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1N0K9qLCGFmUfyYckrG7ufiYcHUUudNnM',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1GvUBylf956iuVUlhLsoIEdVQqmhZ-ZZU',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -385,10 +400,12 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/33.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=12LI63azf9cqiTgWz81Eo9sWx1H8-F8Ut',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1YnhMEhWEvPJzrIlmEi4jILe1nS5f7jfp',
+      'کفیل آمری':
+          'https://drive.google.com/uc?export=download&id=1lk58yAdk1x64lZ-naWtrDXnd39PAKO25',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -414,7 +431,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/36.txt',
 
     'artistPaths': {
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1uiojHBCG-AcIQx8eg5yDJ0kTfFboOz16',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -425,7 +442,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/37.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1CWf9uX5FIVfEfRUkyoAYcaHotI20R-Gq',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -444,7 +461,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/39.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1Bj2NvCypl6RhOfYQ_t9hOn-TMErLVNfC',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -455,8 +472,10 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/40.txt',
 
     'artistPaths': {
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=15UAtlymfklJmL_vQ4O77W9xowjruk21n',
+      'کفیل آمری':
+          'https://drive.google.com/uc?export=download&id=19iXPpYcPusS31_mM-Tnah4Tgm1Q-2qAH',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -466,9 +485,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/41.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1bj9nKrOXXWRn1n211Tmwdm9Rq0Ho9q6y',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=14y4A6sLt3Woi0dzUeCDQ4dDEQcfeW7Ii',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -479,9 +498,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/42.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1NBKQBZBlgBs_f61W1jxa_OeSPszgevry',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=17wEDFYGp85J7yxVrU__tWLwPWK-7Xb6M',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -492,7 +511,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/43.txt',
 
     'artistPaths': {
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=13dXH4N1SeaH8krV_erfm5myf5gWAM1wm',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -503,9 +522,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/44.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1rqA65XmIiXdJwM6tfm6wDimepl1lUrD9',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1rmbipw5KsSVvPqShj9sY-Ouk91zMAq61',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -516,11 +535,11 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/45.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1CSR0FnKRI33vOPiOGljIN9KaY5leZHJA',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1AQRxd0WaFrv5uPBS3VH3qzW9ujFYp_3s',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1cTBbUEg8CAUi_gDPLM-H-fkWwzhR4lwu',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -531,7 +550,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/46.txt',
 
     'artistPaths': {
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1gEjqACWDzaucuyBvvuF08lQUHkOqh6O8',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -542,9 +561,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/47.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1Cu8vD5ZJIiAdoDigWg_VEMbpH6Bauz6J',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=18QRLyfm9HM_DcVSSzWvWOhKi9RsOn7J5',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -555,7 +574,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/48.txt',
 
     'artistPaths': {
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1VUiM55IpM719M5dBeRmBwxl3P89jyKhJ',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -566,7 +585,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/49.txt',
 
     'artistPaths': {
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1PhCSzKi-E_nF7B2OHWxQDfpH9rPCEyaE',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -577,9 +596,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/50.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1XI7kzsTs6QeNgkbaSdL-Q2co8gnirARu',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1C0pQvNfB_eTAqcRc0l88RDgLoT7k4xaP',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -590,9 +609,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/51.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=11rHCXABNXlW6IOWIaVdk5OBplJz3VI5N',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1WkSSlmnV3ATpQD1--LH_6GwBK-FFFJWL',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -603,12 +622,16 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/52.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1Bg4c_MBgd8NeS827-Im7f7yhgpsi9aBK',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1ggLzL-pzL3yDGyLZgFhlShnNvyZDTm_z',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1g_L1-9I2xDdlnUZ71Xp1ddWcGPAI2LTf',
+      'کفیل آمری':
+          'https://drive.google.com/uc?export=download&id=13vwsqItE62yodL5soarSI4n4SkiKZX7h',
+      'صدیق  آمری':
+          'https://drive.google.com/uc?export=download&id=1CNkM4wT1ybgHk1hMNj1jxHkO11B9GDl_',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -618,7 +641,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/53.txt',
 
     'artistPaths': {
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1B5MoWkcdy9ywXqPPhs7B-9Gt2uxCQS0I',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -629,7 +652,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/54.txt',
 
     'artistPaths': {
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1ve4qlqZhJ9pDNKGyaXS4ib9zyboWdQ3A',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -640,7 +663,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/55.txt',
 
     'artistPaths': {
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=14loBweQI1XFVKeE6iz6F0UGvHrwgqaqT',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -651,9 +674,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/56.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1N41WB33Mz2DY9IR-70Ht32dAGQxEvPD5',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1p2gkkpQN1pKB6ytSEJTbqAoIXeGiFhMs',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -664,9 +687,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/57.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=12dP79qPXabi4UzgTSDo9OgZhvgNOzJdB',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1qzSapPKIQV9dnGoSIXTTpXt0Z47vEo8b',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -677,7 +700,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/58.txt',
 
     'artistPaths': {
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1aqiW3WidzKtU_4lBWsQw7KePHUTIhdif',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -688,10 +711,12 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/59.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1kN2Z4WX1n9Xpc6Dt76WMg5_MDqLMHk1h',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1egbAfCsEC7MASuUMCiLZwMDPadJ3VzTx',
+      'صدیق  آمری':
+          'https://drive.google.com/uc?export=download&id=15VNGz3PD_0dEsdr6DbElSghkVFcXMgZT',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -701,7 +726,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/60.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1xjUnIe2DZsRZxcc2r_bGV0lZY5OniMOY',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -712,9 +737,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/61.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1dMDS6r57T3MDjfjZFz0RDCd8fDGlwKu8',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1IPZM9ql7JGv-nwDNY2wQikksteqEGl51',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -733,8 +758,10 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/63.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1FsyOqqXBl7D0r_CPQVfeGCjLX5__iynS',
+      'صدیق  آمری':
+          'https://drive.google.com/uc?export=download&id=1VBB5zjEAHGmvFaA740kZefRwoagBg1Q8',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -744,7 +771,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/64.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=11bzNuo7daWqahJ1dlcmQiFDjZdHCzxWE',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -755,8 +782,10 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/65.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1acM86vhRU_Vb-IXqpIerRl7KAgHF3q0U',
+      'صدیق  آمری':
+          'https://drive.google.com/uc?export=download&id=1elDPw6_yJdu90o2kAxQcKLOX52JXehiE',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -766,7 +795,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/66.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1U0pgsnTrRZfLh3L77ePXZmvm6dnokPX0',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -784,6 +813,9 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/68.txt',
 
     'artistPaths': {},
+    'کفیل آمری':
+        'https://drive.google.com/uc?export=download&id=1gM40Ss7vcbTwm67MtnBRcXNyHBZM9IBt',
+
     'appBarTitle': 'عشق و معرفت',
   },
 
@@ -799,7 +831,10 @@ final List<Map<String, dynamic>> trackData = [
     'title': ' لطفِ زندگی ',
     'nazam': 'assets/kalam_list/urdu/70.txt',
 
-    'artistPaths': {},
+    'artistPaths': {
+      'صدیق  آمری':
+          'https://drive.google.com/uc?export=download&id=17jCgnzRCWn4tNvCqRJhM5qln75C-78tt',
+    },
     'appBarTitle': 'عشق و معرفت',
   },
 
@@ -808,8 +843,10 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/71.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1V6hRzTuMs0MXZmjuhBnNGQhEFMDST2bw',
+      'کفیل آمری':
+          'https://drive.google.com/uc?export=download&id=1UQQuI3J_K6IBLbdi1SdCqm8Pv4_kUZAp',
     },
     'appBarTitle': 'عشق و معرفت',
   },
@@ -819,7 +856,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/72.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1SgllUpZHX8xOr_L3MnM7fn_SMJ1U7OAj',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -830,7 +867,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/73.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1ucXgaugoXKct4Xl4qLPt31F5OsnhTozW',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -849,11 +886,11 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/kalam_list/urdu/75.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=15dz75Mki3EJ50T6w_MwpZc2CbpiYji3w',
-      'Imran':
+      'عمران آمری':
           'https://drive.google.com/uc?export=download&id=1TGAKmTkmrqzd4pIF_F7KFPjw8DsYNL6J',
-      'Arif':
+      'عارف  آمری':
           'https://drive.google.com/uc?export=download&id=1yS4EGgKQ86ifVxadTdRYQOp2I-0bU04_',
     },
     'appBarTitle': 'عشق و معرفت',
@@ -864,9 +901,9 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/1.png',
     'imageListAsset': 'assets/kalam_list/urdu/1.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/1.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/1.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/1.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/1.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/1.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/1.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -876,9 +913,9 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/2.png',
     'imageListAsset': 'assets/kalam_list/urdu/2.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/2.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/2.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/2.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/2.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/2.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/2.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -888,8 +925,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/3.png',
     'imageListAsset': 'assets/kalam_list/urdu/3.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/3.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/3.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/3.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/3.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -899,9 +936,9 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/4.png',
     'imageListAsset': 'assets/kalam_list/urdu/4.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/4.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/4.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/4.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/4.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/4.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/4.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -911,9 +948,9 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/5.png',
     'imageListAsset': 'assets/kalam_list/urdu/5.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/5.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/5.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/5.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/5.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/5.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/5.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -923,9 +960,9 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/6.png',
     'imageListAsset': 'assets/kalam_list/urdu/6.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/6.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/6.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/6.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/6.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/6.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/6.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -935,9 +972,9 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/7.png',
     'imageListAsset': 'assets/kalam_list/urdu/7.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/7.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/7.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/7.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/7.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/7.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/7.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -947,9 +984,9 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/8.png',
     'imageListAsset': 'assets/kalam_list/urdu/8.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/8.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/8.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/8.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/8.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/8.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/8.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -959,8 +996,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/9.png',
     'imageListAsset': 'assets/kalam_list/urdu/9.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/9.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/9.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/9.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/9.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -970,9 +1007,9 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/10.png',
     'imageListAsset': 'assets/kalam_list/urdu/10.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/10.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/10.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/10.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/10.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/10.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/10.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -981,7 +1018,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Kimiya_e_Hasti/',
     'imageAsset': 'assets/kalam_title/urdu/11.png',
     'imageListAsset': 'assets/kalam_list/urdu/11.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/11.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/11.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -989,7 +1026,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Tasveer_e_janan/',
     'imageAsset': 'assets/kalam_title/urdu/12.png',
     'imageListAsset': 'assets/kalam_list/urdu/12.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/12.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/12.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -997,7 +1034,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Jaane_tamanna/',
     'imageAsset': 'assets/kalam_title/urdu/13.png',
     'imageListAsset': 'assets/kalam_list/urdu/13.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/13.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/13.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1005,7 +1042,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Zauqe_zindagani/',
     'imageAsset': 'assets/kalam_title/urdu/14.png',
     'imageListAsset': 'assets/kalam_list/urdu/14.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/14.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/14.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1013,7 +1050,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/khalwat_e_dar_anjuman/',
     'imageAsset': 'assets/kalam_title/urdu/15.png',
     'imageListAsset': 'assets/kalam_list/urdu/15.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/15.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/15.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1037,7 +1074,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Nishaane_manzil/',
     'imageAsset': 'assets/kalam_title/urdu/18.png',
     'imageListAsset': 'assets/kalam_list/urdu/18.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/18.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/18.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1045,7 +1082,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Kuch_ishare/',
     'imageAsset': 'assets/kalam_title/urdu/19.png',
     'imageListAsset': 'assets/kalam_list/urdu/19.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/19.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/19.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1053,7 +1090,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Be_hamta/',
     'imageAsset': 'assets/kalam_title/urdu/20.png',
     'imageListAsset': 'assets/kalam_list/urdu/20.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/20.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/20.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1061,7 +1098,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Hijaabe_noor/',
     'imageAsset': 'assets/kalam_title/urdu/21.png',
     'imageListAsset': 'assets/kalam_list/urdu/21.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/21.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/21.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1069,7 +1106,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/kalam_o_irfaan/',
     'imageAsset': 'assets/kalam_title/urdu/22.png',
     'imageListAsset': 'assets/kalam_list/urdu/22.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/22.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/22.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1085,7 +1122,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Harfo_hikayath/',
     'imageAsset': 'assets/kalam_title/urdu/24.png',
     'imageListAsset': 'assets/kalam_list/urdu/24.png',
-    'artistPaths': {'Arif': 'kalam/Audios/Arif/kalam/24.mp3'},
+    'artistPaths': {'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/24.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1093,7 +1130,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Azaayem/',
     'imageAsset': 'assets/kalam_title/urdu/25.png',
     'imageListAsset': 'assets/kalam_list/urdu/25.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/25.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/25.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1101,7 +1138,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Hamdo_shukr/',
     'imageAsset': 'assets/kalam_title/urdu/26.png',
     'imageListAsset': 'assets/kalam_list/urdu/26.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/26.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/26.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1118,8 +1155,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/28.png',
     'imageListAsset': 'assets/kalam_list/urdu/28.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/28.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/28.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/28.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/28.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1136,7 +1173,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Muqtare_ghani/',
     'imageAsset': 'assets/kalam_title/urdu/30.png',
     'imageListAsset': 'assets/kalam_list/urdu/30.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/30.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/30.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1144,7 +1181,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Daulat_e_jaweed/',
     'imageAsset': 'assets/kalam_title/urdu/31.png',
     'imageListAsset': 'assets/kalam_list/urdu/31.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/31.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/31.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1153,8 +1190,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/32.png',
     'imageListAsset': 'assets/kalam_list/urdu/32.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/32.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/32.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/32.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/32.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1164,8 +1201,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/33.png',
     'imageListAsset': 'assets/kalam_list/urdu/33.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/33.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/33.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/33.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/33.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1190,7 +1227,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Khaab_se_haqiqath_tak_talak/',
     'imageAsset': 'assets/kalam_title/urdu/36.png',
     'imageListAsset': 'assets/kalam_list/urdu/36.png',
-    'artistPaths': {'Arif': 'kalam/Audios/Arif/kalam/36.mp3'},
+    'artistPaths': {'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/36.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1198,7 +1235,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Taalib_e_huq/',
     'imageAsset': 'assets/kalam_title/urdu/37.png',
     'imageListAsset': 'assets/kalam_list/urdu/37.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/37.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/37.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1214,7 +1251,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Raza_bar_khaza/',
     'imageAsset': 'assets/kalam_title/urdu/39.png',
     'imageListAsset': 'assets/kalam_list/urdu/39.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/39.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/39.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1222,7 +1259,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Karam_dar_karam/',
     'imageAsset': 'assets/kalam_title/urdu/40.png',
     'imageListAsset': 'assets/kalam_list/urdu/40.png',
-    'artistPaths': {'Arif': 'kalam/Audios/Arif/kalam/40.mp3'},
+    'artistPaths': {'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/40.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1231,8 +1268,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/41.png',
     'imageListAsset': 'assets/kalam_list/urdu/41.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/41.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/41.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/41.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/41.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1242,8 +1279,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/42.png',
     'imageListAsset': 'assets/kalam_list/urdu/42.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/42.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/42.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/42.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/42.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1252,7 +1289,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Chashme_beena/',
     'imageAsset': 'assets/kalam_title/urdu/43.png',
     'imageListAsset': 'assets/kalam_list/urdu/43.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/kalam/43.mp3'},
+    'artistPaths': {'عمران آمری': 'kalam/Audios/عمران آمری/kalam/43.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1261,8 +1298,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/44.png',
     'imageListAsset': 'assets/kalam_list/urdu/44.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/44.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/44.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/44.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/44.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1272,9 +1309,9 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/45.png',
     'imageListAsset': 'assets/kalam_list/urdu/45.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/45.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/45.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/45.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/45.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/45.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/45.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1283,7 +1320,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Siraj_e_muneer/',
     'imageAsset': 'assets/kalam_title/urdu/46.png',
     'imageListAsset': 'assets/kalam_list/urdu/46.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/kalam/46.mp3'},
+    'artistPaths': {'عمران آمری': 'kalam/Audios/عمران آمری/kalam/46.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1292,8 +1329,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/47.png',
     'imageListAsset': 'assets/kalam_list/urdu/47.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/47.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/47.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/47.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/47.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1302,7 +1339,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Fana_wo_baqa/',
     'imageAsset': 'assets/kalam_title/urdu/48.png',
     'imageListAsset': 'assets/kalam_list/urdu/48.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/kalam/48.mp3'},
+    'artistPaths': {'عمران آمری': 'kalam/Audios/عمران آمری/kalam/48.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1310,7 +1347,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Nafse_mutmainna/',
     'imageAsset': 'assets/kalam_title/urdu/49.png',
     'imageListAsset': 'assets/kalam_list/urdu/49.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/kalam/49.mp3'},
+    'artistPaths': {'عمران آمری': 'kalam/Audios/عمران آمری/kalam/49.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1319,8 +1356,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/50.png',
     'imageListAsset': 'assets/kalam_list/urdu/50.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/50.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/50.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/50.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/50.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1330,8 +1367,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/51.png',
     'imageListAsset': 'assets/kalam_list/urdu/51.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/51.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/51.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/51.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/51.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1341,9 +1378,9 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/52.png',
     'imageListAsset': 'assets/kalam_list/urdu/52.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/52.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/52.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/52.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/52.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/52.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/52.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1352,7 +1389,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Iltefaat_e_husn/',
     'imageAsset': 'assets/kalam_title/urdu/53.png',
     'imageListAsset': 'assets/kalam_list/urdu/53.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/kalam/53.mp3'},
+    'artistPaths': {'عمران آمری': 'kalam/Audios/عمران آمری/kalam/53.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1360,7 +1397,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Jaan_e_farhing/',
     'imageAsset': 'assets/kalam_title/urdu/54.png',
     'imageListAsset': 'assets/kalam_list/urdu/54.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/kalam/54.mp3'},
+    'artistPaths': {'عمران آمری': 'kalam/Audios/عمران آمری/kalam/54.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1368,7 +1405,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/kalam_e_mutabar/',
     'imageAsset': 'assets/kalam_title/urdu/55.png',
     'imageListAsset': 'assets/kalam_list/urdu/55.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/kalam/55.mp3'},
+    'artistPaths': {'عمران آمری': 'kalam/Audios/عمران آمری/kalam/55.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1377,8 +1414,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/56.png',
     'imageListAsset': 'assets/kalam_list/urdu/56.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/56.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/56.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/56.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/56.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1388,8 +1425,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/57.png',
     'imageListAsset': 'assets/kalam_list/urdu/57.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/57.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/57.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/57.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/57.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1398,7 +1435,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Apna_taruf/',
     'imageAsset': 'assets/kalam_title/urdu/58.png',
     'imageListAsset': 'assets/kalam_list/urdu/58.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/kalam/58.mp3'},
+    'artistPaths': {'عمران آمری': 'kalam/Audios/عمران آمری/kalam/58.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1407,8 +1444,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/59.png',
     'imageListAsset': 'assets/kalam_list/urdu/59.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/59.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/59.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/59.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/59.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1417,7 +1454,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Hairatoon_ka_safar/',
     'imageAsset': 'assets/kalam_title/urdu/60.png',
     'imageListAsset': 'assets/kalam_list/urdu/60.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/60.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/60.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1426,8 +1463,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/61.png',
     'imageListAsset': 'assets/kalam_list/urdu/61.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/61.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/61.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/61.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/61.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
@@ -1444,7 +1481,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Faizaane_mohabbath/',
     'imageAsset': 'assets/kalam_title/urdu/63.png',
     'imageListAsset': 'assets/kalam_list/urdu/63.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/63.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/63.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1452,7 +1489,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Shukre_nemath/',
     'imageAsset': 'assets/kalam_title/urdu/64.png',
     'imageListAsset': 'assets/kalam_list/urdu/64.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/64.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/64.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1460,7 +1497,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Dua/',
     'imageAsset': 'assets/kalam_title/urdu/65.png',
     'imageListAsset': 'assets/kalam_list/urdu/65.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/65.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/65.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1468,7 +1505,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Lahaye_amal/',
     'imageAsset': 'assets/kalam_title/urdu/66.png',
     'imageListAsset': 'assets/kalam_list/urdu/66.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/66.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/66.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1508,7 +1545,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Dawate_haq/',
     'imageAsset': 'assets/kalam_title/urdu/71.png',
     'imageListAsset': 'assets/kalam_list/urdu/71.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/71.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/71.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1516,7 +1553,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Irtiqa/',
     'imageAsset': 'assets/kalam_title/urdu/72.png',
     'imageListAsset': 'assets/kalam_list/urdu/72.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/72.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/72.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1524,7 +1561,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/Bayaan_e_wafa/',
     'imageAsset': 'assets/kalam_title/urdu/73.png',
     'imageListAsset': 'assets/kalam_list/urdu/73.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/kalam/73.mp3'},
+    'artistPaths': {'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/73.mp3'},
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   },
   {
@@ -1541,9 +1578,9 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/kalam_title/urdu/75.png',
     'imageListAsset': 'assets/kalam_list/urdu/75.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/kalam/75.mp3',
-      'Imran': 'kalam/Audios/Imran/kalam/75.mp3',
-      'Arif': 'kalam/Audios/Arif/kalam/75.mp3',
+      'دانِش  آمری': 'kalam/Audios/دانِش  آمری/kalam/75.mp3',
+      'عمران آمری': 'kalam/Audios/عمران آمری/kalam/75.mp3',
+      'عارف  آمری': 'kalam/Audios/عارف  آمری/kalam/75.mp3',
     },
     'appBarTitle': 'عشق و معرفت, Pind-o-Mouzat',
   }, */

@@ -4,7 +4,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/sarmadi_list/urdu/01.txt',
 
     'artistPaths': {
-      'Danish':
+      'دانِش  آمری':
           'https://drive.google.com/uc?export=download&id=1V0u--qHwivT3iIa25NHeXubQEMJ6C7-K',
     },
     'appBarTitle': 'نغمۂ سرمدی',

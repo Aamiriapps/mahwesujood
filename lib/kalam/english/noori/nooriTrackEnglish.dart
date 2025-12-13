@@ -4,7 +4,7 @@
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Rahbare_Kamil/',
     'imageAsset': 'assets/noori_title/english/1.png',
     'imageListAsset': 'assets/noori_list/english/1.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/Noori/1.mp3'},
+    'artistPaths': {'Imran Aamiri': 'kalam/Audios/Imran Aamiri/Noori/1.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
   {
@@ -21,8 +21,8 @@
     'imageAsset': 'assets/noori_title/english/3.png',
     'imageListAsset': 'assets/noori_list/english/3.png',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/Noori/3.mp3',
-      'Imran': 'kalam/Audios/Imran/Noori/3.mp3',
+      'Danish Aamiri': 'kalam/Audios/Danish Aamiri/Noori/3.mp3',
+      'Imran Aamiri': 'kalam/Audios/Imran Aamiri/Noori/3.mp3',
     },
     'appBarTitle': 'Munaqib-E-Noori',
   },
@@ -31,7 +31,7 @@
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Mushid_Se_Khitab/',
     'imageAsset': 'assets/noori_title/english/4.png',
     'imageListAsset': 'assets/noori_list/english/4.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/Noori/4.mp3'},
+    'artistPaths': {'Imran Aamiri': 'kalam/Audios/Imran Aamiri/Noori/4.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
   {
@@ -47,7 +47,7 @@
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Ba_Bargahe_Mashiyath/',
     'imageAsset': 'assets/noori_title/english/6.png',
     'imageListAsset': 'assets/noori_list/english/6.png',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/Noori/6.mp3'},
+    'artistPaths': {'Imran Aamiri': 'kalam/Audios/Imran Aamiri/Noori/6.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
   {
@@ -55,7 +55,7 @@
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Yaade_Shaik/',
     'imageAsset': 'assets/noori_title/english/7.png',
     'imageListAsset': 'assets/noori_list/english/7.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/7.mp3'},
+    'artistPaths': {'Danish Aamiri': 'kalam/Audios/Danish Aamiri/Noori/7.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
   {
@@ -72,20 +72,24 @@
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Ay_Andalib_Chal_Ke/',
     'imageAsset': 'assets/noori_title/english/9.png',
     'imageListAsset': 'assets/noori_list/english/9.png',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/9.mp3'},
+    'artistPaths': {'Danish Aamiri': 'kalam/Audios/Danish Aamiri/Noori/9.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
 ];
  */
 
 final List<Map<String, dynamic>> trackData = [
-  {
+   {
     'title': ' Rehbar-E- Kaamil',
     'nazam': 'assets/noori_list/english/1.txt',
 
     'artistPaths': {
-      'Imran':
+      'Danish Aamiri':
+          'https://drive.google.com/uc?export=download&id=1FopmSlnJhR718VTl9YWBKoO3O7HwWwxB',
+      'Imran Aamiri':
           'https://drive.google.com/uc?export=download&id=1vczVKn4O8NDjKBKnDJiL8Dd7w1IrhAPO',
+      'Siddiq Aamiri':
+          'https://drive.google.com/uc?export=download&id=1VAL0vvGu-1fd8UOMtUE24lhHX3SXeMJg',
     },
     'appBarTitle': 'Munaqib-E-Noori',
   },
@@ -94,7 +98,10 @@ final List<Map<String, dynamic>> trackData = [
     'title': 'Sepaas Nama ',
     'nazam': 'assets/noori_list/english/2.txt',
 
-    'artistPaths': {},
+    'artistPaths': {
+      'Danish Aamiri':
+          'https://drive.google.com/uc?export=download&id=1N35bAZgu2nnXyc9a9UMxmDB6fYNbvEzI',
+},
     'appBarTitle': 'Munaqib-E-Noori',
   },
 
@@ -103,10 +110,12 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/noori_list/english/3.txt',
 
     'artistPaths': {
-      'Danish':
+      'Danish Aamiri':
           'https://drive.google.com/uc?export=download&id=11GNK8AHfDabJyoRi28OPZ0-A0HrxwmJT',
-      'Imran':
+      'Imran Aamiri':
           'https://drive.google.com/uc?export=download&id=1PEULD5ccry54UQkvz2ME7xsSex89j82u',
+      'Siddiq Aamiri':
+          'https://drive.google.com/uc?export=download&id=1g-CHD5AV16K0hZyGpyQa9quxORPi0Ia3',
     },
     'appBarTitle': 'Munaqib-E-Noori',
   },
@@ -116,7 +125,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/noori_list/english/4.txt',
 
     'artistPaths': {
-      'Imran':
+      'Imran Aamiri':
           'https://drive.google.com/uc?export=download&id=1XEBJzSZPtc2NgQFt2d8IVQVvRpAq7Ofn',
     },
     'appBarTitle': 'Munaqib-E-Noori',
@@ -135,7 +144,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/noori_list/english/6.txt',
 
     'artistPaths': {
-      'Imran':
+      'Imran Aamiri':
           'https://drive.google.com/uc?export=download&id=1dZ4OA0k4dl3ZU3OWbKo7onbMGGbKC02k',
     },
     'appBarTitle': 'Munaqib-E-Noori',
@@ -146,7 +155,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/noori_list/english/7.txt',
 
     'artistPaths': {
-      'Danish':
+      'Danish Aamiri':
           'https://drive.google.com/uc?export=download&id=140gHanDd4jGB_QMRGzWpgHZTlqwtrP0T',
     },
     'appBarTitle': 'Munaqib-E-Noori',
@@ -165,7 +174,7 @@ final List<Map<String, dynamic>> trackData = [
     'nazam': 'assets/noori_list/english/9.txt',
 
     'artistPaths': {
-      'Danish':
+      'Danish Aamiri':
           'https://drive.google.com/uc?export=download&id=1IQSCZuKXSfRwrHsiGlqLhEbUuYDt-3YX',
     },
     'appBarTitle': 'Munaqib-E-Noori',
@@ -176,7 +185,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Rahbare_Kamil/',
     'imageAsset': 'assets/noori_title/english/1.png',
     'imageListAsset': 'Tujhse Jo Cheez Hai Mili',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/Noori/1.mp3'},
+    'artistPaths': {'Imran Aamiri': 'kalam/Audios/Imran Aamiri/Noori/1.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
   {
@@ -193,8 +202,8 @@ final List<Map<String, dynamic>> trackData = [
     'imageAsset': 'assets/noori_title/english/3.png',
     'imageListAsset': 'Mere Noor Wale Shaha',
     'artistPaths': {
-      'Danish': 'kalam/Audios/Danish/Noori/3.mp3',
-      'Imran': 'kalam/Audios/Imran/Noori/3.mp3',
+      'Danish Aamiri': 'kalam/Audios/Danish Aamiri/Noori/3.mp3',
+      'Imran Aamiri': 'kalam/Audios/Imran Aamiri/Noori/3.mp3',
     },
     'appBarTitle': 'Munaqib-E-Noori',
   },
@@ -203,7 +212,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Mushid_Se_Khitab/',
     'imageAsset': 'assets/noori_title/english/4.png',
     'imageListAsset': 'Tera Naam Jab Lab Pe Jo',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/Noori/4.mp3'},
+    'artistPaths': {'Imran Aamiri': 'kalam/Audios/Imran Aamiri/Noori/4.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
   {
@@ -219,7 +228,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Ba_Bargahe_Mashiyath/',
     'imageAsset': 'assets/noori_title/english/6.png',
     'imageListAsset': 'Mai Bae Saro Saman Hun',
-    'artistPaths': {'Imran': 'kalam/Audios/Imran/Noori/6.mp3'},
+    'artistPaths': {'Imran Aamiri': 'kalam/Audios/Imran Aamiri/Noori/6.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
   {
@@ -227,7 +236,7 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Yaade_Shaik/',
     'imageAsset': 'assets/noori_title/english/7.png',
     'imageListAsset': 'Mai Aagaya Jisam Se Yaqeenan',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/7.mp3'},
+    'artistPaths': {'Danish Aamiri': 'kalam/Audios/Danish Aamiri/Noori/7.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   },
   {
@@ -243,6 +252,6 @@ final List<Map<String, dynamic>> trackData = [
     'firebaseImagePath': 'kalam/English/Munaqib_e_Noori/Ay_Andalib_Chal_Ke/',
     'imageAsset': 'assets/noori_title/english/9.png',
     'imageListAsset': 'Kahin Ruk Gaye Kahin Se Haate',
-    'artistPaths': {'Danish': 'kalam/Audios/Danish/Noori/9.mp3'},
+    'artistPaths': {'Danish Aamiri': 'kalam/Audios/Danish Aamiri/Noori/9.mp3'},
     'appBarTitle': 'Munaqib-E-Noori',
   }, */

@@ -5,7 +5,7 @@ import 'package:Mehvesujood/PeerAamirKaleemi.dart';
 import 'package:Mehvesujood/about_us.dart';
 import 'package:Mehvesujood/englishPage.dart';
 import 'package:Mehvesujood/urdupage.dart';
-import 'package:Mehvesujood/urdutest4.dart';
+//import 'package:Mehvesujood/urdutest4.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

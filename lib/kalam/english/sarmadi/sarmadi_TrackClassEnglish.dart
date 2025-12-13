@@ -191,7 +191,7 @@ class _TrackPlayerScreenNewState extends State<SarmadiTrackclassenglish> {
         centerTitle: true,
         title: Text(
           widget.appBarTitle,
-          style: GoogleFonts.robotoCondensed(
+          style: GoogleFonts.cormorantGaramond(
             textStyle: const TextStyle(color: Colors.white),
           ),
         ),
@@ -413,7 +413,7 @@ class _TrackPlayerScreenNewState extends State<SarmadiTrackclassenglish> {
                                 artist,
                                 style: TextStyle(
                                   color: isSelected
-                                      ? const Color(0xFF92772C)
+                                      ? Colors.white
                                       : Colors.white,
                                   fontWeight: isSelected
                                       ? FontWeight.bold
